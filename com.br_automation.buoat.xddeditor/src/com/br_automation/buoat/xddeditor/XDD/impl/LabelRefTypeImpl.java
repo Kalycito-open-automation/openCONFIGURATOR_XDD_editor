@@ -1,13 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.LabelRefType;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -16,31 +9,31 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.LabelRefType;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>Label Ref Type</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object '<em><b>Label
+ * Ref Type</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.LabelRefTypeImpl#getValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.LabelRefTypeImpl#getValue
  * <em>Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.LabelRefTypeImpl#getDictID
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.LabelRefTypeImpl#getDictID
  * <em>Dict ID</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.LabelRefTypeImpl#getTextID
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.LabelRefTypeImpl#getTextID
  * <em>Text ID</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
     /**
      * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -50,7 +43,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
     /**
      * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -60,7 +53,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
     /**
      * The default value of the '{@link #getDictID() <em>Dict ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getDictID()
      * @generated
      * @ordered
@@ -70,7 +63,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
     /**
      * The cached value of the '{@link #getDictID() <em>Dict ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getDictID()
      * @generated
      * @ordered
@@ -80,7 +73,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
     /**
      * The default value of the '{@link #getTextID() <em>Text ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getTextID()
      * @generated
      * @ordered
@@ -90,7 +83,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
     /**
      * The cached value of the '{@link #getTextID() <em>Text ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getTextID()
      * @generated
      * @ordered
@@ -99,7 +92,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected LabelRefTypeImpl() {
@@ -108,7 +101,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -118,7 +111,7 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getValue() {
@@ -127,20 +120,19 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setValue(String newValue) {
         String oldValue = value;
         value = newValue;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.LABEL_REF_TYPE__VALUE,
-                oldValue, value));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.LABEL_REF_TYPE__VALUE, oldValue, value));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getDictID() {
@@ -149,20 +141,20 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setDictID(String newDictID) {
         String oldDictID = dictID;
         dictID = newDictID;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.LABEL_REF_TYPE__DICT_ID, oldDictID, dictID));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.LABEL_REF_TYPE__DICT_ID, oldDictID,
+                    dictID));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getTextID() {
@@ -171,98 +163,98 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setTextID(String newTextID) {
         String oldTextID = textID;
         textID = newTextID;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.LABEL_REF_TYPE__TEXT_ID, oldTextID, textID));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.LABEL_REF_TYPE__TEXT_ID, oldTextID,
+                    textID));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.LABEL_REF_TYPE__VALUE:
-                return getValue();
-            case XDDPackage.LABEL_REF_TYPE__DICT_ID:
-                return getDictID();
-            case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
-                return getTextID();
+        case XDDPackage.LABEL_REF_TYPE__VALUE:
+            return getValue();
+        case XDDPackage.LABEL_REF_TYPE__DICT_ID:
+            return getDictID();
+        case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
+            return getTextID();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.LABEL_REF_TYPE__VALUE:
-                setValue((String) newValue);
-                return;
-            case XDDPackage.LABEL_REF_TYPE__DICT_ID:
-                setDictID((String) newValue);
-                return;
-            case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
-                setTextID((String) newValue);
-                return;
+        case XDDPackage.LABEL_REF_TYPE__VALUE:
+            setValue((String) newValue);
+            return;
+        case XDDPackage.LABEL_REF_TYPE__DICT_ID:
+            setDictID((String) newValue);
+            return;
+        case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
+            setTextID((String) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.LABEL_REF_TYPE__VALUE:
-                setValue(VALUE_EDEFAULT);
-                return;
-            case XDDPackage.LABEL_REF_TYPE__DICT_ID:
-                setDictID(DICT_ID_EDEFAULT);
-                return;
-            case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
-                setTextID(TEXT_ID_EDEFAULT);
-                return;
+        case XDDPackage.LABEL_REF_TYPE__VALUE:
+            setValue(VALUE_EDEFAULT);
+            return;
+        case XDDPackage.LABEL_REF_TYPE__DICT_ID:
+            setDictID(DICT_ID_EDEFAULT);
+            return;
+        case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
+            setTextID(TEXT_ID_EDEFAULT);
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.LABEL_REF_TYPE__VALUE:
-                return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
-            case XDDPackage.LABEL_REF_TYPE__DICT_ID:
-                return DICT_ID_EDEFAULT == null ? dictID != null : !DICT_ID_EDEFAULT.equals(dictID);
-            case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
-                return TEXT_ID_EDEFAULT == null ? textID != null : !TEXT_ID_EDEFAULT.equals(textID);
+        case XDDPackage.LABEL_REF_TYPE__VALUE:
+            return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
+        case XDDPackage.LABEL_REF_TYPE__DICT_ID:
+            return DICT_ID_EDEFAULT == null ? dictID != null : !DICT_ID_EDEFAULT.equals(dictID);
+        case XDDPackage.LABEL_REF_TYPE__TEXT_ID:
+            return TEXT_ID_EDEFAULT == null ? textID != null : !TEXT_ID_EDEFAULT.equals(textID);
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -281,4 +273,4 @@ public class LabelRefTypeImpl extends EObjectImpl implements LabelRefType {
         return result.toString();
     }
 
-} //LabelRefTypeImpl
+} // LabelRefTypeImpl

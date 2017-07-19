@@ -1,35 +1,28 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TVariable Ref</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>TVariable Ref</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getInstanceIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getInstanceIDRef
  * <em>Instance ID Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getVariableIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getVariableIDRef
  * <em>Variable ID Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getMemberRef
  * <em>Member Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
  * <em>Position</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTVariableRef()
  * @model extendedMetaData="name='t_variableRef' kind='elementOnly'"
  * @generated
@@ -45,12 +38,13 @@ public interface TVariableRef extends EObject {
      * list isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Instance ID Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTVariableRef_InstanceIDRef()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='instanceIDRef' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='instanceIDRef'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<InstanceIDRefType> getInstanceIDRef();
@@ -63,23 +57,24 @@ public interface TVariableRef extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Variable ID Ref</em>' containment
      *         reference.
      * @see #setVariableIDRef(VariableIDRefType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTVariableRef_VariableIDRef()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='variableIDRef' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='variableIDRef'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     VariableIDRefType getVariableIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getVariableIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getVariableIDRef
      * <em>Variable ID Ref</em>}' containment reference. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Variable ID Ref</em>' containment
      *            reference.
@@ -98,12 +93,12 @@ public interface TVariableRef extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Member Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTVariableRef_MemberRef()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='memberRef' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='memberRef' namespace='##targetNamespace'"
      * @generated
      */
     EList<MemberRefType> getMemberRef();
@@ -116,7 +111,7 @@ public interface TVariableRef extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Position</em>' attribute.
      * @see #isSetPosition()
      * @see #unsetPosition()
@@ -130,11 +125,11 @@ public interface TVariableRef extends EObject {
     short getPosition();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
      * <em>Position</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Position</em>' attribute.
      * @see #isSetPosition()
@@ -145,11 +140,11 @@ public interface TVariableRef extends EObject {
     void setPosition(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
      * <em>Position</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @see #isSetPosition()
      * @see #getPosition()
      * @see #setPosition(short)
@@ -158,11 +153,11 @@ public interface TVariableRef extends EObject {
     void unsetPosition();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TVariableRef#getPosition
      * <em>Position</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Position</em>' attribute is set.
      * @see #unsetPosition()
      * @see #getPosition()

@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>LE Dcolor Type</b></em>', and utility methods for working with them.
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>LE Dcolor Type</b></em>', and utility methods for working with them.
  * <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getLEDcolorType()
  * @model extendedMetaData="name='LEDcolor_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum LEDcolorType implements Enumerator {
     /**
      * The '<em><b>Green</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #GREEN_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum LEDcolorType implements Enumerator {
     /**
      * The '<em><b>Amber</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #AMBER_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum LEDcolorType implements Enumerator {
     /**
      * The '<em><b>Red</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #RED_VALUE
      * @generated
      * @ordered
@@ -59,7 +55,7 @@ public enum LEDcolorType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #GREEN
      * @model name="green"
      * @generated
@@ -74,7 +70,7 @@ public enum LEDcolorType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #AMBER
      * @model name="amber"
      * @generated
@@ -89,7 +85,7 @@ public enum LEDcolorType implements Enumerator {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #RED
      * @model name="red"
      * @generated
@@ -100,7 +96,7 @@ public enum LEDcolorType implements Enumerator {
     /**
      * An array of all the '<em><b>LE Dcolor Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private static final LEDcolorType[] VALUES_ARRAY = new LEDcolorType[] { GREEN, AMBER, RED, };
@@ -108,16 +104,18 @@ public enum LEDcolorType implements Enumerator {
     /**
      * A public read-only list of all the '<em><b>LE Dcolor Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<LEDcolorType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<LEDcolorType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>LE Dcolor Type</b></em>' literal with the specified
      * literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static LEDcolorType get(String literal) {
@@ -133,7 +131,10 @@ public enum LEDcolorType implements Enumerator {
     /**
      * Returns the '<em><b>LE Dcolor Type</b></em>' literal with the specified
      * name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static LEDcolorType getByName(String name) {
@@ -149,38 +150,41 @@ public enum LEDcolorType implements Enumerator {
     /**
      * Returns the '<em><b>LE Dcolor Type</b></em>' literal with the specified
      * integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static LEDcolorType get(int value) {
         switch (value) {
-            case GREEN_VALUE:
-                return GREEN;
-            case AMBER_VALUE:
-                return AMBER;
-            case RED_VALUE:
-                return RED;
+        case GREEN_VALUE:
+            return GREEN;
+        case AMBER_VALUE:
+            return AMBER;
+        case RED_VALUE:
+            return RED;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -188,12 +192,10 @@ public enum LEDcolorType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private LEDcolorType(int value,
-        String name,
-        String literal) {
+    private LEDcolorType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -201,27 +203,30 @@ public enum LEDcolorType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -229,7 +234,7 @@ public enum LEDcolorType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -237,4 +242,4 @@ public enum LEDcolorType implements Enumerator {
         return literal;
     }
 
-} //LEDcolorType
+} // LEDcolorType

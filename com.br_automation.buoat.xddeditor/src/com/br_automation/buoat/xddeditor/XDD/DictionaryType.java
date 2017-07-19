@@ -1,29 +1,25 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Dictionary Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>Dictionary Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getFile <em>
- * File</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getFile
+ * <em>File</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getDictID
  * <em>Dict ID</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getLang <em>
- * Lang</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getLang
+ * <em>Lang</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDictionaryType()
  * @model extendedMetaData="name='dictionary_._type' kind='elementOnly'"
  * @generated
@@ -37,22 +33,23 @@ public interface DictionaryType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>File</em>' containment reference.
      * @see #setFile(FileType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDictionaryType_File()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='file' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='file'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     FileType getFile();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getFile
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getFile
      * <em>File</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>File</em>' containment reference.
      * @see #getFile()
@@ -68,7 +65,7 @@ public interface DictionaryType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Dict ID</em>' attribute.
      * @see #setDictID(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDictionaryType_DictID()
@@ -79,11 +76,11 @@ public interface DictionaryType extends EObject {
     String getDictID();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getDictID
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getDictID
      * <em>Dict ID</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Dict ID</em>' attribute.
      * @see #getDictID()
@@ -99,7 +96,7 @@ public interface DictionaryType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Lang</em>' attribute.
      * @see #setLang(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDictionaryType_Lang()
@@ -110,10 +107,10 @@ public interface DictionaryType extends EObject {
     String getLang();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getLang
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DictionaryType#getLang
      * <em>Lang</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Lang</em>' attribute.
      * @see #getLang()

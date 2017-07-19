@@ -18,47 +18,47 @@ import org.eclipse.ui.PlatformUI;
 
 /**
  * @brief Class to support writing to Eclipse status bar.
- * 
+ *
  * @author Joris Lückenga
- * */
+ */
 public class StatusBarWriter {
-    /**
-     * @brief Method to write a message to the Eclipse status bar.
-     * @param message
-     *            Default message that should be written to statusbar (black).
-     * @param isError
-     *            Error message that should be written to statusbar (red).
-     */
-    public static void writeToStatus(final String message, final boolean isError) {
-        final Display display = Display.getDefault();
+	/**
+	 * @brief Method to write a message to the Eclipse status bar.
+	 * @param message
+	 *            Default message that should be written to statusbar (black).
+	 * @param isError
+	 *            Error message that should be written to statusbar (red).
+	 */
+	public static void writeToStatus(final String message, final boolean isError) {
+		final Display display = Display.getDefault();
 
-        display.syncExec(new Runnable() { // NOPMD by lueckengaj on 29.03.13 13:35
+		display.syncExec(new Runnable() {
 
-                /**
-                 * @see java.lang.Runnable#run()
-                 */
-                @Override
-                public void run() {
+			/**
+			 * @see java.lang.Runnable#run()
+			 */
+			@Override
+			public void run() {
 
-                    IWorkbench wb = PlatformUI.getWorkbench();
-                    IWorkbenchWindow win = wb.getActiveWorkbenchWindow();
-                    IWorkbenchPage page = win.getActivePage();
-                    IWorkbenchPart part = page.getActivePart();
-                    IWorkbenchPartSite site = part.getSite();
-                    IViewSite vSite = (IViewSite) site;
+				IWorkbench wb = PlatformUI.getWorkbench();
+				IWorkbenchWindow win = wb.getActiveWorkbenchWindow();
+				IWorkbenchPage page = win.getActivePage();
+				IWorkbenchPart part = page.getActivePart();
+				IWorkbenchPartSite site = part.getSite();
+				IViewSite vSite = (IViewSite) site;
 
-                    IActionBars actionBars = vSite.getActionBars();
-                    if (actionBars == null)
-                        return;
-                    IStatusLineManager statusLineManager = actionBars.getStatusLineManager();
-                    if (statusLineManager == null)
-                        return;
-                    if (isError)
-                        statusLineManager.setErrorMessage(message);
-                    else
-                        statusLineManager.setMessage(message);
-                }
-            });
-    } //WriteToStatus
+				IActionBars actionBars = vSite.getActionBars();
+				if (actionBars == null)
+					return;
+				IStatusLineManager statusLineManager = actionBars.getStatusLineManager();
+				if (statusLineManager == null)
+					return;
+				if (isError)
+					statusLineManager.setErrorMessage(message);
+				else
+					statusLineManager.setMessage(message);
+			}
+		});
+	} // WriteToStatus
 
-} //StatusBarWriter
+} // StatusBarWriter

@@ -1,27 +1,23 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Label Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Label
+ * Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
- * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.LabelType#getValue <em>Value
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.LabelType#getLang <em>Lang
- * </em>}</li>
- * </ul>
  * </p>
- * 
+ * <ul>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.LabelType#getValue
+ * <em>Value</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.LabelType#getLang
+ * <em>Lang</em>}</li>
+ * </ul>
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getLabelType()
  * @model extendedMetaData="name='label_._type' kind='simple'"
  * @generated
@@ -35,7 +31,7 @@ public interface LabelType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Value</em>' attribute.
      * @see #setValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getLabelType_Value()
@@ -46,10 +42,10 @@ public interface LabelType extends EObject {
     String getValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.LabelType#getValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.LabelType#getValue
      * <em>Value</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Value</em>' attribute.
      * @see #getValue()
@@ -60,14 +56,14 @@ public interface LabelType extends EObject {
     /**
      * Returns the value of the '<em><b>Lang</b></em>' attribute. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This attribute references the language used for the identifying text.
      * This attribute consists of a combination of a language code (as defined
      * in ISO 639-2) plus an optional dash character plus an optional country
      * code (as defined in ISO 3166-1), ex: en-us, de, fr.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Lang</em>' attribute.
      * @see #setLang(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getLabelType_Lang()
@@ -78,10 +74,10 @@ public interface LabelType extends EObject {
     String getLang();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.LabelType#getLang
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.LabelType#getLang
      * <em>Lang</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Lang</em>' attribute.
      * @see #getLang()

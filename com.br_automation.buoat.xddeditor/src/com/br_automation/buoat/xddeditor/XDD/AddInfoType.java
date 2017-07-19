@@ -1,46 +1,39 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Add Info Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Add Info
+ * Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getGroup <em>
- * Group</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLabel <em>
- * Label</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getGroup
+ * <em>Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLabel
+ * <em>Label</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getDescription
  * <em>Description</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLabelRef <em>
- * Label Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getDescriptionRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLabelRef
+ * <em>Label Ref</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getDescriptionRef
  * <em>Description Ref</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getValue <em>
- * Value</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getValue
+ * <em>Value</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
  * <em>Bit Offset</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen <em>Len
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getName <em>Name
- * </em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
+ * <em>Len</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getName
+ * <em>Name</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType()
  * @model extendedMetaData="name='addInfo_._type' kind='elementOnly'"
  * @generated
@@ -55,7 +48,7 @@ public interface AddInfoType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -69,17 +62,17 @@ public interface AddInfoType extends EObject {
      * list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of the identifying name inside the XML file
      * itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_Label()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='label' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='label'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelType> getLabel();
@@ -89,18 +82,18 @@ public interface AddInfoType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of descriptive information inside the XML
      * file itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_Description()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='description' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='description'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionType> getDescription();
@@ -110,17 +103,17 @@ public interface AddInfoType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of identifying names inside an external text
      * resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label Ref</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_LabelRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='labelRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='labelRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelRefType> getLabelRef();
@@ -130,18 +123,18 @@ public interface AddInfoType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of reference descriptive texts inside an
      * external text resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_DescriptionRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='descriptionRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='descriptionRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionRefType> getDescriptionRef();
@@ -156,11 +149,11 @@ public interface AddInfoType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Value</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_Value()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='value' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='value'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<ValueType> getValue();
@@ -173,7 +166,7 @@ public interface AddInfoType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Bit Offset</em>' attribute.
      * @see #isSetBitOffset()
      * @see #unsetBitOffset()
@@ -181,18 +174,18 @@ public interface AddInfoType extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_BitOffset()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedByte"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='bitOffset'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='bitOffset'"
      * @generated
      */
     short getBitOffset();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
      * <em>Bit Offset</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Bit Offset</em>' attribute.
      * @see #isSetBitOffset()
@@ -203,11 +196,11 @@ public interface AddInfoType extends EObject {
     void setBitOffset(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
      * <em>Bit Offset</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetBitOffset()
      * @see #getBitOffset()
      * @see #setBitOffset(short)
@@ -216,11 +209,11 @@ public interface AddInfoType extends EObject {
     void unsetBitOffset();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getBitOffset
      * <em>Bit Offset</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Bit Offset</em>' attribute is set.
      * @see #unsetBitOffset()
      * @see #getBitOffset()
@@ -237,7 +230,7 @@ public interface AddInfoType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Len</em>' attribute.
      * @see #isSetLen()
      * @see #unsetLen()
@@ -251,10 +244,10 @@ public interface AddInfoType extends EObject {
     short getLen();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
      * <em>Len</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Len</em>' attribute.
      * @see #isSetLen()
@@ -265,10 +258,10 @@ public interface AddInfoType extends EObject {
     void setLen(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
      * <em>Len</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetLen()
      * @see #getLen()
      * @see #setLen(short)
@@ -277,11 +270,11 @@ public interface AddInfoType extends EObject {
     void unsetLen();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getLen
      * <em>Len</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Len</em>' attribute is set.
      * @see #unsetLen()
      * @see #getLen()
@@ -298,7 +291,7 @@ public interface AddInfoType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAddInfoType_Name()
@@ -309,10 +302,10 @@ public interface AddInfoType extends EObject {
     String getName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.AddInfoType#getName
      * <em>Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Name</em>' attribute.
      * @see #getName()

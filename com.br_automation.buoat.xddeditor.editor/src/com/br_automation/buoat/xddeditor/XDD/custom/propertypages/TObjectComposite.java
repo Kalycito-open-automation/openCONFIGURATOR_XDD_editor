@@ -31,10 +31,10 @@ import com.br_automation.buoat.xddeditor.XDD.provider.TObjectItemProvider;
 
 /**
  * @brief Composite for TObjects or SubObjectTypes.
- * 
+ *
  *        Contains text and combo boxes with listeners to set mandatory values
  *        for TObjects and SubobjecTypes.
- * 
+ *
  * @author Joris Lückenga
  */
 public class TObjectComposite extends Composite {
@@ -43,25 +43,22 @@ public class TObjectComposite extends Composite {
         @Override
         public void focusLost(FocusEvent event) {
             if (TObjectComposite.this.txtIndex.getText() != null
-                && !TObjectComposite.this.txtIndex.getText().contentEquals("")) {
-                byte[] indexNew = new BigInteger(TObjectComposite.this.txtIndex.getText(), 16)
-                    .toByteArray();
+                    && !TObjectComposite.this.txtIndex.getText().contentEquals("")) {
+                byte[] indexNew = new BigInteger(TObjectComposite.this.txtIndex.getText(), 16).toByteArray();
 
                 if (TObjectComposite.this.isTObject) {
-                    TObjectComposite.this.tobjectitemProvider.setPropertyValue(
-                        TObjectComposite.this.tobject, "index", //$NON-NLS-1$
-                        indexNew); //$NON-NLS-1$
+                    TObjectComposite.this.tobjectitemProvider.setPropertyValue(TObjectComposite.this.tobject, "index", //$NON-NLS-1$
+                            indexNew); // $NON-NLS-1$
                 } else {
-                    TObjectComposite.this.subObjectItemProvicer.setPropertyValue(
-                        TObjectComposite.this.subobject, "subIndex", //$NON-NLS-1$
-                        indexNew); //$NON-NLS-1$
+                    TObjectComposite.this.subObjectItemProvicer.setPropertyValue(TObjectComposite.this.subobject,
+                            "subIndex", //$NON-NLS-1$
+                            indexNew); // $NON-NLS-1$
                 }
             }
         }
     };
-    private final RegexVerifyListener indexVerifyListener = new RegexVerifyListener(
-        RegexVerifyListener.PATTERN_HEX, Arrays.asList(
-            Character.valueOf((char) 0x7f), Character.valueOf((char) 0x8)), true);
+    private final RegexVerifyListener indexVerifyListener = new RegexVerifyListener(RegexVerifyListener.PATTERN_HEX,
+            Arrays.asList(Character.valueOf((char) 0x7f), Character.valueOf((char) 0x8)), true);
 
     private boolean isTObject;
     private final Label lblindex;
@@ -70,12 +67,11 @@ public class TObjectComposite extends Composite {
         @Override
         public void focusLost(FocusEvent event) {
             if (TObjectComposite.this.isTObject)
-                TObjectComposite.this.tobjectitemProvider.setPropertyValue(
-                    TObjectComposite.this.tobject, "name", TObjectComposite.this.txtName.getText()); //$NON-NLS-1$
+                TObjectComposite.this.tobjectitemProvider.setPropertyValue(TObjectComposite.this.tobject, "name", //$NON-NLS-1$
+                        TObjectComposite.this.txtName.getText());
             else
-                TObjectComposite.this.subObjectItemProvicer.setPropertyValue(
-                    TObjectComposite.this.subobject, "name", //$NON-NLS-1$
-                    TObjectComposite.this.txtName.getText());
+                TObjectComposite.this.subObjectItemProvicer.setPropertyValue(TObjectComposite.this.subobject, "name", //$NON-NLS-1$
+                        TObjectComposite.this.txtName.getText());
         }
     };
 
@@ -95,11 +91,11 @@ public class TObjectComposite extends Composite {
                 selection = 0;
 
             if (TObjectComposite.this.isTObject && selection != 0)
-                TObjectComposite.this.tobjectitemProvider.setPropertyValue(
-                    TObjectComposite.this.tobject, "objectType", selection); //$NON-NLS-1$
+                TObjectComposite.this.tobjectitemProvider.setPropertyValue(TObjectComposite.this.tobject, "objectType", //$NON-NLS-1$
+                        selection);
             else if (selection != 0)
-                TObjectComposite.this.subObjectItemProvicer.setPropertyValue(
-                    TObjectComposite.this.subobject, "objectType", selection); //$NON-NLS-1$
+                TObjectComposite.this.subObjectItemProvicer.setPropertyValue(TObjectComposite.this.subobject,
+                        "objectType", selection); //$NON-NLS-1$
         }
     };
     private SubObjectType subobject;
@@ -115,9 +111,7 @@ public class TObjectComposite extends Composite {
      * @param factory
      *            to set properties for TObject/SubObjectType.
      */
-    public TObjectComposite(Composite parent,
-        int style,
-        AdapterFactory factory) {
+    public TObjectComposite(Composite parent, int style, AdapterFactory factory) {
         super(parent, style);
         this.tobjectitemProvider = new TObjectItemProvider(factory);
         this.subObjectItemProvicer = new SubObjectTypeItemProvider(factory);
@@ -177,8 +171,8 @@ public class TObjectComposite extends Composite {
             this.tobject = (TObject) object;
 
             if (this.tobject.getIndex() != null) {
-                String result = Integer.toHexString(
-                    new BigInteger(1, this.tobject.getIndex()).intValue()).toUpperCase();
+                String result = Integer.toHexString(new BigInteger(1, this.tobject.getIndex()).intValue())
+                        .toUpperCase();
                 this.txtIndex.setText(result);
             } else
                 this.txtIndex.setText(""); //$NON-NLS-1$
@@ -201,9 +195,8 @@ public class TObjectComposite extends Composite {
             this.lblindex.setText("Subindex:"); //$NON-NLS-1$
 
             if (this.subobject.getSubIndex() != null) {
-                String result = String.format(
-                    "%02x", (new BigInteger(1, this.subobject.getSubIndex())).intValue()) //$NON-NLS-1$
-                    .toUpperCase();
+                String result = String.format("%02x", (new BigInteger(1, this.subobject.getSubIndex())).intValue()) //$NON-NLS-1$
+                        .toUpperCase();
                 this.txtIndex.setText(result);
             } else
                 this.txtIndex.setText(""); //$NON-NLS-1$
@@ -249,4 +242,4 @@ public class TObjectComposite extends Composite {
         this.cmbObjectType.removeModifyListener(this.objectTypeListener);
     }
 
-} //TObjectComposite
+} // TObjectComposite

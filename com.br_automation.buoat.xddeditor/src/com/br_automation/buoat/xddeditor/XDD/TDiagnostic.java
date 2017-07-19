@@ -1,34 +1,27 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TDiagnostic</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>TDiagnostic</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDiagnostic#getGroup <em>
- * Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDiagnostic#getGroup
+ * <em>Group</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDiagnostic#getErrorList
  * <em>Error List</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDiagnostic#getStaticErrorBitField
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDiagnostic#getStaticErrorBitField
  * <em>Static Error Bit Field</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDiagnostic()
  * @model extendedMetaData="name='t_Diagnostic' kind='elementOnly'"
  * @generated
@@ -43,7 +36,7 @@ public interface TDiagnostic extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDiagnostic_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -62,13 +55,13 @@ public interface TDiagnostic extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Error List</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDiagnostic_ErrorList()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ErrorList' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='ErrorList'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<ErrorListType> getErrorList();
@@ -84,13 +77,13 @@ public interface TDiagnostic extends EObject {
      * here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Static Error Bit Field</em>' containment
      *         reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDiagnostic_StaticErrorBitField()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='StaticErrorBitField' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='StaticErrorBitField'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<StaticErrorBitFieldType> getStaticErrorBitField();

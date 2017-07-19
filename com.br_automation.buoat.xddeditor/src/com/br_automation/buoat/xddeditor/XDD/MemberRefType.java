@@ -1,28 +1,23 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Member Ref Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Member
+ * Ref Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex <em>
- * Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getUniqueIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
+ * <em>Index</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getUniqueIDRef
  * <em>Unique ID Ref</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getMemberRefType()
  * @model extendedMetaData="name='memberRef_._type' kind='empty'"
  * @generated
@@ -36,7 +31,7 @@ public interface MemberRefType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Index</em>' attribute.
      * @see #isSetIndex()
      * @see #unsetIndex()
@@ -49,10 +44,10 @@ public interface MemberRefType extends EObject {
     long getIndex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
      * <em>Index</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Index</em>' attribute.
      * @see #isSetIndex()
@@ -63,10 +58,10 @@ public interface MemberRefType extends EObject {
     void setIndex(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
      * <em>Index</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetIndex()
      * @see #getIndex()
      * @see #setIndex(long)
@@ -75,11 +70,11 @@ public interface MemberRefType extends EObject {
     void unsetIndex();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getIndex
      * <em>Index</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Index</em>' attribute is set.
      * @see #unsetIndex()
      * @see #getIndex()
@@ -96,7 +91,7 @@ public interface MemberRefType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Unique ID Ref</em>' attribute.
      * @see #setUniqueIDRef(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getMemberRefType_UniqueIDRef()
@@ -107,11 +102,11 @@ public interface MemberRefType extends EObject {
     String getUniqueIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getUniqueIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.MemberRefType#getUniqueIDRef
      * <em>Unique ID Ref</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Unique ID Ref</em>' attribute.
      * @see #getUniqueIDRef()

@@ -1,44 +1,35 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Compliant With Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>Compliant With Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getGroup
  * <em>Group</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getLabel
  * <em>Label</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getDescription
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getDescription
  * <em>Description</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getLabelRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getLabelRef
  * <em>Label Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getDescriptionRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getDescriptionRef
  * <em>Description Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getName
  * <em>Name</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
  * <em>Range</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType()
  * @model extendedMetaData="name='compliantWith_._type' kind='elementOnly'"
  * @generated
@@ -53,7 +44,7 @@ public interface CompliantWithType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -67,17 +58,17 @@ public interface CompliantWithType extends EObject {
      * list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of the identifying name inside the XML file
      * itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType_Label()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='label' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='label'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelType> getLabel();
@@ -87,18 +78,18 @@ public interface CompliantWithType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of descriptive information inside the XML
      * file itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType_Description()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='description' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='description'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionType> getDescription();
@@ -108,17 +99,17 @@ public interface CompliantWithType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of identifying names inside an external text
      * resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label Ref</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType_LabelRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='labelRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='labelRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelRefType> getLabelRef();
@@ -128,18 +119,18 @@ public interface CompliantWithType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of reference descriptive texts inside an
      * external text resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType_DescriptionRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='descriptionRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='descriptionRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionRefType> getDescriptionRef();
@@ -152,7 +143,7 @@ public interface CompliantWithType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCompliantWithType_Name()
@@ -163,10 +154,10 @@ public interface CompliantWithType extends EObject {
     String getName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getName
      * <em>Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Name</em>' attribute.
      * @see #getName()
@@ -184,7 +175,7 @@ public interface CompliantWithType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Range</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.RangeType
      * @see #isSetRange()
@@ -198,10 +189,10 @@ public interface CompliantWithType extends EObject {
     RangeType getRange();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
      * <em>Range</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Range</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.RangeType
@@ -213,10 +204,10 @@ public interface CompliantWithType extends EObject {
     void setRange(RangeType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
      * <em>Range</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetRange()
      * @see #getRange()
      * @see #setRange(RangeType)
@@ -225,11 +216,11 @@ public interface CompliantWithType extends EObject {
     void unsetRange();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.CompliantWithType#getRange
      * <em>Range</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Range</em>' attribute is set.
      * @see #unsetRange()
      * @see #getRange()

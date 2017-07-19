@@ -1,38 +1,29 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TDevice Commissioning</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>TDevice
+ * Commissioning</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNetworkName
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNetworkName
  * <em>Network Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
  * <em>Node ID</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeName
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeName
  * <em>Node Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
  * <em>Node Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
  * <em>Used Network Interface</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDeviceCommissioning()
  * @model extendedMetaData="name='t_deviceCommissioning' kind='empty'"
  * @generated
@@ -46,7 +37,7 @@ public interface TDeviceCommissioning extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Network Name</em>' attribute.
      * @see #setNetworkName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDeviceCommissioning_NetworkName()
@@ -57,11 +48,11 @@ public interface TDeviceCommissioning extends EObject {
     String getNetworkName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNetworkName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNetworkName
      * <em>Network Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Network Name</em>' attribute.
      * @see #getNetworkName()
@@ -77,7 +68,7 @@ public interface TDeviceCommissioning extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Node ID</em>' attribute.
      * @see #isSetNodeID()
      * @see #unsetNodeID()
@@ -91,11 +82,11 @@ public interface TDeviceCommissioning extends EObject {
     short getNodeID();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
      * <em>Node ID</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Node ID</em>' attribute.
      * @see #isSetNodeID()
@@ -106,11 +97,11 @@ public interface TDeviceCommissioning extends EObject {
     void setNodeID(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
      * <em>Node ID</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @see #isSetNodeID()
      * @see #getNodeID()
      * @see #setNodeID(short)
@@ -119,11 +110,11 @@ public interface TDeviceCommissioning extends EObject {
     void unsetNodeID();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeID
      * <em>Node ID</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Node ID</em>' attribute is set.
      * @see #unsetNodeID()
      * @see #getNodeID()
@@ -140,7 +131,7 @@ public interface TDeviceCommissioning extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Node Name</em>' attribute.
      * @see #setNodeName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDeviceCommissioning_NodeName()
@@ -151,11 +142,11 @@ public interface TDeviceCommissioning extends EObject {
     String getNodeName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeName
      * <em>Node Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Node Name</em>' attribute.
      * @see #getNodeName()
@@ -173,7 +164,7 @@ public interface TDeviceCommissioning extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Node Type</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.NodeTypeType
      * @see #isSetNodeType()
@@ -187,11 +178,11 @@ public interface TDeviceCommissioning extends EObject {
     NodeTypeType getNodeType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
      * <em>Node Type</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Node Type</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.NodeTypeType
@@ -203,11 +194,11 @@ public interface TDeviceCommissioning extends EObject {
     void setNodeType(NodeTypeType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
      * <em>Node Type</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @see #isSetNodeType()
      * @see #getNodeType()
      * @see #setNodeType(NodeTypeType)
@@ -216,11 +207,11 @@ public interface TDeviceCommissioning extends EObject {
     void unsetNodeType();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getNodeType
      * <em>Node Type</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Node Type</em>' attribute is set.
      * @see #unsetNodeType()
      * @see #getNodeType()
@@ -237,7 +228,7 @@ public interface TDeviceCommissioning extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Used Network Interface</em>' attribute.
      * @see #isSetUsedNetworkInterface()
      * @see #unsetUsedNetworkInterface()
@@ -251,11 +242,11 @@ public interface TDeviceCommissioning extends EObject {
     short getUsedNetworkInterface();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
      * <em>Used Network Interface</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Used Network Interface</em>'
      *            attribute.
@@ -267,11 +258,11 @@ public interface TDeviceCommissioning extends EObject {
     void setUsedNetworkInterface(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
      * <em>Used Network Interface</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetUsedNetworkInterface()
      * @see #getUsedNetworkInterface()
      * @see #setUsedNetworkInterface(short)
@@ -280,11 +271,11 @@ public interface TDeviceCommissioning extends EObject {
     void unsetUsedNetworkInterface();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning#getUsedNetworkInterface
      * <em>Used Network Interface</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Used Network Interface</em>'
      *         attribute is set.
      * @see #unsetUsedNetworkInterface()

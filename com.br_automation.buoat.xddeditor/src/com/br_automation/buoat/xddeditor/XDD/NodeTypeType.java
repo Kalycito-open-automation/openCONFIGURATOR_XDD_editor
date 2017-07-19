@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>Node Type Type</b></em>', and utility methods for working with them.
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>Node Type Type</b></em>', and utility methods for working with them.
  * <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getNodeTypeType()
  * @model extendedMetaData="name='nodeType_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum NodeTypeType implements Enumerator {
     /**
      * The '<em><b>MN</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #MN_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum NodeTypeType implements Enumerator {
     /**
      * The '<em><b>CN</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #CN_VALUE
      * @generated
      * @ordered
@@ -49,7 +45,7 @@ public enum NodeTypeType implements Enumerator {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MN
      * @model
      * @generated
@@ -64,7 +60,7 @@ public enum NodeTypeType implements Enumerator {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #CN
      * @model
      * @generated
@@ -75,7 +71,7 @@ public enum NodeTypeType implements Enumerator {
     /**
      * An array of all the '<em><b>Node Type Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private static final NodeTypeType[] VALUES_ARRAY = new NodeTypeType[] { MN, CN, };
@@ -83,16 +79,18 @@ public enum NodeTypeType implements Enumerator {
     /**
      * A public read-only list of all the '<em><b>Node Type Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<NodeTypeType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<NodeTypeType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>Node Type Type</b></em>' literal with the specified
      * literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static NodeTypeType get(String literal) {
@@ -108,7 +106,10 @@ public enum NodeTypeType implements Enumerator {
     /**
      * Returns the '<em><b>Node Type Type</b></em>' literal with the specified
      * name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static NodeTypeType getByName(String name) {
@@ -124,36 +125,39 @@ public enum NodeTypeType implements Enumerator {
     /**
      * Returns the '<em><b>Node Type Type</b></em>' literal with the specified
      * integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static NodeTypeType get(int value) {
         switch (value) {
-            case MN_VALUE:
-                return MN;
-            case CN_VALUE:
-                return CN;
+        case MN_VALUE:
+            return MN;
+        case CN_VALUE:
+            return CN;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -161,12 +165,10 @@ public enum NodeTypeType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private NodeTypeType(int value,
-        String name,
-        String literal) {
+    private NodeTypeType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -174,27 +176,30 @@ public enum NodeTypeType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -202,7 +207,7 @@ public enum NodeTypeType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -210,4 +215,4 @@ public enum NodeTypeType implements Enumerator {
         return literal;
     }
 
-} //NodeTypeType
+} // NodeTypeType

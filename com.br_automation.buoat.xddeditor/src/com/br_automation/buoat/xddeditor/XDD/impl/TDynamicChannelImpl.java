@@ -1,14 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.AccessTypeType;
-import com.br_automation.buoat.xddeditor.XDD.TDynamicChannel;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -17,43 +9,40 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.AccessTypeType;
+import com.br_automation.buoat.xddeditor.XDD.TDynamicChannel;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TDynamic Channel</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>TDynamic Channel</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getAccessType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getAccessType
  * <em>Access Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getAddressOffset
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getAddressOffset
  * <em>Address Offset</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getBitAlignment
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getBitAlignment
  * <em>Bit Alignment</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getDataType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getDataType
  * <em>Data Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getEndIndex
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getEndIndex
  * <em>End Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getMaxNumber
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getMaxNumber
  * <em>Max Number</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getStartIndex
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDynamicChannelImpl#getStartIndex
  * <em>Start Index</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel {
     /**
      * The default value of the '{@link #getAccessType() <em>Access Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getAccessType()
      * @generated
      * @ordered
@@ -63,7 +52,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The cached value of the '{@link #getAccessType() <em>Access Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getAccessType()
      * @generated
      * @ordered
@@ -73,17 +62,16 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * This is true if the Access Type attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
     protected boolean accessTypeESet;
 
     /**
-     * The default value of the '{@link #getAddressOffset()
-     * <em>Address Offset</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The default value of the '{@link #getAddressOffset() <em>Address
+     * Offset</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getAddressOffset()
      * @generated
      * @ordered
@@ -91,10 +79,9 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     protected static final byte[] ADDRESS_OFFSET_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getAddressOffset()
-     * <em>Address Offset</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The cached value of the '{@link #getAddressOffset() <em>Address
+     * Offset</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getAddressOffset()
      * @generated
      * @ordered
@@ -102,10 +89,9 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     protected byte[] addressOffset = ADDRESS_OFFSET_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getBitAlignment()
-     * <em>Bit Alignment</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The default value of the '{@link #getBitAlignment() <em>Bit
+     * Alignment</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getBitAlignment()
      * @generated
      * @ordered
@@ -113,10 +99,9 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     protected static final short BIT_ALIGNMENT_EDEFAULT = 0;
 
     /**
-     * The cached value of the '{@link #getBitAlignment()
-     * <em>Bit Alignment</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The cached value of the '{@link #getBitAlignment() <em>Bit
+     * Alignment</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getBitAlignment()
      * @generated
      * @ordered
@@ -126,7 +111,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * This is true if the Bit Alignment attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -135,7 +120,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The default value of the '{@link #getDataType() <em>Data Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getDataType()
      * @generated
      * @ordered
@@ -145,7 +130,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The cached value of the '{@link #getDataType() <em>Data Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getDataType()
      * @generated
      * @ordered
@@ -155,7 +140,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The default value of the '{@link #getEndIndex() <em>End Index</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getEndIndex()
      * @generated
      * @ordered
@@ -165,7 +150,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The cached value of the '{@link #getEndIndex() <em>End Index</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getEndIndex()
      * @generated
      * @ordered
@@ -175,7 +160,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The default value of the '{@link #getMaxNumber() <em>Max Number</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getMaxNumber()
      * @generated
      * @ordered
@@ -185,7 +170,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The cached value of the '{@link #getMaxNumber() <em>Max Number</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getMaxNumber()
      * @generated
      * @ordered
@@ -195,7 +180,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * This is true if the Max Number attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -204,7 +189,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The default value of the '{@link #getStartIndex() <em>Start Index</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getStartIndex()
      * @generated
      * @ordered
@@ -214,7 +199,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
     /**
      * The cached value of the '{@link #getStartIndex() <em>Start Index</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getStartIndex()
      * @generated
      * @ordered
@@ -223,7 +208,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TDynamicChannelImpl() {
@@ -232,7 +217,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -242,7 +227,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public AccessTypeType getAccessType() {
@@ -251,7 +236,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setAccessType(AccessTypeType newAccessType) {
@@ -260,14 +245,13 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         boolean oldAccessTypeESet = accessTypeESet;
         accessTypeESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE, oldAccessType, accessType,
-                !oldAccessTypeESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE,
+                    oldAccessType, accessType, !oldAccessTypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetAccessType() {
@@ -276,14 +260,13 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         accessType = ACCESS_TYPE_EDEFAULT;
         accessTypeESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE, oldAccessType, ACCESS_TYPE_EDEFAULT,
-                oldAccessTypeESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE,
+                    oldAccessType, ACCESS_TYPE_EDEFAULT, oldAccessTypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetAccessType() {
@@ -292,7 +275,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public byte[] getAddressOffset() {
@@ -301,20 +284,20 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setAddressOffset(byte[] newAddressOffset) {
         byte[] oldAddressOffset = addressOffset;
         addressOffset = newAddressOffset;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET, oldAddressOffset, addressOffset));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET,
+                    oldAddressOffset, addressOffset));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public short getBitAlignment() {
@@ -323,7 +306,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setBitAlignment(short newBitAlignment) {
@@ -332,14 +315,13 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         boolean oldBitAlignmentESet = bitAlignmentESet;
         bitAlignmentESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT, oldBitAlignment, bitAlignment,
-                !oldBitAlignmentESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT,
+                    oldBitAlignment, bitAlignment, !oldBitAlignmentESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetBitAlignment() {
@@ -348,14 +330,13 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         bitAlignment = BIT_ALIGNMENT_EDEFAULT;
         bitAlignmentESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT, oldBitAlignment,
-                BIT_ALIGNMENT_EDEFAULT, oldBitAlignmentESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT,
+                    oldBitAlignment, BIT_ALIGNMENT_EDEFAULT, oldBitAlignmentESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetBitAlignment() {
@@ -364,7 +345,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public byte[] getDataType() {
@@ -373,20 +354,20 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setDataType(byte[] newDataType) {
         byte[] oldDataType = dataType;
         dataType = newDataType;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE, oldDataType, dataType));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE, oldDataType,
+                    dataType));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public byte[] getEndIndex() {
@@ -395,20 +376,20 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setEndIndex(byte[] newEndIndex) {
         byte[] oldEndIndex = endIndex;
         endIndex = newEndIndex;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__END_INDEX, oldEndIndex, endIndex));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__END_INDEX, oldEndIndex,
+                    endIndex));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public long getMaxNumber() {
@@ -417,7 +398,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setMaxNumber(long newMaxNumber) {
@@ -426,13 +407,13 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         boolean oldMaxNumberESet = maxNumberESet;
         maxNumberESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER, oldMaxNumber, maxNumber, !oldMaxNumberESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER, oldMaxNumber,
+                    maxNumber, !oldMaxNumberESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetMaxNumber() {
@@ -441,14 +422,13 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         maxNumber = MAX_NUMBER_EDEFAULT;
         maxNumberESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER, oldMaxNumber, MAX_NUMBER_EDEFAULT,
-                oldMaxNumberESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER,
+                    oldMaxNumber, MAX_NUMBER_EDEFAULT, oldMaxNumberESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetMaxNumber() {
@@ -457,7 +437,7 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public byte[] getStartIndex() {
@@ -466,142 +446,139 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setStartIndex(byte[] newStartIndex) {
         byte[] oldStartIndex = startIndex;
         startIndex = newStartIndex;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDYNAMIC_CHANNEL__START_INDEX, oldStartIndex, startIndex));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDYNAMIC_CHANNEL__START_INDEX,
+                    oldStartIndex, startIndex));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
-                return getAccessType();
-            case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
-                return getAddressOffset();
-            case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
-                return getBitAlignment();
-            case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
-                return getDataType();
-            case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
-                return getEndIndex();
-            case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
-                return getMaxNumber();
-            case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
-                return getStartIndex();
+        case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
+            return getAccessType();
+        case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
+            return getAddressOffset();
+        case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
+            return getBitAlignment();
+        case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
+            return getDataType();
+        case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
+            return getEndIndex();
+        case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
+            return getMaxNumber();
+        case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
+            return getStartIndex();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
-                setAccessType((AccessTypeType) newValue);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
-                setAddressOffset((byte[]) newValue);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
-                setBitAlignment((Short) newValue);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
-                setDataType((byte[]) newValue);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
-                setEndIndex((byte[]) newValue);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
-                setMaxNumber((Long) newValue);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
-                setStartIndex((byte[]) newValue);
-                return;
+        case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
+            setAccessType((AccessTypeType) newValue);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
+            setAddressOffset((byte[]) newValue);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
+            setBitAlignment((Short) newValue);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
+            setDataType((byte[]) newValue);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
+            setEndIndex((byte[]) newValue);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
+            setMaxNumber((Long) newValue);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
+            setStartIndex((byte[]) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
-                unsetAccessType();
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
-                setAddressOffset(ADDRESS_OFFSET_EDEFAULT);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
-                unsetBitAlignment();
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
-                setDataType(DATA_TYPE_EDEFAULT);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
-                setEndIndex(END_INDEX_EDEFAULT);
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
-                unsetMaxNumber();
-                return;
-            case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
-                setStartIndex(START_INDEX_EDEFAULT);
-                return;
+        case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
+            unsetAccessType();
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
+            setAddressOffset(ADDRESS_OFFSET_EDEFAULT);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
+            unsetBitAlignment();
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
+            setDataType(DATA_TYPE_EDEFAULT);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
+            setEndIndex(END_INDEX_EDEFAULT);
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
+            unsetMaxNumber();
+            return;
+        case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
+            setStartIndex(START_INDEX_EDEFAULT);
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
-                return isSetAccessType();
-            case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
-                return ADDRESS_OFFSET_EDEFAULT == null ? addressOffset != null
+        case XDDPackage.TDYNAMIC_CHANNEL__ACCESS_TYPE:
+            return isSetAccessType();
+        case XDDPackage.TDYNAMIC_CHANNEL__ADDRESS_OFFSET:
+            return ADDRESS_OFFSET_EDEFAULT == null ? addressOffset != null
                     : !ADDRESS_OFFSET_EDEFAULT.equals(addressOffset);
-            case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
-                return isSetBitAlignment();
-            case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
-                return DATA_TYPE_EDEFAULT == null ? dataType != null : !DATA_TYPE_EDEFAULT
-                    .equals(dataType);
-            case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
-                return END_INDEX_EDEFAULT == null ? endIndex != null : !END_INDEX_EDEFAULT
-                    .equals(endIndex);
-            case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
-                return isSetMaxNumber();
-            case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
-                return START_INDEX_EDEFAULT == null ? startIndex != null : !START_INDEX_EDEFAULT
-                    .equals(startIndex);
+        case XDDPackage.TDYNAMIC_CHANNEL__BIT_ALIGNMENT:
+            return isSetBitAlignment();
+        case XDDPackage.TDYNAMIC_CHANNEL__DATA_TYPE:
+            return DATA_TYPE_EDEFAULT == null ? dataType != null : !DATA_TYPE_EDEFAULT.equals(dataType);
+        case XDDPackage.TDYNAMIC_CHANNEL__END_INDEX:
+            return END_INDEX_EDEFAULT == null ? endIndex != null : !END_INDEX_EDEFAULT.equals(endIndex);
+        case XDDPackage.TDYNAMIC_CHANNEL__MAX_NUMBER:
+            return isSetMaxNumber();
+        case XDDPackage.TDYNAMIC_CHANNEL__START_INDEX:
+            return START_INDEX_EDEFAULT == null ? startIndex != null : !START_INDEX_EDEFAULT.equals(startIndex);
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -637,4 +614,4 @@ public class TDynamicChannelImpl extends EObjectImpl implements TDynamicChannel 
         return result.toString();
     }
 
-} //TDynamicChannelImpl
+} // TDynamicChannelImpl

@@ -1,28 +1,23 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Product Family Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Product
+ * Family Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#getValue
  * <em>Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
  * <em>Read Only</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProductFamilyType()
  * @model extendedMetaData="name='productFamily_._type' kind='simple'"
  * @generated
@@ -36,7 +31,7 @@ public interface ProductFamilyType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Value</em>' attribute.
      * @see #setValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProductFamilyType_Value()
@@ -47,10 +42,10 @@ public interface ProductFamilyType extends EObject {
     String getValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#getValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#getValue
      * <em>Value</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Value</em>' attribute.
      * @see #getValue()
@@ -66,7 +61,7 @@ public interface ProductFamilyType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Read Only</em>' attribute.
      * @see #isSetReadOnly()
      * @see #unsetReadOnly()
@@ -80,11 +75,11 @@ public interface ProductFamilyType extends EObject {
     boolean isReadOnly();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
      * <em>Read Only</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Read Only</em>' attribute.
      * @see #isSetReadOnly()
@@ -95,11 +90,11 @@ public interface ProductFamilyType extends EObject {
     void setReadOnly(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
      * <em>Read Only</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @see #isSetReadOnly()
      * @see #isReadOnly()
      * @see #setReadOnly(boolean)
@@ -108,11 +103,11 @@ public interface ProductFamilyType extends EObject {
     void unsetReadOnly();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProductFamilyType#isReadOnly
      * <em>Read Only</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Read Only</em>' attribute is set.
      * @see #unsetReadOnly()
      * @see #isReadOnly()

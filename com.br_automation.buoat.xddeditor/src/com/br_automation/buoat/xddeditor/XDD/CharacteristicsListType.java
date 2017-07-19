@@ -1,34 +1,27 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Characteristics List Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>Characteristics List Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.CharacteristicsListType#getCategory
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.CharacteristicsListType#getCategory
  * <em>Category</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.CharacteristicsListType#getCharacteristic
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.CharacteristicsListType#getCharacteristic
  * <em>Characteristic</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCharacteristicsListType()
- * @model 
- *        extendedMetaData="name='characteristicsList_._type' kind='elementOnly'"
+ * @model extendedMetaData="name='characteristicsList_._type'
+ *        kind='elementOnly'"
  * @generated
  */
 public interface CharacteristicsListType extends EObject {
@@ -40,22 +33,22 @@ public interface CharacteristicsListType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Category</em>' containment reference.
      * @see #setCategory(CategoryType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCharacteristicsListType_Category()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='category' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='category' namespace='##targetNamespace'"
      * @generated
      */
     CategoryType getCategory();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.CharacteristicsListType#getCategory
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.CharacteristicsListType#getCategory
      * <em>Category</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Category</em>' containment
      *            reference.
@@ -74,12 +67,13 @@ public interface CharacteristicsListType extends EObject {
      * list isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Characteristic</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getCharacteristicsListType_Characteristic()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='characteristic' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='characteristic'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<CharacteristicType> getCharacteristic();

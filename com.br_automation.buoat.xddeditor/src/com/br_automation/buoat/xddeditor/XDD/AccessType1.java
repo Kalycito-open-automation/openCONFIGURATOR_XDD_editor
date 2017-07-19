@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>Access Type1</b></em>', and utility methods for working with them.
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>Access Type1</b></em>', and utility methods for working with them.
  * <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAccessType1()
  * @model extendedMetaData="name='access_._1_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum AccessType1 implements Enumerator {
     /**
      * The '<em><b>Const</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #CONST_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum AccessType1 implements Enumerator {
     /**
      * The '<em><b>Read</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #READ_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum AccessType1 implements Enumerator {
     /**
      * The '<em><b>Write</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #WRITE_VALUE
      * @generated
      * @ordered
@@ -55,7 +51,7 @@ public enum AccessType1 implements Enumerator {
     /**
      * The '<em><b>Read Write</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #READ_WRITE_VALUE
      * @generated
      * @ordered
@@ -65,7 +61,7 @@ public enum AccessType1 implements Enumerator {
     /**
      * The '<em><b>No Access</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #NO_ACCESS_VALUE
      * @generated
      * @ordered
@@ -79,7 +75,7 @@ public enum AccessType1 implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #CONST
      * @model name="const"
      * @generated
@@ -94,7 +90,7 @@ public enum AccessType1 implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #READ
      * @model name="read"
      * @generated
@@ -109,7 +105,7 @@ public enum AccessType1 implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #WRITE
      * @model name="write"
      * @generated
@@ -124,7 +120,7 @@ public enum AccessType1 implements Enumerator {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #READ_WRITE
      * @model name="readWrite"
      * @generated
@@ -139,7 +135,7 @@ public enum AccessType1 implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #NO_ACCESS
      * @model name="noAccess"
      * @generated
@@ -150,25 +146,26 @@ public enum AccessType1 implements Enumerator {
     /**
      * An array of all the '<em><b>Access Type1</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private static final AccessType1[] VALUES_ARRAY = new AccessType1[] { CONST, READ, WRITE,
-        READ_WRITE, NO_ACCESS, };
+    private static final AccessType1[] VALUES_ARRAY = new AccessType1[] { CONST, READ, WRITE, READ_WRITE, NO_ACCESS, };
 
     /**
      * A public read-only list of all the '<em><b>Access Type1</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<AccessType1> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<AccessType1> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>Access Type1</b></em>' literal with the specified
      * literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static AccessType1 get(String literal) {
@@ -184,7 +181,10 @@ public enum AccessType1 implements Enumerator {
     /**
      * Returns the '<em><b>Access Type1</b></em>' literal with the specified
      * name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static AccessType1 getByName(String name) {
@@ -200,42 +200,45 @@ public enum AccessType1 implements Enumerator {
     /**
      * Returns the '<em><b>Access Type1</b></em>' literal with the specified
      * integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static AccessType1 get(int value) {
         switch (value) {
-            case CONST_VALUE:
-                return CONST;
-            case READ_VALUE:
-                return READ;
-            case WRITE_VALUE:
-                return WRITE;
-            case READ_WRITE_VALUE:
-                return READ_WRITE;
-            case NO_ACCESS_VALUE:
-                return NO_ACCESS;
+        case CONST_VALUE:
+            return CONST;
+        case READ_VALUE:
+            return READ;
+        case WRITE_VALUE:
+            return WRITE;
+        case READ_WRITE_VALUE:
+            return READ_WRITE;
+        case NO_ACCESS_VALUE:
+            return NO_ACCESS;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -243,12 +246,10 @@ public enum AccessType1 implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private AccessType1(int value,
-        String name,
-        String literal) {
+    private AccessType1(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -256,27 +257,30 @@ public enum AccessType1 implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -284,7 +288,7 @@ public enum AccessType1 implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -292,4 +296,4 @@ public enum AccessType1 implements Enumerator {
         return literal;
     }
 
-} //AccessType1
+} // AccessType1

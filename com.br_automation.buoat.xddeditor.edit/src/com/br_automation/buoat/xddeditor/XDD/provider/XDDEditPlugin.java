@@ -3,20 +3,19 @@
 package com.br_automation.buoat.xddeditor.XDD.provider;
 
 import org.eclipse.emf.common.EMFPlugin;
-
 import org.eclipse.emf.common.util.ResourceLocator;
 
 /**
- * This is the central singleton for the XDD edit plugin.
- * <!-- begin-user-doc
+ * This is the central singleton for the XDD edit plugin. <!-- begin-user-doc
  * --> <!-- end-user-doc -->
+ *
  * @generated
  */
 public final class XDDEditPlugin extends EMFPlugin {
     /**
      * Keep track of the singleton. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @generated
      */
     public static final XDDEditPlugin INSTANCE = new XDDEditPlugin();
@@ -24,26 +23,24 @@ public final class XDDEditPlugin extends EMFPlugin {
     /**
      * Keep track of the singleton. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @generated
      */
     private static Implementation plugin;
 
     /**
-     * Create the instance.
-     * <!-- begin-user-doc --> <!-- end-user-doc -->
+     * Create the instance. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @generated
      */
     public XDDEditPlugin() {
-        super
-          (new ResourceLocator [] {
-           });
+        super(new ResourceLocator[] {});
     }
 
     /**
-     * Returns the singleton instance of the Eclipse plugin.
-     * <!-- begin-user-doc
+     * Returns the singleton instance of the Eclipse plugin. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
+     *
      * @return the singleton instance.
      * @generated
      */
@@ -53,9 +50,9 @@ public final class XDDEditPlugin extends EMFPlugin {
     }
 
     /**
-     * Returns the singleton instance of the Eclipse plugin.
-     * <!-- begin-user-doc
+     * Returns the singleton instance of the Eclipse plugin. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
+     *
      * @return the singleton instance.
      * @generated
      */
@@ -66,13 +63,13 @@ public final class XDDEditPlugin extends EMFPlugin {
     /**
      * The actual implementation of the Eclipse <b>Plugin</b>. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public static class Implementation extends EclipsePlugin {
         /**
-         * Creates an instance.
-         * <!-- begin-user-doc --> <!-- end-user-doc -->
+         * Creates an instance. <!-- begin-user-doc --> <!-- end-user-doc -->
+         *
          * @generated
          */
         public Implementation() {

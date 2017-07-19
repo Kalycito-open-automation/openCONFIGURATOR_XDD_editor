@@ -1,36 +1,28 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Object List Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Object
+ * List Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getObject
  * <em>Object</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
  * <em>Mandatory Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
  * <em>Manufacturer Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
  * <em>Optional Objects</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getObjectListType()
  * @model extendedMetaData="name='ObjectList_._type' kind='elementOnly'"
  * @generated
@@ -46,11 +38,12 @@ public interface ObjectListType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Object</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getObjectListType_Object()
-     * @model containment="true" required="true" upper="65535" extendedMetaData=
-     *        "kind='element' name='Object' namespace='##targetNamespace'"
+     * @model containment="true" required="true" upper="65535"
+     *        extendedMetaData="kind='element' name='Object'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<TObject> getObject();
@@ -63,7 +56,7 @@ public interface ObjectListType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Mandatory Objects</em>' attribute.
      * @see #isSetMandatoryObjects()
      * @see #unsetMandatoryObjects()
@@ -77,11 +70,11 @@ public interface ObjectListType extends EObject {
     long getMandatoryObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
      * <em>Mandatory Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Mandatory Objects</em>' attribute.
      * @see #isSetMandatoryObjects()
@@ -92,11 +85,11 @@ public interface ObjectListType extends EObject {
     void setMandatoryObjects(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
      * <em>Mandatory Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetMandatoryObjects()
      * @see #getMandatoryObjects()
      * @see #setMandatoryObjects(long)
@@ -105,11 +98,11 @@ public interface ObjectListType extends EObject {
     void unsetMandatoryObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getMandatoryObjects
      * <em>Mandatory Objects</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Mandatory Objects</em>' attribute
      *         is set.
      * @see #unsetMandatoryObjects()
@@ -127,7 +120,7 @@ public interface ObjectListType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Manufacturer Objects</em>' attribute.
      * @see #isSetManufacturerObjects()
      * @see #unsetManufacturerObjects()
@@ -141,11 +134,11 @@ public interface ObjectListType extends EObject {
     long getManufacturerObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
      * <em>Manufacturer Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Manufacturer Objects</em>'
      *            attribute.
@@ -157,11 +150,11 @@ public interface ObjectListType extends EObject {
     void setManufacturerObjects(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
      * <em>Manufacturer Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetManufacturerObjects()
      * @see #getManufacturerObjects()
      * @see #setManufacturerObjects(long)
@@ -170,11 +163,11 @@ public interface ObjectListType extends EObject {
     void unsetManufacturerObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getManufacturerObjects
      * <em>Manufacturer Objects</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Manufacturer Objects</em>'
      *         attribute is set.
      * @see #unsetManufacturerObjects()
@@ -192,7 +185,7 @@ public interface ObjectListType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Optional Objects</em>' attribute.
      * @see #isSetOptionalObjects()
      * @see #unsetOptionalObjects()
@@ -206,11 +199,11 @@ public interface ObjectListType extends EObject {
     long getOptionalObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
      * <em>Optional Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Optional Objects</em>' attribute.
      * @see #isSetOptionalObjects()
@@ -221,11 +214,11 @@ public interface ObjectListType extends EObject {
     void setOptionalObjects(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
      * <em>Optional Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetOptionalObjects()
      * @see #getOptionalObjects()
      * @see #setOptionalObjects(long)
@@ -234,11 +227,11 @@ public interface ObjectListType extends EObject {
     void unsetOptionalObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ObjectListType#getOptionalObjects
      * <em>Optional Objects</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Optional Objects</em>' attribute is
      *         set.
      * @see #unsetOptionalObjects()

@@ -65,33 +65,32 @@ import com.br_automation.buoat.xddeditor.XDD.provider.XDDEditPlugin;
 /**
  * This is a simple wizard for creating a new model file. <!-- begin-user-doc
  * --> <!-- end-user-doc -->
- * 
+ *
  * @generated
  */
 public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * The supported extensions for created files. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<String> FILE_EXTENSIONS = Collections.unmodifiableList(Arrays
-        .asList(XDDEditorPlugin.INSTANCE.getString("_UI_XDDEditorFilenameExtensions").split(
-            "\\s*,\\s*")));
+    public static final List<String> FILE_EXTENSIONS = Collections.unmodifiableList(
+            Arrays.asList(XDDEditorPlugin.INSTANCE.getString("_UI_XDDEditorFilenameExtensions").split("\\s*,\\s*")));
 
     /**
      * A formatted list of supported file extensions, suitable for display. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final String FORMATTED_FILE_EXTENSIONS = XDDEditorPlugin.INSTANCE.getString(
-        "_UI_XDDEditorFilenameExtensions").replaceAll("\\s*,\\s*", ", ");
+    public static final String FORMATTED_FILE_EXTENSIONS = XDDEditorPlugin.INSTANCE
+            .getString("_UI_XDDEditorFilenameExtensions").replaceAll("\\s*,\\s*", ", ");
 
     /**
      * This caches an instance of the model package. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected XDDPackage xddPackage = XDDPackage.eINSTANCE;
@@ -99,7 +98,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * This caches an instance of the model factory. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected XDDFactory xddFactory = xddPackage.getXDDFactory();
@@ -107,7 +106,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * This is the file creation page. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @generated
      */
     protected XDDModelWizardNewFileCreationPage newFileCreationPage;
@@ -115,7 +114,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * This is the initial object creation page. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected XDDModelWizardInitialObjectCreationPage initialObjectCreationPage;
@@ -123,7 +122,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * Remember the selection during initialization for populating the default
      * container. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected IStructuredSelection selection;
@@ -131,7 +130,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * Remember the workbench during initialization. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected IWorkbench workbench;
@@ -139,7 +138,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * Caches the names of the features representing global elements. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected List<String> initialObjectNames;
@@ -147,7 +146,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * This just records the information. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void init(IWorkbench workbench, IStructuredSelection selection) {
@@ -155,20 +154,20 @@ public class XDDModelWizard extends Wizard implements INewWizard {
         this.selection = selection;
         setWindowTitle(XDDEditorPlugin.INSTANCE.getString("_UI_Wizard_label"));
         setDefaultPageImageDescriptor(ExtendedImageRegistry.INSTANCE
-            .getImageDescriptor(XDDEditorPlugin.INSTANCE.getImage("full/wizban/NewXDD")));
+                .getImageDescriptor(XDDEditorPlugin.INSTANCE.getImage("full/wizban/NewXDD")));
     }
 
     /**
      * Returns the names of the features representing global elements. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected Collection<String> getInitialObjectNames() {
         if (initialObjectNames == null) {
             initialObjectNames = new ArrayList<String>();
             for (EStructuralFeature eStructuralFeature : ExtendedMetaData.INSTANCE
-                .getAllElements(ExtendedMetaData.INSTANCE.getDocumentRoot(xddPackage))) {
+                    .getAllElements(ExtendedMetaData.INSTANCE.getDocumentRoot(xddPackage))) {
                 if (eStructuralFeature.isChangeable()) {
                     EClassifier eClassifier = eStructuralFeature.getEType();
                     if (eClassifier instanceof EClass) {
@@ -186,23 +185,22 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
     /**
      * Create a new model. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected EObject createInitialModel() {
         EClass eClass = ExtendedMetaData.INSTANCE.getDocumentRoot(xddPackage);
         EStructuralFeature eStructuralFeature = eClass
-            .getEStructuralFeature(initialObjectCreationPage.getInitialObjectName());
+                .getEStructuralFeature(initialObjectCreationPage.getInitialObjectName());
         EObject rootObject = xddFactory.create(eClass);
-        rootObject.eSet(
-            eStructuralFeature, EcoreUtil.create((EClass) eStructuralFeature.getEType()));
+        rootObject.eSet(eStructuralFeature, EcoreUtil.create((EClass) eStructuralFeature.getEType()));
         return rootObject;
     }
 
     /**
      * Do the work after everything is specified. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -224,8 +222,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
                         // Get the URI of the model file.
                         //
-                        URI fileURI = URI.createPlatformResourceURI(modelFile.getFullPath()
-                            .toString(), true);
+                        URI fileURI = URI.createPlatformResourceURI(modelFile.getFullPath().toString(), true);
 
                         // Create a resource for this file.
                         //
@@ -241,8 +238,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
                         // Save the contents of the resource to the file system.
                         //
                         Map<Object, Object> options = new HashMap<Object, Object>();
-                        options.put(
-                            XMLResource.OPTION_ENCODING, initialObjectCreationPage.getEncoding());
+                        options.put(XMLResource.OPTION_ENCODING, initialObjectCreationPage.getEncoding());
                         resource.save(options);
                     } catch (Exception exception) {
                         XDDEditorPlugin.INSTANCE.log(exception);
@@ -271,13 +267,11 @@ public class XDDModelWizard extends Wizard implements INewWizard {
             // Open an editor on the new file.
             //
             try {
-                page.openEditor(new FileEditorInput(modelFile), workbench.getEditorRegistry()
-                    .getDefaultEditor(modelFile.getFullPath().toString()).getId());
+                page.openEditor(new FileEditorInput(modelFile),
+                        workbench.getEditorRegistry().getDefaultEditor(modelFile.getFullPath().toString()).getId());
             } catch (PartInitException exception) {
-                MessageDialog.openError(
-                    workbenchWindow.getShell(),
-                    XDDEditorPlugin.INSTANCE.getString("_UI_OpenEditorError_label"),
-                    exception.getMessage());
+                MessageDialog.openError(workbenchWindow.getShell(),
+                        XDDEditorPlugin.INSTANCE.getString("_UI_OpenEditorError_label"), exception.getMessage());
                 return false;
             }
 
@@ -291,24 +285,23 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * This is the one page of the wizard. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     public class XDDModelWizardNewFileCreationPage extends WizardNewFileCreationPage {
         /**
          * Pass in the selection. <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
-        public XDDModelWizardNewFileCreationPage(String pageId,
-            IStructuredSelection selection) {
+        public XDDModelWizardNewFileCreationPage(String pageId, IStructuredSelection selection) {
             super(pageId, selection);
         }
 
         /**
          * The framework calls this to see if the file is correct. <!--
          * begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         @Override
@@ -316,10 +309,9 @@ public class XDDModelWizard extends Wizard implements INewWizard {
             if (super.validatePage()) {
                 String extension = new Path(getFileName()).getFileExtension();
                 if (extension == null || !FILE_EXTENSIONS.contains(extension)) {
-                    String key = FILE_EXTENSIONS.size() > 1 ? "_WARN_FilenameExtensions"
-                        : "_WARN_FilenameExtension";
-                    setErrorMessage(XDDEditorPlugin.INSTANCE.getString(
-                        key, new Object[] { FORMATTED_FILE_EXTENSIONS }));
+                    String key = FILE_EXTENSIONS.size() > 1 ? "_WARN_FilenameExtensions" : "_WARN_FilenameExtension";
+                    setErrorMessage(
+                            XDDEditorPlugin.INSTANCE.getString(key, new Object[] { FORMATTED_FILE_EXTENSIONS }));
                     return false;
                 }
                 return true;
@@ -329,25 +321,24 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         public IFile getModelFile() {
-            return ResourcesPlugin.getWorkspace().getRoot()
-                .getFile(getContainerFullPath().append(getFileName()));
+            return ResourcesPlugin.getWorkspace().getRoot().getFile(getContainerFullPath().append(getFileName()));
         }
     }
 
     /**
      * This is the page where the type of object to create is selected. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public class XDDModelWizardInitialObjectCreationPage extends WizardPage {
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         protected Combo initialObjectField;
@@ -359,14 +350,14 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         protected Combo encodingField;
 
         /**
          * Pass in the selection. <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         public XDDModelWizardInitialObjectCreationPage(String pageId) {
@@ -375,7 +366,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         public void createControl(Composite parent) {
@@ -448,7 +439,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         protected ModifyListener validator = new ModifyListener() {
@@ -459,17 +450,16 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         protected boolean validatePage() {
-            return getInitialObjectName() != null
-                && getEncodings().contains(encodingField.getText());
+            return getInitialObjectName() != null && getEncodings().contains(encodingField.getText());
         }
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         @Override
@@ -488,7 +478,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         public String getInitialObjectName() {
@@ -504,7 +494,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         public String getEncoding() {
@@ -514,13 +504,12 @@ public class XDDModelWizard extends Wizard implements INewWizard {
         /**
          * Returns the label for the specified feature name. <!-- begin-user-doc
          * --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         protected String getLabel(String featureName) {
             try {
-                return XDDEditPlugin.INSTANCE.getString("_UI_DocumentRoot_" + featureName
-                    + "_feature");
+                return XDDEditPlugin.INSTANCE.getString("_UI_DocumentRoot_" + featureName + "_feature");
             } catch (MissingResourceException mre) {
                 XDDEditorPlugin.INSTANCE.log(mre);
             }
@@ -529,15 +518,15 @@ public class XDDModelWizard extends Wizard implements INewWizard {
 
         /**
          * <!-- begin-user-doc --> <!-- end-user-doc -->
-         * 
+         *
          * @generated
          */
         protected Collection<String> getEncodings() {
             if (encodings == null) {
                 encodings = new ArrayList<String>();
                 for (StringTokenizer stringTokenizer = new StringTokenizer(
-                    XDDEditorPlugin.INSTANCE.getString("_UI_XMLEncodingChoices")); stringTokenizer
-                    .hasMoreTokens();) {
+                        XDDEditorPlugin.INSTANCE.getString("_UI_XMLEncodingChoices")); stringTokenizer
+                                .hasMoreTokens();) {
                     encodings.add(stringTokenizer.nextToken());
                 }
             }
@@ -548,7 +537,7 @@ public class XDDModelWizard extends Wizard implements INewWizard {
     /**
      * The framework calls this to create the contents of the wizard. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -556,15 +545,14 @@ public class XDDModelWizard extends Wizard implements INewWizard {
         // Create a page, set the title, and the initial model file name.
         //
         newFileCreationPage = new XDDModelWizardNewFileCreationPage("Whatever", selection);
-        newFileCreationPage
-            .setTitle(XDDEditorPlugin.INSTANCE.getString("_UI_XDDModelWizard_label"));
-        newFileCreationPage.setDescription(XDDEditorPlugin.INSTANCE
-            .getString("_UI_XDDModelWizard_description"));
-        newFileCreationPage.setFileName(XDDEditorPlugin.INSTANCE
-            .getString("_UI_XDDEditorFilenameDefaultBase") + "." + FILE_EXTENSIONS.get(0));
+        newFileCreationPage.setTitle(XDDEditorPlugin.INSTANCE.getString("_UI_XDDModelWizard_label"));
+        newFileCreationPage.setDescription(XDDEditorPlugin.INSTANCE.getString("_UI_XDDModelWizard_description"));
+        newFileCreationPage.setFileName(
+                XDDEditorPlugin.INSTANCE.getString("_UI_XDDEditorFilenameDefaultBase") + "." + FILE_EXTENSIONS.get(0));
         addPage(newFileCreationPage);
 
-        // Try and get the resource selection to determine a current directory for the file dialog.
+        // Try and get the resource selection to determine a current directory
+        // for the file dialog.
         //
         if (selection != null && !selection.isEmpty()) {
             // Get the resource...
@@ -588,29 +576,26 @@ public class XDDModelWizard extends Wizard implements INewWizard {
                     // Make up a unique new name here.
                     //
                     String defaultModelBaseFilename = XDDEditorPlugin.INSTANCE
-                        .getString("_UI_XDDEditorFilenameDefaultBase");
+                            .getString("_UI_XDDEditorFilenameDefaultBase");
                     String defaultModelFilenameExtension = FILE_EXTENSIONS.get(0);
-                    String modelFilename = defaultModelBaseFilename + "."
-                        + defaultModelFilenameExtension;
+                    String modelFilename = defaultModelBaseFilename + "." + defaultModelFilenameExtension;
                     for (int i = 1; ((IContainer) selectedResource).findMember(modelFilename) != null; ++i) {
-                        modelFilename = defaultModelBaseFilename + i + "."
-                            + defaultModelFilenameExtension;
+                        modelFilename = defaultModelBaseFilename + i + "." + defaultModelFilenameExtension;
                     }
                     newFileCreationPage.setFileName(modelFilename);
                 }
             }
         }
         initialObjectCreationPage = new XDDModelWizardInitialObjectCreationPage("Whatever2");
-        initialObjectCreationPage.setTitle(XDDEditorPlugin.INSTANCE
-            .getString("_UI_XDDModelWizard_label"));
-        initialObjectCreationPage.setDescription(XDDEditorPlugin.INSTANCE
-            .getString("_UI_Wizard_initial_object_description"));
+        initialObjectCreationPage.setTitle(XDDEditorPlugin.INSTANCE.getString("_UI_XDDModelWizard_label"));
+        initialObjectCreationPage
+                .setDescription(XDDEditorPlugin.INSTANCE.getString("_UI_Wizard_initial_object_description"));
         addPage(initialObjectCreationPage);
     }
 
     /**
      * Get the file from the page. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public IFile getModelFile() {

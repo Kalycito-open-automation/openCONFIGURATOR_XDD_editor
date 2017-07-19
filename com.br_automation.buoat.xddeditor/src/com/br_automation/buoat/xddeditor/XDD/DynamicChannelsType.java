@@ -1,28 +1,22 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Dynamic Channels Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Dynamic
+ * Channels Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.DynamicChannelsType#getDynamicChannel
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DynamicChannelsType#getDynamicChannel
  * <em>Dynamic Channel</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDynamicChannelsType()
  * @model extendedMetaData="name='dynamicChannels_._type' kind='elementOnly'"
  * @generated
@@ -38,12 +32,13 @@ public interface DynamicChannelsType extends EObject {
      * list isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Dynamic Channel</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDynamicChannelsType_DynamicChannel()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='dynamicChannel' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='dynamicChannel'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<TDynamicChannel> getDynamicChannel();

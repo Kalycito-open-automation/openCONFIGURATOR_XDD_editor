@@ -1,13 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.MemberRefType;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -16,28 +9,29 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.MemberRefType;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>Member Ref Type</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object '<em><b>Member
+ * Ref Type</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.MemberRefTypeImpl#getIndex
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.MemberRefTypeImpl#getIndex
  * <em>Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.MemberRefTypeImpl#getUniqueIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.MemberRefTypeImpl#getUniqueIDRef
  * <em>Unique ID Ref</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
     /**
      * The default value of the '{@link #getIndex() <em>Index</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getIndex()
      * @generated
      * @ordered
@@ -47,7 +41,7 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
     /**
      * The cached value of the '{@link #getIndex() <em>Index</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getIndex()
      * @generated
      * @ordered
@@ -57,17 +51,16 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
     /**
      * This is true if the Index attribute has been set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
     protected boolean indexESet;
 
     /**
-     * The default value of the '{@link #getUniqueIDRef()
-     * <em>Unique ID Ref</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The default value of the '{@link #getUniqueIDRef() <em>Unique ID
+     * Ref</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getUniqueIDRef()
      * @generated
      * @ordered
@@ -75,9 +68,9 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
     protected static final String UNIQUE_ID_REF_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getUniqueIDRef() <em>Unique ID Ref</em>}
-     * ' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     * The cached value of the '{@link #getUniqueIDRef() <em>Unique ID
+     * Ref</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getUniqueIDRef()
      * @generated
      * @ordered
@@ -86,7 +79,7 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected MemberRefTypeImpl() {
@@ -95,7 +88,7 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -105,7 +98,7 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public long getIndex() {
@@ -114,7 +107,7 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setIndex(long newIndex) {
@@ -123,13 +116,13 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
         boolean oldIndexESet = indexESet;
         indexESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.MEMBER_REF_TYPE__INDEX, oldIndex, index, !oldIndexESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.MEMBER_REF_TYPE__INDEX, oldIndex, index,
+                    !oldIndexESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetIndex() {
@@ -138,13 +131,13 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
         index = INDEX_EDEFAULT;
         indexESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.MEMBER_REF_TYPE__INDEX, oldIndex, INDEX_EDEFAULT, oldIndexESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.MEMBER_REF_TYPE__INDEX, oldIndex,
+                    INDEX_EDEFAULT, oldIndexESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetIndex() {
@@ -153,7 +146,7 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getUniqueIDRef() {
@@ -162,89 +155,88 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setUniqueIDRef(String newUniqueIDRef) {
         String oldUniqueIDRef = uniqueIDRef;
         uniqueIDRef = newUniqueIDRef;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF, oldUniqueIDRef, uniqueIDRef));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF,
+                    oldUniqueIDRef, uniqueIDRef));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.MEMBER_REF_TYPE__INDEX:
-                return getIndex();
-            case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
-                return getUniqueIDRef();
+        case XDDPackage.MEMBER_REF_TYPE__INDEX:
+            return getIndex();
+        case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
+            return getUniqueIDRef();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.MEMBER_REF_TYPE__INDEX:
-                setIndex((Long) newValue);
-                return;
-            case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
-                setUniqueIDRef((String) newValue);
-                return;
+        case XDDPackage.MEMBER_REF_TYPE__INDEX:
+            setIndex((Long) newValue);
+            return;
+        case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
+            setUniqueIDRef((String) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.MEMBER_REF_TYPE__INDEX:
-                unsetIndex();
-                return;
-            case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
-                setUniqueIDRef(UNIQUE_ID_REF_EDEFAULT);
-                return;
+        case XDDPackage.MEMBER_REF_TYPE__INDEX:
+            unsetIndex();
+            return;
+        case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
+            setUniqueIDRef(UNIQUE_ID_REF_EDEFAULT);
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.MEMBER_REF_TYPE__INDEX:
-                return isSetIndex();
-            case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
-                return UNIQUE_ID_REF_EDEFAULT == null ? uniqueIDRef != null
-                    : !UNIQUE_ID_REF_EDEFAULT.equals(uniqueIDRef);
+        case XDDPackage.MEMBER_REF_TYPE__INDEX:
+            return isSetIndex();
+        case XDDPackage.MEMBER_REF_TYPE__UNIQUE_ID_REF:
+            return UNIQUE_ID_REF_EDEFAULT == null ? uniqueIDRef != null : !UNIQUE_ID_REF_EDEFAULT.equals(uniqueIDRef);
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -264,4 +256,4 @@ public class MemberRefTypeImpl extends EObjectImpl implements MemberRefType {
         return result.toString();
     }
 
-} //MemberRefTypeImpl
+} // MemberRefTypeImpl

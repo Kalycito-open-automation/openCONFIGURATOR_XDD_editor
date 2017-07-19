@@ -1,75 +1,65 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TMN Features</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>TMN
+ * Features</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
  * <em>DLL Err MN Multiple MN</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
  * <em>DLLMN Feature Multiplex</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
  * <em>DLLMN Feature PRes Tx</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
  * <em>DLLMNP Res Chaining</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNRingRedundancy
+ * <em>DLLMN Ring Redundancy</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
  * <em>NMTMNA Snd2 So C</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
  * <em>NMTMN Basic Ethernet</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNDNA
+ * <em>NMTMNDNA</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMaxAsynchronousSlots
+ * <em>NMTMN Max Asynchronous Slots</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
  * <em>NMTMN Multipl Cyc Max</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
  * <em>NMTMNP Res2 PReq</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
  * <em>NMTMNP Res2 PRes</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
  * <em>NMTMNP Res Rx2 So A</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
  * <em>NMTMNP Res Tx2 So A</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNRedundancy
+ * <em>NMTMN Redundancy</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
  * <em>NMTMN So A2A Snd Tx</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
  * <em>NMTMN So C2P Req</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
  * <em>NMT Net Time</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
  * <em>NMT Net Time Is Real Time</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
  * <em>NMT Relative Time</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTServiceUdpIp
+ * <em>NMT Service Udp Ip</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
  * <em>NMT Simple Boot</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
  * <em>PDOTPDO Channels</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures()
  * @model extendedMetaData="name='t_MNFeatures' kind='empty'"
  * @generated
@@ -84,7 +74,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLL Err MN Multiple MN</em>' attribute.
      * @see #isSetDLLErrMNMultipleMN()
      * @see #unsetDLLErrMNMultipleMN()
@@ -98,11 +88,11 @@ public interface TMNFeatures extends EObject {
     boolean isDLLErrMNMultipleMN();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
      * <em>DLL Err MN Multiple MN</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLL Err MN Multiple MN</em>'
      *            attribute.
@@ -114,11 +104,11 @@ public interface TMNFeatures extends EObject {
     void setDLLErrMNMultipleMN(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
      * <em>DLL Err MN Multiple MN</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLErrMNMultipleMN()
      * @see #isDLLErrMNMultipleMN()
      * @see #setDLLErrMNMultipleMN(boolean)
@@ -127,11 +117,11 @@ public interface TMNFeatures extends EObject {
     void unsetDLLErrMNMultipleMN();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLErrMNMultipleMN
      * <em>DLL Err MN Multiple MN</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLL Err MN Multiple MN</em>'
      *         attribute is set.
      * @see #unsetDLLErrMNMultipleMN()
@@ -150,7 +140,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLLMN Feature Multiplex</em>' attribute.
      * @see #isSetDLLMNFeatureMultiplex()
      * @see #unsetDLLMNFeatureMultiplex()
@@ -164,11 +154,11 @@ public interface TMNFeatures extends EObject {
     boolean isDLLMNFeatureMultiplex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
      * <em>DLLMN Feature Multiplex</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLLMN Feature Multiplex</em>'
      *            attribute.
@@ -180,11 +170,11 @@ public interface TMNFeatures extends EObject {
     void setDLLMNFeatureMultiplex(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
      * <em>DLLMN Feature Multiplex</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetDLLMNFeatureMultiplex()
      * @see #isDLLMNFeatureMultiplex()
      * @see #setDLLMNFeatureMultiplex(boolean)
@@ -193,11 +183,11 @@ public interface TMNFeatures extends EObject {
     void unsetDLLMNFeatureMultiplex();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeatureMultiplex
      * <em>DLLMN Feature Multiplex</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLLMN Feature Multiplex</em>'
      *         attribute is set.
      * @see #unsetDLLMNFeatureMultiplex()
@@ -216,7 +206,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLLMN Feature PRes Tx</em>' attribute.
      * @see #isSetDLLMNFeaturePResTx()
      * @see #unsetDLLMNFeaturePResTx()
@@ -230,11 +220,11 @@ public interface TMNFeatures extends EObject {
     boolean isDLLMNFeaturePResTx();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
      * <em>DLLMN Feature PRes Tx</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLLMN Feature PRes Tx</em>'
      *            attribute.
@@ -246,11 +236,11 @@ public interface TMNFeatures extends EObject {
     void setDLLMNFeaturePResTx(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
      * <em>DLLMN Feature PRes Tx</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLMNFeaturePResTx()
      * @see #isDLLMNFeaturePResTx()
      * @see #setDLLMNFeaturePResTx(boolean)
@@ -259,11 +249,11 @@ public interface TMNFeatures extends EObject {
     void unsetDLLMNFeaturePResTx();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNFeaturePResTx
      * <em>DLLMN Feature PRes Tx</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLLMN Feature PRes Tx</em>'
      *         attribute is set.
      * @see #unsetDLLMNFeaturePResTx()
@@ -281,7 +271,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLLMNP Res Chaining</em>' attribute.
      * @see #isSetDLLMNPResChaining()
      * @see #unsetDLLMNPResChaining()
@@ -295,11 +285,11 @@ public interface TMNFeatures extends EObject {
     boolean isDLLMNPResChaining();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
      * <em>DLLMNP Res Chaining</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLLMNP Res Chaining</em>' attribute.
      * @see #isSetDLLMNPResChaining()
@@ -310,11 +300,11 @@ public interface TMNFeatures extends EObject {
     void setDLLMNPResChaining(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
      * <em>DLLMNP Res Chaining</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLMNPResChaining()
      * @see #isDLLMNPResChaining()
      * @see #setDLLMNPResChaining(boolean)
@@ -323,11 +313,11 @@ public interface TMNFeatures extends EObject {
     void unsetDLLMNPResChaining();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNPResChaining
      * <em>DLLMNP Res Chaining</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLLMNP Res Chaining</em>' attribute
      *         is set.
      * @see #unsetDLLMNPResChaining()
@@ -338,6 +328,72 @@ public interface TMNFeatures extends EObject {
     boolean isSetDLLMNPResChaining();
 
     /**
+     * Returns the value of the '<em><b>DLLMN Ring Redundancy</b></em>'
+     * attribute. The default value is <code>"false"</code>. <!-- begin-user-doc
+     * -->
+     * <p>
+     * If the meaning of the '<em>DLLMN Ring Redundancy</em>' attribute isn't
+     * clear, there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>DLLMN Ring Redundancy</em>' attribute.
+     * @see #isSetDLLMNRingRedundancy()
+     * @see #unsetDLLMNRingRedundancy()
+     * @see #setDLLMNRingRedundancy(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_DLLMNRingRedundancy()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='DLLMNRingRedundancy'"
+     * @generated
+     */
+    boolean isDLLMNRingRedundancy();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNRingRedundancy
+     * <em>DLLMN Ring Redundancy</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>DLLMN Ring Redundancy</em>'
+     *            attribute.
+     * @see #isSetDLLMNRingRedundancy()
+     * @see #unsetDLLMNRingRedundancy()
+     * @see #isDLLMNRingRedundancy()
+     * @generated
+     */
+    void setDLLMNRingRedundancy(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNRingRedundancy
+     * <em>DLLMN Ring Redundancy</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetDLLMNRingRedundancy()
+     * @see #isDLLMNRingRedundancy()
+     * @see #setDLLMNRingRedundancy(boolean)
+     * @generated
+     */
+    void unsetDLLMNRingRedundancy();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isDLLMNRingRedundancy
+     * <em>DLLMN Ring Redundancy</em>}' attribute is set. <!-- begin-user-doc
+     * --> <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>DLLMN Ring Redundancy</em>'
+     *         attribute is set.
+     * @see #unsetDLLMNRingRedundancy()
+     * @see #isDLLMNRingRedundancy()
+     * @see #setDLLMNRingRedundancy(boolean)
+     * @generated
+     */
+    boolean isSetDLLMNRingRedundancy();
+
+    /**
      * Returns the value of the '<em><b>NMTMNA Snd2 So C</b></em>' attribute.
      * <!-- begin-user-doc -->
      * <p>
@@ -345,7 +401,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMNA Snd2 So C</em>' attribute.
      * @see #isSetNMTMNASnd2SoC()
      * @see #unsetNMTMNASnd2SoC()
@@ -353,18 +409,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNASnd2SoC()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNASnd2SoC'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNASnd2SoC'"
      * @generated
      */
     long getNMTMNASnd2SoC();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
      * <em>NMTMNA Snd2 So C</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMNA Snd2 So C</em>' attribute.
      * @see #isSetNMTMNASnd2SoC()
@@ -375,11 +431,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNASnd2SoC(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
      * <em>NMTMNA Snd2 So C</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNASnd2SoC()
      * @see #getNMTMNASnd2SoC()
      * @see #setNMTMNASnd2SoC(long)
@@ -388,11 +444,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNASnd2SoC();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNASnd2SoC
      * <em>NMTMNA Snd2 So C</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMNA Snd2 So C</em>' attribute is
      *         set.
      * @see #unsetNMTMNASnd2SoC()
@@ -411,7 +467,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMN Basic Ethernet</em>' attribute.
      * @see #isSetNMTMNBasicEthernet()
      * @see #unsetNMTMNBasicEthernet()
@@ -425,11 +481,11 @@ public interface TMNFeatures extends EObject {
     boolean isNMTMNBasicEthernet();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
      * <em>NMTMN Basic Ethernet</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMN Basic Ethernet</em>'
      *            attribute.
@@ -441,11 +497,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNBasicEthernet(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
      * <em>NMTMN Basic Ethernet</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNBasicEthernet()
      * @see #isNMTMNBasicEthernet()
      * @see #setNMTMNBasicEthernet(boolean)
@@ -454,11 +510,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNBasicEthernet();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNBasicEthernet
      * <em>NMTMN Basic Ethernet</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMN Basic Ethernet</em>'
      *         attribute is set.
      * @see #unsetNMTMNBasicEthernet()
@@ -469,6 +525,136 @@ public interface TMNFeatures extends EObject {
     boolean isSetNMTMNBasicEthernet();
 
     /**
+     * Returns the value of the '<em><b>NMTMNDNA</b></em>' attribute. The
+     * default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMTMNDNA</em>' attribute isn't clear, there
+     * really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMTMNDNA</em>' attribute.
+     * @see #isSetNMTMNDNA()
+     * @see #unsetNMTMNDNA()
+     * @see #setNMTMNDNA(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNDNA()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='NMTMNDNA'"
+     * @generated
+     */
+    boolean isNMTMNDNA();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNDNA
+     * <em>NMTMNDNA</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
+     * -->
+     *
+     * @param value
+     *            the new value of the '<em>NMTMNDNA</em>' attribute.
+     * @see #isSetNMTMNDNA()
+     * @see #unsetNMTMNDNA()
+     * @see #isNMTMNDNA()
+     * @generated
+     */
+    void setNMTMNDNA(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNDNA
+     * <em>NMTMNDNA</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
+     * -->
+     *
+     * @see #isSetNMTMNDNA()
+     * @see #isNMTMNDNA()
+     * @see #setNMTMNDNA(boolean)
+     * @generated
+     */
+    void unsetNMTMNDNA();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNDNA
+     * <em>NMTMNDNA</em>}' attribute is set. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMTMNDNA</em>' attribute is set.
+     * @see #unsetNMTMNDNA()
+     * @see #isNMTMNDNA()
+     * @see #setNMTMNDNA(boolean)
+     * @generated
+     */
+    boolean isSetNMTMNDNA();
+
+    /**
+     * Returns the value of the '<em><b>NMTMN Max Asynchronous Slots</b></em>'
+     * attribute. The default value is <code>"1"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMTMN Max Asynchronous Slots</em>' attribute
+     * isn't clear, there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMTMN Max Asynchronous Slots</em>'
+     *         attribute.
+     * @see #isSetNMTMNMaxAsynchronousSlots()
+     * @see #unsetNMTMNMaxAsynchronousSlots()
+     * @see #setNMTMNMaxAsynchronousSlots(short)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNMaxAsynchronousSlots()
+     * @model default="1" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedByte"
+     *        extendedMetaData="kind='attribute'
+     *        name='NMTMNMaxAsynchronousSlots'"
+     * @generated
+     */
+    short getNMTMNMaxAsynchronousSlots();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMaxAsynchronousSlots
+     * <em>NMTMN Max Asynchronous Slots</em>}' attribute. <!-- begin-user-doc
+     * --> <!-- end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>NMTMN Max Asynchronous Slots</em>'
+     *            attribute.
+     * @see #isSetNMTMNMaxAsynchronousSlots()
+     * @see #unsetNMTMNMaxAsynchronousSlots()
+     * @see #getNMTMNMaxAsynchronousSlots()
+     * @generated
+     */
+    void setNMTMNMaxAsynchronousSlots(short value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMaxAsynchronousSlots
+     * <em>NMTMN Max Asynchronous Slots</em>}' attribute. <!-- begin-user-doc
+     * --> <!-- end-user-doc -->
+     *
+     * @see #isSetNMTMNMaxAsynchronousSlots()
+     * @see #getNMTMNMaxAsynchronousSlots()
+     * @see #setNMTMNMaxAsynchronousSlots(short)
+     * @generated
+     */
+    void unsetNMTMNMaxAsynchronousSlots();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMaxAsynchronousSlots
+     * <em>NMTMN Max Asynchronous Slots</em>}' attribute is set. <!--
+     * begin-user-doc --> <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMTMN Max Asynchronous Slots</em>'
+     *         attribute is set.
+     * @see #unsetNMTMNMaxAsynchronousSlots()
+     * @see #getNMTMNMaxAsynchronousSlots()
+     * @see #setNMTMNMaxAsynchronousSlots(short)
+     * @generated
+     */
+    boolean isSetNMTMNMaxAsynchronousSlots();
+
+    /**
      * Returns the value of the '<em><b>NMTMN Multipl Cyc Max</b></em>'
      * attribute. The default value is <code>"0"</code>. <!-- begin-user-doc -->
      * <p>
@@ -476,7 +662,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMN Multipl Cyc Max</em>' attribute.
      * @see #isSetNMTMNMultiplCycMax()
      * @see #unsetNMTMNMultiplCycMax()
@@ -490,11 +676,11 @@ public interface TMNFeatures extends EObject {
     short getNMTMNMultiplCycMax();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
      * <em>NMTMN Multipl Cyc Max</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMN Multipl Cyc Max</em>'
      *            attribute.
@@ -506,11 +692,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNMultiplCycMax(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
      * <em>NMTMN Multipl Cyc Max</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNMultiplCycMax()
      * @see #getNMTMNMultiplCycMax()
      * @see #setNMTMNMultiplCycMax(short)
@@ -519,11 +705,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNMultiplCycMax();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNMultiplCycMax
      * <em>NMTMN Multipl Cyc Max</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMN Multipl Cyc Max</em>'
      *         attribute is set.
      * @see #unsetNMTMNMultiplCycMax()
@@ -541,7 +727,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMNP Res2 PReq</em>' attribute.
      * @see #isSetNMTMNPRes2PReq()
      * @see #unsetNMTMNPRes2PReq()
@@ -549,18 +735,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNPRes2PReq()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNPRes2PReq'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNPRes2PReq'"
      * @generated
      */
     long getNMTMNPRes2PReq();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
      * <em>NMTMNP Res2 PReq</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMNP Res2 PReq</em>' attribute.
      * @see #isSetNMTMNPRes2PReq()
@@ -571,11 +757,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNPRes2PReq(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
      * <em>NMTMNP Res2 PReq</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNPRes2PReq()
      * @see #getNMTMNPRes2PReq()
      * @see #setNMTMNPRes2PReq(long)
@@ -584,11 +770,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNPRes2PReq();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PReq
      * <em>NMTMNP Res2 PReq</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMNP Res2 PReq</em>' attribute is
      *         set.
      * @see #unsetNMTMNPRes2PReq()
@@ -606,7 +792,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMNP Res2 PRes</em>' attribute.
      * @see #isSetNMTMNPRes2PRes()
      * @see #unsetNMTMNPRes2PRes()
@@ -614,18 +800,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNPRes2PRes()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNPRes2PRes'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNPRes2PRes'"
      * @generated
      */
     long getNMTMNPRes2PRes();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
      * <em>NMTMNP Res2 PRes</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMNP Res2 PRes</em>' attribute.
      * @see #isSetNMTMNPRes2PRes()
@@ -636,11 +822,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNPRes2PRes(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
      * <em>NMTMNP Res2 PRes</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNPRes2PRes()
      * @see #getNMTMNPRes2PRes()
      * @see #setNMTMNPRes2PRes(long)
@@ -649,11 +835,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNPRes2PRes();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPRes2PRes
      * <em>NMTMNP Res2 PRes</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMNP Res2 PRes</em>' attribute is
      *         set.
      * @see #unsetNMTMNPRes2PRes()
@@ -671,7 +857,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMNP Res Rx2 So A</em>' attribute.
      * @see #isSetNMTMNPResRx2SoA()
      * @see #unsetNMTMNPResRx2SoA()
@@ -679,18 +865,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNPResRx2SoA()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNPResRx2SoA'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNPResRx2SoA'"
      * @generated
      */
     long getNMTMNPResRx2SoA();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
      * <em>NMTMNP Res Rx2 So A</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMNP Res Rx2 So A</em>' attribute.
      * @see #isSetNMTMNPResRx2SoA()
@@ -701,11 +887,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNPResRx2SoA(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
      * <em>NMTMNP Res Rx2 So A</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNPResRx2SoA()
      * @see #getNMTMNPResRx2SoA()
      * @see #setNMTMNPResRx2SoA(long)
@@ -714,11 +900,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNPResRx2SoA();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResRx2SoA
      * <em>NMTMNP Res Rx2 So A</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMNP Res Rx2 So A</em>' attribute
      *         is set.
      * @see #unsetNMTMNPResRx2SoA()
@@ -736,7 +922,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMNP Res Tx2 So A</em>' attribute.
      * @see #isSetNMTMNPResTx2SoA()
      * @see #unsetNMTMNPResTx2SoA()
@@ -744,18 +930,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNPResTx2SoA()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNPResTx2SoA'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNPResTx2SoA'"
      * @generated
      */
     long getNMTMNPResTx2SoA();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
      * <em>NMTMNP Res Tx2 So A</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMNP Res Tx2 So A</em>' attribute.
      * @see #isSetNMTMNPResTx2SoA()
@@ -766,11 +952,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNPResTx2SoA(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
      * <em>NMTMNP Res Tx2 So A</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNPResTx2SoA()
      * @see #getNMTMNPResTx2SoA()
      * @see #setNMTMNPResTx2SoA(long)
@@ -779,11 +965,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNPResTx2SoA();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNPResTx2SoA
      * <em>NMTMNP Res Tx2 So A</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMNP Res Tx2 So A</em>' attribute
      *         is set.
      * @see #unsetNMTMNPResTx2SoA()
@@ -794,6 +980,70 @@ public interface TMNFeatures extends EObject {
     boolean isSetNMTMNPResTx2SoA();
 
     /**
+     * Returns the value of the '<em><b>NMTMN Redundancy</b></em>' attribute.
+     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMTMN Redundancy</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMTMN Redundancy</em>' attribute.
+     * @see #isSetNMTMNRedundancy()
+     * @see #unsetNMTMNRedundancy()
+     * @see #setNMTMNRedundancy(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNRedundancy()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='NMTMNRedundancy'"
+     * @generated
+     */
+    boolean isNMTMNRedundancy();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNRedundancy
+     * <em>NMTMN Redundancy</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>NMTMN Redundancy</em>' attribute.
+     * @see #isSetNMTMNRedundancy()
+     * @see #unsetNMTMNRedundancy()
+     * @see #isNMTMNRedundancy()
+     * @generated
+     */
+    void setNMTMNRedundancy(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNRedundancy
+     * <em>NMTMN Redundancy</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetNMTMNRedundancy()
+     * @see #isNMTMNRedundancy()
+     * @see #setNMTMNRedundancy(boolean)
+     * @generated
+     */
+    void unsetNMTMNRedundancy();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTMNRedundancy
+     * <em>NMTMN Redundancy</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMTMN Redundancy</em>' attribute is
+     *         set.
+     * @see #unsetNMTMNRedundancy()
+     * @see #isNMTMNRedundancy()
+     * @see #setNMTMNRedundancy(boolean)
+     * @generated
+     */
+    boolean isSetNMTMNRedundancy();
+
+    /**
      * Returns the value of the '<em><b>NMTMN So A2A Snd Tx</b></em>' attribute.
      * <!-- begin-user-doc -->
      * <p>
@@ -801,7 +1051,7 @@ public interface TMNFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMN So A2A Snd Tx</em>' attribute.
      * @see #isSetNMTMNSoA2ASndTx()
      * @see #unsetNMTMNSoA2ASndTx()
@@ -809,18 +1059,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNSoA2ASndTx()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNSoA2ASndTx'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNSoA2ASndTx'"
      * @generated
      */
     long getNMTMNSoA2ASndTx();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
      * <em>NMTMN So A2A Snd Tx</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMN So A2A Snd Tx</em>' attribute.
      * @see #isSetNMTMNSoA2ASndTx()
@@ -831,11 +1081,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNSoA2ASndTx(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
      * <em>NMTMN So A2A Snd Tx</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNSoA2ASndTx()
      * @see #getNMTMNSoA2ASndTx()
      * @see #setNMTMNSoA2ASndTx(long)
@@ -844,11 +1094,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNSoA2ASndTx();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoA2ASndTx
      * <em>NMTMN So A2A Snd Tx</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMN So A2A Snd Tx</em>' attribute
      *         is set.
      * @see #unsetNMTMNSoA2ASndTx()
@@ -866,7 +1116,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMTMN So C2P Req</em>' attribute.
      * @see #isSetNMTMNSoC2PReq()
      * @see #unsetNMTMNSoC2PReq()
@@ -874,18 +1124,18 @@ public interface TMNFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTMNSoC2PReq()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTMNSoC2PReq'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTMNSoC2PReq'"
      * @generated
      */
     long getNMTMNSoC2PReq();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
      * <em>NMTMN So C2P Req</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMTMN So C2P Req</em>' attribute.
      * @see #isSetNMTMNSoC2PReq()
@@ -896,11 +1146,11 @@ public interface TMNFeatures extends EObject {
     void setNMTMNSoC2PReq(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
      * <em>NMTMN So C2P Req</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMNSoC2PReq()
      * @see #getNMTMNSoC2PReq()
      * @see #setNMTMNSoC2PReq(long)
@@ -909,11 +1159,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTMNSoC2PReq();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getNMTMNSoC2PReq
      * <em>NMTMN So C2P Req</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMTMN So C2P Req</em>' attribute is
      *         set.
      * @see #unsetNMTMNSoC2PReq()
@@ -931,7 +1181,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Net Time</em>' attribute.
      * @see #isSetNMTNetTime()
      * @see #unsetNMTNetTime()
@@ -945,11 +1195,11 @@ public interface TMNFeatures extends EObject {
     boolean isNMTNetTime();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
      * <em>NMT Net Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Net Time</em>' attribute.
      * @see #isSetNMTNetTime()
@@ -960,11 +1210,11 @@ public interface TMNFeatures extends EObject {
     void setNMTNetTime(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
      * <em>NMT Net Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTNetTime()
      * @see #isNMTNetTime()
      * @see #setNMTNetTime(boolean)
@@ -973,11 +1223,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTNetTime();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTime
      * <em>NMT Net Time</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Net Time</em>' attribute is
      *         set.
      * @see #unsetNMTNetTime()
@@ -996,7 +1246,7 @@ public interface TMNFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Net Time Is Real Time</em>' attribute.
      * @see #isSetNMTNetTimeIsRealTime()
      * @see #unsetNMTNetTimeIsRealTime()
@@ -1010,11 +1260,11 @@ public interface TMNFeatures extends EObject {
     boolean isNMTNetTimeIsRealTime();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
      * <em>NMT Net Time Is Real Time</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Net Time Is Real Time</em>'
      *            attribute.
@@ -1026,11 +1276,11 @@ public interface TMNFeatures extends EObject {
     void setNMTNetTimeIsRealTime(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
      * <em>NMT Net Time Is Real Time</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTNetTimeIsRealTime()
      * @see #isNMTNetTimeIsRealTime()
      * @see #setNMTNetTimeIsRealTime(boolean)
@@ -1039,11 +1289,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTNetTimeIsRealTime();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTNetTimeIsRealTime
      * <em>NMT Net Time Is Real Time</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Net Time Is Real Time</em>'
      *         attribute is set.
      * @see #unsetNMTNetTimeIsRealTime()
@@ -1061,7 +1311,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Relative Time</em>' attribute.
      * @see #isSetNMTRelativeTime()
      * @see #unsetNMTRelativeTime()
@@ -1075,11 +1325,11 @@ public interface TMNFeatures extends EObject {
     boolean isNMTRelativeTime();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
      * <em>NMT Relative Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Relative Time</em>' attribute.
      * @see #isSetNMTRelativeTime()
@@ -1090,11 +1340,11 @@ public interface TMNFeatures extends EObject {
     void setNMTRelativeTime(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
      * <em>NMT Relative Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTRelativeTime()
      * @see #isNMTRelativeTime()
      * @see #setNMTRelativeTime(boolean)
@@ -1103,11 +1353,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTRelativeTime();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTRelativeTime
      * <em>NMT Relative Time</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Relative Time</em>' attribute
      *         is set.
      * @see #unsetNMTRelativeTime()
@@ -1118,6 +1368,70 @@ public interface TMNFeatures extends EObject {
     boolean isSetNMTRelativeTime();
 
     /**
+     * Returns the value of the '<em><b>NMT Service Udp Ip</b></em>' attribute.
+     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMT Service Udp Ip</em>' attribute isn't
+     * clear, there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMT Service Udp Ip</em>' attribute.
+     * @see #isSetNMTServiceUdpIp()
+     * @see #unsetNMTServiceUdpIp()
+     * @see #setNMTServiceUdpIp(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTMNFeatures_NMTServiceUdpIp()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='NMTServiceUdpIp'"
+     * @generated
+     */
+    boolean isNMTServiceUdpIp();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTServiceUdpIp
+     * <em>NMT Service Udp Ip</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>NMT Service Udp Ip</em>' attribute.
+     * @see #isSetNMTServiceUdpIp()
+     * @see #unsetNMTServiceUdpIp()
+     * @see #isNMTServiceUdpIp()
+     * @generated
+     */
+    void setNMTServiceUdpIp(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTServiceUdpIp
+     * <em>NMT Service Udp Ip</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetNMTServiceUdpIp()
+     * @see #isNMTServiceUdpIp()
+     * @see #setNMTServiceUdpIp(boolean)
+     * @generated
+     */
+    void unsetNMTServiceUdpIp();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTServiceUdpIp
+     * <em>NMT Service Udp Ip</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMT Service Udp Ip</em>' attribute
+     *         is set.
+     * @see #unsetNMTServiceUdpIp()
+     * @see #isNMTServiceUdpIp()
+     * @see #setNMTServiceUdpIp(boolean)
+     * @generated
+     */
+    boolean isSetNMTServiceUdpIp();
+
+    /**
      * Returns the value of the '<em><b>NMT Simple Boot</b></em>' attribute.
      * <!-- begin-user-doc -->
      * <p>
@@ -1125,7 +1439,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Simple Boot</em>' attribute.
      * @see #isSetNMTSimpleBoot()
      * @see #unsetNMTSimpleBoot()
@@ -1139,11 +1453,11 @@ public interface TMNFeatures extends EObject {
     boolean isNMTSimpleBoot();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
      * <em>NMT Simple Boot</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Simple Boot</em>' attribute.
      * @see #isSetNMTSimpleBoot()
@@ -1154,11 +1468,11 @@ public interface TMNFeatures extends EObject {
     void setNMTSimpleBoot(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
      * <em>NMT Simple Boot</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTSimpleBoot()
      * @see #isNMTSimpleBoot()
      * @see #setNMTSimpleBoot(boolean)
@@ -1167,11 +1481,11 @@ public interface TMNFeatures extends EObject {
     void unsetNMTSimpleBoot();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#isNMTSimpleBoot
      * <em>NMT Simple Boot</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Simple Boot</em>' attribute is
      *         set.
      * @see #unsetNMTSimpleBoot()
@@ -1189,7 +1503,7 @@ public interface TMNFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDOTPDO Channels</em>' attribute.
      * @see #isSetPDOTPDOChannels()
      * @see #unsetPDOTPDOChannels()
@@ -1203,11 +1517,11 @@ public interface TMNFeatures extends EObject {
     int getPDOTPDOChannels();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
      * <em>PDOTPDO Channels</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDOTPDO Channels</em>' attribute.
      * @see #isSetPDOTPDOChannels()
@@ -1218,11 +1532,11 @@ public interface TMNFeatures extends EObject {
     void setPDOTPDOChannels(int value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
      * <em>PDOTPDO Channels</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDOTPDOChannels()
      * @see #getPDOTPDOChannels()
      * @see #setPDOTPDOChannels(int)
@@ -1231,11 +1545,11 @@ public interface TMNFeatures extends EObject {
     void unsetPDOTPDOChannels();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TMNFeatures#getPDOTPDOChannels
      * <em>PDOTPDO Channels</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDOTPDO Channels</em>' attribute is
      *         set.
      * @see #unsetPDOTPDOChannels()

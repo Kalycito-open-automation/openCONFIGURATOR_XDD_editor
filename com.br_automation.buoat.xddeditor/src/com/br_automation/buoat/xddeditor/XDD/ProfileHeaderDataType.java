@@ -1,54 +1,40 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Profile Header Data Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Profile
+ * Header Data Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileIdentification
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileIdentification
  * <em>Profile Identification</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileRevision
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileRevision
  * <em>Profile Revision</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileName
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileName
  * <em>Profile Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileSource
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileSource
  * <em>Profile Source</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
  * <em>Profile Class ID</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileDate
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileDate
  * <em>Profile Date</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getAdditionalInformation
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getAdditionalInformation
  * <em>Additional Information</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getISO15745Reference
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getISO15745Reference
  * <em>ISO15745 Reference</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getIASInterfaceType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getIASInterfaceType
  * <em>IAS Interface Type</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType()
  * @model extendedMetaData="name='ProfileHeader_DataType' kind='elementOnly'"
  * @generated
@@ -62,23 +48,23 @@ public interface ProfileHeaderDataType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Identification</em>' attribute.
      * @see #setProfileIdentification(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ProfileIdentification()
      * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ProfileIdentification' namespace='##targetNamespace'"
+     *        extendedMetaData="kind='element' name='ProfileIdentification'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileIdentification();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileIdentification
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileIdentification
      * <em>Profile Identification</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Identification</em>'
      *            attribute.
@@ -95,23 +81,23 @@ public interface ProfileHeaderDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Revision</em>' attribute.
      * @see #setProfileRevision(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ProfileRevision()
      * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ProfileRevision' namespace='##targetNamespace'"
+     *        extendedMetaData="kind='element' name='ProfileRevision'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileRevision();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileRevision
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileRevision
      * <em>Profile Revision</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Revision</em>' attribute.
      * @see #getProfileRevision()
@@ -127,23 +113,23 @@ public interface ProfileHeaderDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Name</em>' attribute.
      * @see #setProfileName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ProfileName()
      * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ProfileName' namespace='##targetNamespace'"
+     *        extendedMetaData="kind='element' name='ProfileName'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileName
      * <em>Profile Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Name</em>' attribute.
      * @see #getProfileName()
@@ -159,23 +145,23 @@ public interface ProfileHeaderDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Source</em>' attribute.
      * @see #setProfileSource(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ProfileSource()
      * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ProfileSource' namespace='##targetNamespace'"
+     *        extendedMetaData="kind='element' name='ProfileSource'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileSource();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileSource
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileSource
      * <em>Profile Source</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Source</em>' attribute.
      * @see #getProfileSource()
@@ -193,25 +179,25 @@ public interface ProfileHeaderDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Class ID</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.ProfileClassIDDataType
      * @see #isSetProfileClassID()
      * @see #unsetProfileClassID()
      * @see #setProfileClassID(ProfileClassIDDataType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ProfileClassID()
-     * @model unsettable="true" required="true" extendedMetaData=
-     *        "kind='element' name='ProfileClassID' namespace='##targetNamespace'"
+     * @model unsettable="true" required="true" extendedMetaData="kind='element'
+     *        name='ProfileClassID' namespace='##targetNamespace'"
      * @generated
      */
     ProfileClassIDDataType getProfileClassID();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
      * <em>Profile Class ID</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Class ID</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.ProfileClassIDDataType
@@ -223,11 +209,11 @@ public interface ProfileHeaderDataType extends EObject {
     void setProfileClassID(ProfileClassIDDataType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
      * <em>Profile Class ID</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetProfileClassID()
      * @see #getProfileClassID()
      * @see #setProfileClassID(ProfileClassIDDataType)
@@ -236,11 +222,11 @@ public interface ProfileHeaderDataType extends EObject {
     void unsetProfileClassID();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileClassID
      * <em>Profile Class ID</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Profile Class ID</em>' attribute is
      *         set.
      * @see #unsetProfileClassID()
@@ -258,22 +244,23 @@ public interface ProfileHeaderDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Date</em>' attribute.
      * @see #setProfileDate(XMLGregorianCalendar)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ProfileDate()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.Date" extendedMetaData=
-     *        "kind='element' name='ProfileDate' namespace='##targetNamespace'"
+     * @model dataType="org.eclipse.emf.ecore.xml.type.Date"
+     *        extendedMetaData="kind='element' name='ProfileDate'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     XMLGregorianCalendar getProfileDate();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileDate
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getProfileDate
      * <em>Profile Date</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Date</em>' attribute.
      * @see #getProfileDate()
@@ -289,22 +276,23 @@ public interface ProfileHeaderDataType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Additional Information</em>' attribute.
      * @see #setAdditionalInformation(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_AdditionalInformation()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI" extendedMetaData=
-     *        "kind='element' name='AdditionalInformation' namespace='##targetNamespace'"
+     * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI"
+     *        extendedMetaData="kind='element' name='AdditionalInformation'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getAdditionalInformation();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getAdditionalInformation
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getAdditionalInformation
      * <em>Additional Information</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Additional Information</em>'
      *            attribute.
@@ -321,23 +309,24 @@ public interface ProfileHeaderDataType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>ISO15745 Reference</em>' containment
      *         reference.
      * @see #setISO15745Reference(ISO15745ReferenceDataType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_ISO15745Reference()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='ISO15745Reference' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='ISO15745Reference'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     ISO15745ReferenceDataType getISO15745Reference();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getISO15745Reference
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHeaderDataType#getISO15745Reference
      * <em>ISO15745 Reference</em>}' containment reference. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>ISO15745 Reference</em>' containment
      *            reference.
@@ -355,13 +344,13 @@ public interface ProfileHeaderDataType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>IAS Interface Type</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHeaderDataType_IASInterfaceType()
      * @model unique="false"
-     *        dataType="com.br_automation.buoat.xddeditor.XDD.IASInterfaceDataType"
-     *        extendedMetaData=
-     *        "kind='element' name='IASInterfaceType' namespace='##targetNamespace'"
+     *        dataType="com.br_automation.buoat.xddeditor.ethernet.IASInterfaceDataType"
+     *        extendedMetaData="kind='element' name='IASInterfaceType'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<Object> getIASInterfaceType();

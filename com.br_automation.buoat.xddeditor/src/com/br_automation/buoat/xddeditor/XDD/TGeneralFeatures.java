@@ -1,215 +1,163 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TGeneral Features</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>TGeneral
+ * Features</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
- * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
- * <em>CFM Config Manager</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
- * <em>DLL Err Bad Phys Mode</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
- * <em>DLL Err Mac Buffer</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
- * <em>DLL Feature CN</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
- * <em>DLL Feature MN</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
- * <em>NMT Boot Time Not Active</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
- * <em>NMT Cycle Time Granularity</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
- * <em>NMT Cycle Time Max</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
- * <em>NMT Cycle Time Min</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
- * <em>NMT Emergency Queue Size</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
- * <em>NMT Error Entries</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
- * <em>NMT Flush Arp Entry</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
- * <em>NMT Max CN Node ID</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
- * <em>NMT Max CN Number</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
- * <em>NMT Max Heartbeats</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
- * <em>NMT Min Red Cycle Time</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
- * <em>NMT Net Host Name Set</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
- * <em>NMT Node ID By HW</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
- * <em>NMT Product Code</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
- * <em>NMT Publish Active Nodes</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
- * <em>NMT Publish Config Nodes</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
- * <em>NMT Publish Emergency New</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
- * <em>NMT Publish Node State</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
- * <em>NMT Publish Operational</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
- * <em>NMT Publish Pre Op1</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
- * <em>NMT Publish Pre Op2</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
- * <em>NMT Publish Ready To Op</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
- * <em>NMT Publish Stopped</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
- * <em>NMT Publish Time</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
- * <em>NMT Revision No</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
- * <em>NWL Forward</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
- * <em>NWLICMP Support</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
- * <em>NWLIP Support</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
- * <em>PDO Granularity</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
- * <em>PDO Max Descr Mem</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
- * <em>PDORPDO Channel Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
- * <em>PDORPDO Channels</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
- * <em>PDORPDO Cycle Data Lim</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
- * <em>PDORPDO Overall Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
- * <em>PDO Self Receipt</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
- * <em>PDOTPDO Channel Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
- * <em>PDOTPDO Cycle Data Lim</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
- * <em>PDOTPDO Overall Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
- * <em>PHY Ext EPL Ports</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
- * <em>PHY Hub Delay</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
- * <em>PHY Hub Integrated</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
- * <em>PHY Hub Jitter</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
- * <em>RT1RT1 Security Support</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
- * <em>RT1RT1 Support</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
- * <em>RT2RT2 Support</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
- * <em>SDO Client</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
- * <em>SDO Cmd File Read</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
- * <em>SDO Cmd File Write</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
- * <em>SDO Cmd Link Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
- * <em>SDO Cmd Read All By Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
- * <em>SDO Cmd Read By Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
- * <em>SDO Cmd Read Mult Param</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
- * <em>SDO Cmd Write All By Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
- * <em>SDO Cmd Write By Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
- * <em>SDO Cmd Write Mult Param</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
- * <em>SDO Max Connections</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
- * <em>SDO Max Parallel Connections</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
- * <em>SDO Seq Layer Tx History Size</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
- * <em>SDO Server</em>}</li>
- * </ul>
  * </p>
- * 
+ * <ul>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
+ * <em>CFM Config Manager</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
+ * <em>DLL Err Bad Phys Mode</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
+ * <em>DLL Err Mac Buffer</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
+ * <em>DLL Feature CN</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
+ * <em>DLL Feature MN</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLMultiplePReqPRes
+ * <em>DLL Multiple PReq PRes</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
+ * <em>NMT Boot Time Not Active</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
+ * <em>NMT Cycle Time Granularity</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
+ * <em>NMT Cycle Time Max</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
+ * <em>NMT Cycle Time Min</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
+ * <em>NMT Emergency Queue Size</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
+ * <em>NMT Error Entries</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTExtNmtCmds
+ * <em>NMT Ext Nmt Cmds</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
+ * <em>NMT Flush Arp Entry</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTIsochronous
+ * <em>NMT Isochronous</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
+ * <em>NMT Max CN Node ID</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
+ * <em>NMT Max CN Number</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
+ * <em>NMT Max Heartbeats</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
+ * <em>NMT Min Red Cycle Time</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
+ * <em>NMT Net Host Name Set</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
+ * <em>NMT Node ID By HW</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDBySW
+ * <em>NMT Node ID By SW</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
+ * <em>NMT Product Code</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
+ * <em>NMT Publish Active Nodes</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
+ * <em>NMT Publish Config Nodes</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
+ * <em>NMT Publish Emergency New</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
+ * <em>NMT Publish Node State</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
+ * <em>NMT Publish Operational</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
+ * <em>NMT Publish Pre Op1</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
+ * <em>NMT Publish Pre Op2</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
+ * <em>NMT Publish Ready To Op</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
+ * <em>NMT Publish Stopped</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
+ * <em>NMT Publish Time</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
+ * <em>NMT Revision No</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
+ * <em>NWL Forward</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
+ * <em>NWLICMP Support</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
+ * <em>NWLIP Support</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDODynamicMapping
+ * <em>PDO Dynamic Mapping</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
+ * <em>PDO Granularity</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
+ * <em>PDO Max Descr Mem</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
+ * <em>PDORPDO Channel Objects</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
+ * <em>PDORPDO Channels</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
+ * <em>PDORPDO Cycle Data Lim</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
+ * <em>PDORPDO Overall Objects</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
+ * <em>PDO Self Receipt</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
+ * <em>PDOTPDO Channel Objects</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
+ * <em>PDOTPDO Cycle Data Lim</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
+ * <em>PDOTPDO Overall Objects</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
+ * <em>PHY Ext EPL Ports</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
+ * <em>PHY Hub Delay</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
+ * <em>PHY Hub Integrated</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
+ * <em>PHY Hub Jitter</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
+ * <em>RT1RT1 Security Support</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
+ * <em>RT1RT1 Support</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
+ * <em>RT2RT2 Support</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
+ * <em>SDO Client</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
+ * <em>SDO Cmd File Read</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
+ * <em>SDO Cmd File Write</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
+ * <em>SDO Cmd Link Name</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
+ * <em>SDO Cmd Read All By Index</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
+ * <em>SDO Cmd Read By Name</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
+ * <em>SDO Cmd Read Mult Param</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
+ * <em>SDO Cmd Write All By Index</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
+ * <em>SDO Cmd Write By Name</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
+ * <em>SDO Cmd Write Mult Param</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
+ * <em>SDO Max Connections</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
+ * <em>SDO Max Parallel Connections</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
+ * <em>SDO Seq Layer Tx History Size</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
+ * <em>SDO Server</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportASnd
+ * <em>SDO Support ASnd</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportPDO
+ * <em>SDO Support PDO</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportUdpIp
+ * <em>SDO Support Udp Ip</em>}</li>
+ * </ul>
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures()
  * @model extendedMetaData="name='t_GeneralFeatures' kind='empty'"
  * @generated
@@ -223,7 +171,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>CFM Config Manager</em>' attribute.
      * @see #isSetCFMConfigManager()
      * @see #unsetCFMConfigManager()
@@ -237,11 +185,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isCFMConfigManager();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
      * <em>CFM Config Manager</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>CFM Config Manager</em>' attribute.
      * @see #isSetCFMConfigManager()
@@ -252,11 +200,11 @@ public interface TGeneralFeatures extends EObject {
     void setCFMConfigManager(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
      * <em>CFM Config Manager</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetCFMConfigManager()
      * @see #isCFMConfigManager()
      * @see #setCFMConfigManager(boolean)
@@ -265,11 +213,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetCFMConfigManager();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isCFMConfigManager
      * <em>CFM Config Manager</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>CFM Config Manager</em>' attribute
      *         is set.
      * @see #unsetCFMConfigManager()
@@ -288,7 +236,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLL Err Bad Phys Mode</em>' attribute.
      * @see #isSetDLLErrBadPhysMode()
      * @see #unsetDLLErrBadPhysMode()
@@ -302,11 +250,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isDLLErrBadPhysMode();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
      * <em>DLL Err Bad Phys Mode</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLL Err Bad Phys Mode</em>'
      *            attribute.
@@ -318,11 +266,11 @@ public interface TGeneralFeatures extends EObject {
     void setDLLErrBadPhysMode(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
      * <em>DLL Err Bad Phys Mode</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLErrBadPhysMode()
      * @see #isDLLErrBadPhysMode()
      * @see #setDLLErrBadPhysMode(boolean)
@@ -331,11 +279,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetDLLErrBadPhysMode();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrBadPhysMode
      * <em>DLL Err Bad Phys Mode</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLL Err Bad Phys Mode</em>'
      *         attribute is set.
      * @see #unsetDLLErrBadPhysMode()
@@ -353,7 +301,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLL Err Mac Buffer</em>' attribute.
      * @see #isSetDLLErrMacBuffer()
      * @see #unsetDLLErrMacBuffer()
@@ -367,11 +315,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isDLLErrMacBuffer();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
      * <em>DLL Err Mac Buffer</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLL Err Mac Buffer</em>' attribute.
      * @see #isSetDLLErrMacBuffer()
@@ -382,11 +330,11 @@ public interface TGeneralFeatures extends EObject {
     void setDLLErrMacBuffer(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
      * <em>DLL Err Mac Buffer</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLErrMacBuffer()
      * @see #isDLLErrMacBuffer()
      * @see #setDLLErrMacBuffer(boolean)
@@ -395,11 +343,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetDLLErrMacBuffer();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLErrMacBuffer
      * <em>DLL Err Mac Buffer</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLL Err Mac Buffer</em>' attribute
      *         is set.
      * @see #unsetDLLErrMacBuffer()
@@ -417,7 +365,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLL Feature CN</em>' attribute.
      * @see #isSetDLLFeatureCN()
      * @see #unsetDLLFeatureCN()
@@ -431,11 +379,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isDLLFeatureCN();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
      * <em>DLL Feature CN</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLL Feature CN</em>' attribute.
      * @see #isSetDLLFeatureCN()
@@ -446,11 +394,11 @@ public interface TGeneralFeatures extends EObject {
     void setDLLFeatureCN(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
      * <em>DLL Feature CN</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLFeatureCN()
      * @see #isDLLFeatureCN()
      * @see #setDLLFeatureCN(boolean)
@@ -459,11 +407,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetDLLFeatureCN();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureCN
      * <em>DLL Feature CN</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLL Feature CN</em>' attribute is
      *         set.
      * @see #unsetDLLFeatureCN()
@@ -481,7 +429,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DLL Feature MN</em>' attribute.
      * @see #isSetDLLFeatureMN()
      * @see #unsetDLLFeatureMN()
@@ -495,11 +443,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isDLLFeatureMN();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
      * <em>DLL Feature MN</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DLL Feature MN</em>' attribute.
      * @see #isSetDLLFeatureMN()
@@ -510,11 +458,11 @@ public interface TGeneralFeatures extends EObject {
     void setDLLFeatureMN(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
      * <em>DLL Feature MN</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetDLLFeatureMN()
      * @see #isDLLFeatureMN()
      * @see #setDLLFeatureMN(boolean)
@@ -523,11 +471,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetDLLFeatureMN();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLFeatureMN
      * <em>DLL Feature MN</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>DLL Feature MN</em>' attribute is
      *         set.
      * @see #unsetDLLFeatureMN()
@@ -538,6 +486,72 @@ public interface TGeneralFeatures extends EObject {
     boolean isSetDLLFeatureMN();
 
     /**
+     * Returns the value of the '<em><b>DLL Multiple PReq PRes</b></em>'
+     * attribute. The default value is <code>"false"</code>. <!-- begin-user-doc
+     * -->
+     * <p>
+     * If the meaning of the '<em>DLL Multiple PReq PRes</em>' attribute isn't
+     * clear, there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>DLL Multiple PReq PRes</em>' attribute.
+     * @see #isSetDLLMultiplePReqPRes()
+     * @see #unsetDLLMultiplePReqPRes()
+     * @see #setDLLMultiplePReqPRes(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_DLLMultiplePReqPRes()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='DLLMultiplePReqPRes'"
+     * @generated
+     */
+    boolean isDLLMultiplePReqPRes();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLMultiplePReqPRes
+     * <em>DLL Multiple PReq PRes</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>DLL Multiple PReq PRes</em>'
+     *            attribute.
+     * @see #isSetDLLMultiplePReqPRes()
+     * @see #unsetDLLMultiplePReqPRes()
+     * @see #isDLLMultiplePReqPRes()
+     * @generated
+     */
+    void setDLLMultiplePReqPRes(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLMultiplePReqPRes
+     * <em>DLL Multiple PReq PRes</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetDLLMultiplePReqPRes()
+     * @see #isDLLMultiplePReqPRes()
+     * @see #setDLLMultiplePReqPRes(boolean)
+     * @generated
+     */
+    void unsetDLLMultiplePReqPRes();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isDLLMultiplePReqPRes
+     * <em>DLL Multiple PReq PRes</em>}' attribute is set. <!-- begin-user-doc
+     * --> <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>DLL Multiple PReq PRes</em>'
+     *         attribute is set.
+     * @see #unsetDLLMultiplePReqPRes()
+     * @see #isDLLMultiplePReqPRes()
+     * @see #setDLLMultiplePReqPRes(boolean)
+     * @generated
+     */
+    boolean isSetDLLMultiplePReqPRes();
+
+    /**
      * Returns the value of the '<em><b>NMT Boot Time Not Active</b></em>'
      * attribute. <!-- begin-user-doc -->
      * <p>
@@ -545,7 +559,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Boot Time Not Active</em>' attribute.
      * @see #isSetNMTBootTimeNotActive()
      * @see #unsetNMTBootTimeNotActive()
@@ -553,18 +567,18 @@ public interface TGeneralFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTBootTimeNotActive()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTBootTimeNotActive'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTBootTimeNotActive'"
      * @generated
      */
     long getNMTBootTimeNotActive();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
      * <em>NMT Boot Time Not Active</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Boot Time Not Active</em>'
      *            attribute.
@@ -576,11 +590,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTBootTimeNotActive(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
      * <em>NMT Boot Time Not Active</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTBootTimeNotActive()
      * @see #getNMTBootTimeNotActive()
      * @see #setNMTBootTimeNotActive(long)
@@ -589,11 +603,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTBootTimeNotActive();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTBootTimeNotActive
      * <em>NMT Boot Time Not Active</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Boot Time Not Active</em>'
      *         attribute is set.
      * @see #unsetNMTBootTimeNotActive()
@@ -611,7 +625,7 @@ public interface TGeneralFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Cycle Time Granularity</em>' attribute.
      * @see #isSetNMTCycleTimeGranularity()
      * @see #unsetNMTCycleTimeGranularity()
@@ -625,11 +639,11 @@ public interface TGeneralFeatures extends EObject {
     long getNMTCycleTimeGranularity();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
      * <em>NMT Cycle Time Granularity</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Cycle Time Granularity</em>'
      *            attribute.
@@ -641,11 +655,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTCycleTimeGranularity(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
      * <em>NMT Cycle Time Granularity</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTCycleTimeGranularity()
      * @see #getNMTCycleTimeGranularity()
      * @see #setNMTCycleTimeGranularity(long)
@@ -654,11 +668,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTCycleTimeGranularity();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeGranularity
      * <em>NMT Cycle Time Granularity</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Cycle Time Granularity</em>'
      *         attribute is set.
      * @see #unsetNMTCycleTimeGranularity()
@@ -676,7 +690,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Cycle Time Max</em>' attribute.
      * @see #isSetNMTCycleTimeMax()
      * @see #unsetNMTCycleTimeMax()
@@ -684,18 +698,18 @@ public interface TGeneralFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTCycleTimeMax()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTCycleTimeMax'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTCycleTimeMax'"
      * @generated
      */
     long getNMTCycleTimeMax();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
      * <em>NMT Cycle Time Max</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Cycle Time Max</em>' attribute.
      * @see #isSetNMTCycleTimeMax()
@@ -706,11 +720,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTCycleTimeMax(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
      * <em>NMT Cycle Time Max</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTCycleTimeMax()
      * @see #getNMTCycleTimeMax()
      * @see #setNMTCycleTimeMax(long)
@@ -719,11 +733,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTCycleTimeMax();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMax
      * <em>NMT Cycle Time Max</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Cycle Time Max</em>' attribute
      *         is set.
      * @see #unsetNMTCycleTimeMax()
@@ -741,7 +755,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Cycle Time Min</em>' attribute.
      * @see #isSetNMTCycleTimeMin()
      * @see #unsetNMTCycleTimeMin()
@@ -749,18 +763,18 @@ public interface TGeneralFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTCycleTimeMin()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTCycleTimeMin'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTCycleTimeMin'"
      * @generated
      */
     long getNMTCycleTimeMin();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
      * <em>NMT Cycle Time Min</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Cycle Time Min</em>' attribute.
      * @see #isSetNMTCycleTimeMin()
@@ -771,11 +785,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTCycleTimeMin(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
      * <em>NMT Cycle Time Min</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTCycleTimeMin()
      * @see #getNMTCycleTimeMin()
      * @see #setNMTCycleTimeMin(long)
@@ -784,11 +798,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTCycleTimeMin();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTCycleTimeMin
      * <em>NMT Cycle Time Min</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Cycle Time Min</em>' attribute
      *         is set.
      * @see #unsetNMTCycleTimeMin()
@@ -806,7 +820,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Emergency Queue Size</em>' attribute.
      * @see #isSetNMTEmergencyQueueSize()
      * @see #unsetNMTEmergencyQueueSize()
@@ -820,11 +834,11 @@ public interface TGeneralFeatures extends EObject {
     long getNMTEmergencyQueueSize();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
      * <em>NMT Emergency Queue Size</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Emergency Queue Size</em>'
      *            attribute.
@@ -836,11 +850,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTEmergencyQueueSize(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
      * <em>NMT Emergency Queue Size</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTEmergencyQueueSize()
      * @see #getNMTEmergencyQueueSize()
      * @see #setNMTEmergencyQueueSize(long)
@@ -849,11 +863,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTEmergencyQueueSize();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTEmergencyQueueSize
      * <em>NMT Emergency Queue Size</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Emergency Queue Size</em>'
      *         attribute is set.
      * @see #unsetNMTEmergencyQueueSize()
@@ -871,7 +885,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Error Entries</em>' attribute.
      * @see #isSetNMTErrorEntries()
      * @see #unsetNMTErrorEntries()
@@ -879,18 +893,18 @@ public interface TGeneralFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTErrorEntries()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='NMTErrorEntries'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='NMTErrorEntries'"
      * @generated
      */
     long getNMTErrorEntries();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
      * <em>NMT Error Entries</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Error Entries</em>' attribute.
      * @see #isSetNMTErrorEntries()
@@ -901,11 +915,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTErrorEntries(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
      * <em>NMT Error Entries</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTErrorEntries()
      * @see #getNMTErrorEntries()
      * @see #setNMTErrorEntries(long)
@@ -914,11 +928,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTErrorEntries();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTErrorEntries
      * <em>NMT Error Entries</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Error Entries</em>' attribute
      *         is set.
      * @see #unsetNMTErrorEntries()
@@ -929,6 +943,70 @@ public interface TGeneralFeatures extends EObject {
     boolean isSetNMTErrorEntries();
 
     /**
+     * Returns the value of the '<em><b>NMT Ext Nmt Cmds</b></em>' attribute.
+     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMT Ext Nmt Cmds</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMT Ext Nmt Cmds</em>' attribute.
+     * @see #isSetNMTExtNmtCmds()
+     * @see #unsetNMTExtNmtCmds()
+     * @see #setNMTExtNmtCmds(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTExtNmtCmds()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='NMTExtNmtCmds'"
+     * @generated
+     */
+    boolean isNMTExtNmtCmds();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTExtNmtCmds
+     * <em>NMT Ext Nmt Cmds</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>NMT Ext Nmt Cmds</em>' attribute.
+     * @see #isSetNMTExtNmtCmds()
+     * @see #unsetNMTExtNmtCmds()
+     * @see #isNMTExtNmtCmds()
+     * @generated
+     */
+    void setNMTExtNmtCmds(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTExtNmtCmds
+     * <em>NMT Ext Nmt Cmds</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetNMTExtNmtCmds()
+     * @see #isNMTExtNmtCmds()
+     * @see #setNMTExtNmtCmds(boolean)
+     * @generated
+     */
+    void unsetNMTExtNmtCmds();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTExtNmtCmds
+     * <em>NMT Ext Nmt Cmds</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMT Ext Nmt Cmds</em>' attribute is
+     *         set.
+     * @see #unsetNMTExtNmtCmds()
+     * @see #isNMTExtNmtCmds()
+     * @see #setNMTExtNmtCmds(boolean)
+     * @generated
+     */
+    boolean isSetNMTExtNmtCmds();
+
+    /**
      * Returns the value of the '<em><b>NMT Flush Arp Entry</b></em>' attribute.
      * The default value is <code>"false"</code>. <!-- begin-user-doc -->
      * <p>
@@ -936,7 +1014,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Flush Arp Entry</em>' attribute.
      * @see #isSetNMTFlushArpEntry()
      * @see #unsetNMTFlushArpEntry()
@@ -950,11 +1028,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTFlushArpEntry();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
      * <em>NMT Flush Arp Entry</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Flush Arp Entry</em>' attribute.
      * @see #isSetNMTFlushArpEntry()
@@ -965,11 +1043,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTFlushArpEntry(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
      * <em>NMT Flush Arp Entry</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTFlushArpEntry()
      * @see #isNMTFlushArpEntry()
      * @see #setNMTFlushArpEntry(boolean)
@@ -978,11 +1056,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTFlushArpEntry();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTFlushArpEntry
      * <em>NMT Flush Arp Entry</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Flush Arp Entry</em>' attribute
      *         is set.
      * @see #unsetNMTFlushArpEntry()
@@ -993,6 +1071,70 @@ public interface TGeneralFeatures extends EObject {
     boolean isSetNMTFlushArpEntry();
 
     /**
+     * Returns the value of the '<em><b>NMT Isochronous</b></em>' attribute. The
+     * default value is <code>"true"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMT Isochronous</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMT Isochronous</em>' attribute.
+     * @see #isSetNMTIsochronous()
+     * @see #unsetNMTIsochronous()
+     * @see #setNMTIsochronous(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTIsochronous()
+     * @model default="true" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='NMTIsochronous'"
+     * @generated
+     */
+    boolean isNMTIsochronous();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTIsochronous
+     * <em>NMT Isochronous</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>NMT Isochronous</em>' attribute.
+     * @see #isSetNMTIsochronous()
+     * @see #unsetNMTIsochronous()
+     * @see #isNMTIsochronous()
+     * @generated
+     */
+    void setNMTIsochronous(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTIsochronous
+     * <em>NMT Isochronous</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetNMTIsochronous()
+     * @see #isNMTIsochronous()
+     * @see #setNMTIsochronous(boolean)
+     * @generated
+     */
+    void unsetNMTIsochronous();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTIsochronous
+     * <em>NMT Isochronous</em>}' attribute is set. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMT Isochronous</em>' attribute is
+     *         set.
+     * @see #unsetNMTIsochronous()
+     * @see #isNMTIsochronous()
+     * @see #setNMTIsochronous(boolean)
+     * @generated
+     */
+    boolean isSetNMTIsochronous();
+
+    /**
      * Returns the value of the '<em><b>NMT Max CN Node ID</b></em>' attribute.
      * The default value is <code>"239"</code>. <!-- begin-user-doc -->
      * <p>
@@ -1000,7 +1142,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Max CN Node ID</em>' attribute.
      * @see #isSetNMTMaxCNNodeID()
      * @see #unsetNMTMaxCNNodeID()
@@ -1014,11 +1156,11 @@ public interface TGeneralFeatures extends EObject {
     short getNMTMaxCNNodeID();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
      * <em>NMT Max CN Node ID</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Max CN Node ID</em>' attribute.
      * @see #isSetNMTMaxCNNodeID()
@@ -1029,11 +1171,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTMaxCNNodeID(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
      * <em>NMT Max CN Node ID</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMaxCNNodeID()
      * @see #getNMTMaxCNNodeID()
      * @see #setNMTMaxCNNodeID(short)
@@ -1042,11 +1184,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTMaxCNNodeID();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNodeID
      * <em>NMT Max CN Node ID</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Max CN Node ID</em>' attribute
      *         is set.
      * @see #unsetNMTMaxCNNodeID()
@@ -1064,7 +1206,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Max CN Number</em>' attribute.
      * @see #isSetNMTMaxCNNumber()
      * @see #unsetNMTMaxCNNumber()
@@ -1078,11 +1220,11 @@ public interface TGeneralFeatures extends EObject {
     short getNMTMaxCNNumber();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
      * <em>NMT Max CN Number</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Max CN Number</em>' attribute.
      * @see #isSetNMTMaxCNNumber()
@@ -1093,11 +1235,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTMaxCNNumber(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
      * <em>NMT Max CN Number</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMaxCNNumber()
      * @see #getNMTMaxCNNumber()
      * @see #setNMTMaxCNNumber(short)
@@ -1106,11 +1248,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTMaxCNNumber();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxCNNumber
      * <em>NMT Max CN Number</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Max CN Number</em>' attribute
      *         is set.
      * @see #unsetNMTMaxCNNumber()
@@ -1128,7 +1270,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Max Heartbeats</em>' attribute.
      * @see #isSetNMTMaxHeartbeats()
      * @see #unsetNMTMaxHeartbeats()
@@ -1142,11 +1284,11 @@ public interface TGeneralFeatures extends EObject {
     short getNMTMaxHeartbeats();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
      * <em>NMT Max Heartbeats</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Max Heartbeats</em>' attribute.
      * @see #isSetNMTMaxHeartbeats()
@@ -1157,11 +1299,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTMaxHeartbeats(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
      * <em>NMT Max Heartbeats</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMaxHeartbeats()
      * @see #getNMTMaxHeartbeats()
      * @see #setNMTMaxHeartbeats(short)
@@ -1170,11 +1312,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTMaxHeartbeats();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMaxHeartbeats
      * <em>NMT Max Heartbeats</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Max Heartbeats</em>' attribute
      *         is set.
      * @see #unsetNMTMaxHeartbeats()
@@ -1192,7 +1334,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Min Red Cycle Time</em>' attribute.
      * @see #isSetNMTMinRedCycleTime()
      * @see #unsetNMTMinRedCycleTime()
@@ -1206,11 +1348,11 @@ public interface TGeneralFeatures extends EObject {
     long getNMTMinRedCycleTime();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
      * <em>NMT Min Red Cycle Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Min Red Cycle Time</em>'
      *            attribute.
@@ -1222,11 +1364,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTMinRedCycleTime(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
      * <em>NMT Min Red Cycle Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTMinRedCycleTime()
      * @see #getNMTMinRedCycleTime()
      * @see #setNMTMinRedCycleTime(long)
@@ -1235,11 +1377,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTMinRedCycleTime();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTMinRedCycleTime
      * <em>NMT Min Red Cycle Time</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Min Red Cycle Time</em>'
      *         attribute is set.
      * @see #unsetNMTMinRedCycleTime()
@@ -1258,7 +1400,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Net Host Name Set</em>' attribute.
      * @see #isSetNMTNetHostNameSet()
      * @see #unsetNMTNetHostNameSet()
@@ -1272,11 +1414,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTNetHostNameSet();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
      * <em>NMT Net Host Name Set</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Net Host Name Set</em>'
      *            attribute.
@@ -1288,11 +1430,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTNetHostNameSet(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
      * <em>NMT Net Host Name Set</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTNetHostNameSet()
      * @see #isNMTNetHostNameSet()
      * @see #setNMTNetHostNameSet(boolean)
@@ -1301,11 +1443,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTNetHostNameSet();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNetHostNameSet
      * <em>NMT Net Host Name Set</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Net Host Name Set</em>'
      *         attribute is set.
      * @see #unsetNMTNetHostNameSet()
@@ -1323,7 +1465,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Node ID By HW</em>' attribute.
      * @see #isSetNMTNodeIDByHW()
      * @see #unsetNMTNodeIDByHW()
@@ -1337,11 +1479,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTNodeIDByHW();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
      * <em>NMT Node ID By HW</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Node ID By HW</em>' attribute.
      * @see #isSetNMTNodeIDByHW()
@@ -1352,11 +1494,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTNodeIDByHW(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
      * <em>NMT Node ID By HW</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTNodeIDByHW()
      * @see #isNMTNodeIDByHW()
      * @see #setNMTNodeIDByHW(boolean)
@@ -1365,11 +1507,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTNodeIDByHW();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDByHW
      * <em>NMT Node ID By HW</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Node ID By HW</em>' attribute
      *         is set.
      * @see #unsetNMTNodeIDByHW()
@@ -1380,6 +1522,70 @@ public interface TGeneralFeatures extends EObject {
     boolean isSetNMTNodeIDByHW();
 
     /**
+     * Returns the value of the '<em><b>NMT Node ID By SW</b></em>' attribute.
+     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>NMT Node ID By SW</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>NMT Node ID By SW</em>' attribute.
+     * @see #isSetNMTNodeIDBySW()
+     * @see #unsetNMTNodeIDBySW()
+     * @see #setNMTNodeIDBySW(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_NMTNodeIDBySW()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='NMTNodeIDBySW'"
+     * @generated
+     */
+    boolean isNMTNodeIDBySW();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDBySW
+     * <em>NMT Node ID By SW</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>NMT Node ID By SW</em>' attribute.
+     * @see #isSetNMTNodeIDBySW()
+     * @see #unsetNMTNodeIDBySW()
+     * @see #isNMTNodeIDBySW()
+     * @generated
+     */
+    void setNMTNodeIDBySW(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDBySW
+     * <em>NMT Node ID By SW</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetNMTNodeIDBySW()
+     * @see #isNMTNodeIDBySW()
+     * @see #setNMTNodeIDBySW(boolean)
+     * @generated
+     */
+    void unsetNMTNodeIDBySW();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTNodeIDBySW
+     * <em>NMT Node ID By SW</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>NMT Node ID By SW</em>' attribute
+     *         is set.
+     * @see #unsetNMTNodeIDBySW()
+     * @see #isNMTNodeIDBySW()
+     * @see #setNMTNodeIDBySW(boolean)
+     * @generated
+     */
+    boolean isSetNMTNodeIDBySW();
+
+    /**
      * Returns the value of the '<em><b>NMT Product Code</b></em>' attribute.
      * The default value is <code>"0"</code>. <!-- begin-user-doc -->
      * <p>
@@ -1387,7 +1593,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Product Code</em>' attribute.
      * @see #isSetNMTProductCode()
      * @see #unsetNMTProductCode()
@@ -1401,11 +1607,11 @@ public interface TGeneralFeatures extends EObject {
     long getNMTProductCode();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
      * <em>NMT Product Code</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Product Code</em>' attribute.
      * @see #isSetNMTProductCode()
@@ -1416,11 +1622,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTProductCode(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
      * <em>NMT Product Code</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTProductCode()
      * @see #getNMTProductCode()
      * @see #setNMTProductCode(long)
@@ -1429,11 +1635,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTProductCode();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTProductCode
      * <em>NMT Product Code</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Product Code</em>' attribute is
      *         set.
      * @see #unsetNMTProductCode()
@@ -1452,7 +1658,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Active Nodes</em>' attribute.
      * @see #isSetNMTPublishActiveNodes()
      * @see #unsetNMTPublishActiveNodes()
@@ -1466,11 +1672,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishActiveNodes();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
      * <em>NMT Publish Active Nodes</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Active Nodes</em>'
      *            attribute.
@@ -1482,11 +1688,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishActiveNodes(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
      * <em>NMT Publish Active Nodes</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishActiveNodes()
      * @see #isNMTPublishActiveNodes()
      * @see #setNMTPublishActiveNodes(boolean)
@@ -1495,11 +1701,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishActiveNodes();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishActiveNodes
      * <em>NMT Publish Active Nodes</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Active Nodes</em>'
      *         attribute is set.
      * @see #unsetNMTPublishActiveNodes()
@@ -1518,7 +1724,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Config Nodes</em>' attribute.
      * @see #isSetNMTPublishConfigNodes()
      * @see #unsetNMTPublishConfigNodes()
@@ -1532,11 +1738,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishConfigNodes();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
      * <em>NMT Publish Config Nodes</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Config Nodes</em>'
      *            attribute.
@@ -1548,11 +1754,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishConfigNodes(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
      * <em>NMT Publish Config Nodes</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishConfigNodes()
      * @see #isNMTPublishConfigNodes()
      * @see #setNMTPublishConfigNodes(boolean)
@@ -1561,11 +1767,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishConfigNodes();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishConfigNodes
      * <em>NMT Publish Config Nodes</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Config Nodes</em>'
      *         attribute is set.
      * @see #unsetNMTPublishConfigNodes()
@@ -1584,7 +1790,7 @@ public interface TGeneralFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Emergency New</em>' attribute.
      * @see #isSetNMTPublishEmergencyNew()
      * @see #unsetNMTPublishEmergencyNew()
@@ -1598,11 +1804,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishEmergencyNew();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
      * <em>NMT Publish Emergency New</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Emergency New</em>'
      *            attribute.
@@ -1614,11 +1820,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishEmergencyNew(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
      * <em>NMT Publish Emergency New</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishEmergencyNew()
      * @see #isNMTPublishEmergencyNew()
      * @see #setNMTPublishEmergencyNew(boolean)
@@ -1627,11 +1833,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishEmergencyNew();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishEmergencyNew
      * <em>NMT Publish Emergency New</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Emergency New</em>'
      *         attribute is set.
      * @see #unsetNMTPublishEmergencyNew()
@@ -1650,7 +1856,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Node State</em>' attribute.
      * @see #isSetNMTPublishNodeState()
      * @see #unsetNMTPublishNodeState()
@@ -1664,11 +1870,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishNodeState();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
      * <em>NMT Publish Node State</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Node State</em>'
      *            attribute.
@@ -1680,11 +1886,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishNodeState(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
      * <em>NMT Publish Node State</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishNodeState()
      * @see #isNMTPublishNodeState()
      * @see #setNMTPublishNodeState(boolean)
@@ -1693,11 +1899,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishNodeState();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishNodeState
      * <em>NMT Publish Node State</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Node State</em>'
      *         attribute is set.
      * @see #unsetNMTPublishNodeState()
@@ -1716,7 +1922,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Operational</em>' attribute.
      * @see #isSetNMTPublishOperational()
      * @see #unsetNMTPublishOperational()
@@ -1730,11 +1936,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishOperational();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
      * <em>NMT Publish Operational</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Operational</em>'
      *            attribute.
@@ -1746,11 +1952,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishOperational(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
      * <em>NMT Publish Operational</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishOperational()
      * @see #isNMTPublishOperational()
      * @see #setNMTPublishOperational(boolean)
@@ -1759,11 +1965,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishOperational();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishOperational
      * <em>NMT Publish Operational</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Operational</em>'
      *         attribute is set.
      * @see #unsetNMTPublishOperational()
@@ -1781,7 +1987,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Pre Op1</em>' attribute.
      * @see #isSetNMTPublishPreOp1()
      * @see #unsetNMTPublishPreOp1()
@@ -1795,11 +2001,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishPreOp1();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
      * <em>NMT Publish Pre Op1</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Pre Op1</em>' attribute.
      * @see #isSetNMTPublishPreOp1()
@@ -1810,11 +2016,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishPreOp1(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
      * <em>NMT Publish Pre Op1</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishPreOp1()
      * @see #isNMTPublishPreOp1()
      * @see #setNMTPublishPreOp1(boolean)
@@ -1823,11 +2029,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishPreOp1();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp1
      * <em>NMT Publish Pre Op1</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Pre Op1</em>' attribute
      *         is set.
      * @see #unsetNMTPublishPreOp1()
@@ -1845,7 +2051,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Pre Op2</em>' attribute.
      * @see #isSetNMTPublishPreOp2()
      * @see #unsetNMTPublishPreOp2()
@@ -1859,11 +2065,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishPreOp2();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
      * <em>NMT Publish Pre Op2</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Pre Op2</em>' attribute.
      * @see #isSetNMTPublishPreOp2()
@@ -1874,11 +2080,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishPreOp2(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
      * <em>NMT Publish Pre Op2</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishPreOp2()
      * @see #isNMTPublishPreOp2()
      * @see #setNMTPublishPreOp2(boolean)
@@ -1887,11 +2093,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishPreOp2();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishPreOp2
      * <em>NMT Publish Pre Op2</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Pre Op2</em>' attribute
      *         is set.
      * @see #unsetNMTPublishPreOp2()
@@ -1910,7 +2116,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Ready To Op</em>' attribute.
      * @see #isSetNMTPublishReadyToOp()
      * @see #unsetNMTPublishReadyToOp()
@@ -1924,11 +2130,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishReadyToOp();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
      * <em>NMT Publish Ready To Op</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Ready To Op</em>'
      *            attribute.
@@ -1940,11 +2146,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishReadyToOp(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
      * <em>NMT Publish Ready To Op</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishReadyToOp()
      * @see #isNMTPublishReadyToOp()
      * @see #setNMTPublishReadyToOp(boolean)
@@ -1953,11 +2159,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishReadyToOp();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishReadyToOp
      * <em>NMT Publish Ready To Op</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Ready To Op</em>'
      *         attribute is set.
      * @see #unsetNMTPublishReadyToOp()
@@ -1975,7 +2181,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Stopped</em>' attribute.
      * @see #isSetNMTPublishStopped()
      * @see #unsetNMTPublishStopped()
@@ -1989,11 +2195,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishStopped();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
      * <em>NMT Publish Stopped</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Stopped</em>' attribute.
      * @see #isSetNMTPublishStopped()
@@ -2004,11 +2210,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishStopped(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
      * <em>NMT Publish Stopped</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishStopped()
      * @see #isNMTPublishStopped()
      * @see #setNMTPublishStopped(boolean)
@@ -2017,11 +2223,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishStopped();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishStopped
      * <em>NMT Publish Stopped</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Stopped</em>' attribute
      *         is set.
      * @see #unsetNMTPublishStopped()
@@ -2039,7 +2245,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Publish Time</em>' attribute.
      * @see #isSetNMTPublishTime()
      * @see #unsetNMTPublishTime()
@@ -2053,11 +2259,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNMTPublishTime();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
      * <em>NMT Publish Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Publish Time</em>' attribute.
      * @see #isSetNMTPublishTime()
@@ -2068,11 +2274,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTPublishTime(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
      * <em>NMT Publish Time</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTPublishTime()
      * @see #isNMTPublishTime()
      * @see #setNMTPublishTime(boolean)
@@ -2081,11 +2287,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTPublishTime();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNMTPublishTime
      * <em>NMT Publish Time</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Publish Time</em>' attribute is
      *         set.
      * @see #unsetNMTPublishTime()
@@ -2103,7 +2309,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NMT Revision No</em>' attribute.
      * @see #isSetNMTRevisionNo()
      * @see #unsetNMTRevisionNo()
@@ -2117,11 +2323,11 @@ public interface TGeneralFeatures extends EObject {
     long getNMTRevisionNo();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
      * <em>NMT Revision No</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NMT Revision No</em>' attribute.
      * @see #isSetNMTRevisionNo()
@@ -2132,11 +2338,11 @@ public interface TGeneralFeatures extends EObject {
     void setNMTRevisionNo(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
      * <em>NMT Revision No</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNMTRevisionNo()
      * @see #getNMTRevisionNo()
      * @see #setNMTRevisionNo(long)
@@ -2145,11 +2351,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNMTRevisionNo();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getNMTRevisionNo
      * <em>NMT Revision No</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NMT Revision No</em>' attribute is
      *         set.
      * @see #unsetNMTRevisionNo()
@@ -2167,7 +2373,7 @@ public interface TGeneralFeatures extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NWL Forward</em>' attribute.
      * @see #isSetNWLForward()
      * @see #unsetNWLForward()
@@ -2181,11 +2387,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNWLForward();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
      * <em>NWL Forward</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NWL Forward</em>' attribute.
      * @see #isSetNWLForward()
@@ -2196,11 +2402,11 @@ public interface TGeneralFeatures extends EObject {
     void setNWLForward(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
      * <em>NWL Forward</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNWLForward()
      * @see #isNWLForward()
      * @see #setNWLForward(boolean)
@@ -2209,11 +2415,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNWLForward();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLForward
      * <em>NWL Forward</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NWL Forward</em>' attribute is set.
      * @see #unsetNWLForward()
      * @see #isNWLForward()
@@ -2230,7 +2436,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NWLICMP Support</em>' attribute.
      * @see #isSetNWLICMPSupport()
      * @see #unsetNWLICMPSupport()
@@ -2244,11 +2450,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNWLICMPSupport();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
      * <em>NWLICMP Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NWLICMP Support</em>' attribute.
      * @see #isSetNWLICMPSupport()
@@ -2259,11 +2465,11 @@ public interface TGeneralFeatures extends EObject {
     void setNWLICMPSupport(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
      * <em>NWLICMP Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNWLICMPSupport()
      * @see #isNWLICMPSupport()
      * @see #setNWLICMPSupport(boolean)
@@ -2272,11 +2478,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNWLICMPSupport();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLICMPSupport
      * <em>NWLICMP Support</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NWLICMP Support</em>' attribute is
      *         set.
      * @see #unsetNWLICMPSupport()
@@ -2294,7 +2500,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>NWLIP Support</em>' attribute.
      * @see #isSetNWLIPSupport()
      * @see #unsetNWLIPSupport()
@@ -2308,11 +2514,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isNWLIPSupport();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
      * <em>NWLIP Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>NWLIP Support</em>' attribute.
      * @see #isSetNWLIPSupport()
@@ -2323,11 +2529,11 @@ public interface TGeneralFeatures extends EObject {
     void setNWLIPSupport(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
      * <em>NWLIP Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetNWLIPSupport()
      * @see #isNWLIPSupport()
      * @see #setNWLIPSupport(boolean)
@@ -2336,11 +2542,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetNWLIPSupport();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isNWLIPSupport
      * <em>NWLIP Support</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>NWLIP Support</em>' attribute is
      *         set.
      * @see #unsetNWLIPSupport()
@@ -2351,6 +2557,70 @@ public interface TGeneralFeatures extends EObject {
     boolean isSetNWLIPSupport();
 
     /**
+     * Returns the value of the '<em><b>PDO Dynamic Mapping</b></em>' attribute.
+     * The default value is <code>"true"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>PDO Dynamic Mapping</em>' attribute isn't
+     * clear, there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>PDO Dynamic Mapping</em>' attribute.
+     * @see #isSetPDODynamicMapping()
+     * @see #unsetPDODynamicMapping()
+     * @see #setPDODynamicMapping(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_PDODynamicMapping()
+     * @model default="true" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='PDODynamicMapping'"
+     * @generated
+     */
+    boolean isPDODynamicMapping();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDODynamicMapping
+     * <em>PDO Dynamic Mapping</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>PDO Dynamic Mapping</em>' attribute.
+     * @see #isSetPDODynamicMapping()
+     * @see #unsetPDODynamicMapping()
+     * @see #isPDODynamicMapping()
+     * @generated
+     */
+    void setPDODynamicMapping(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDODynamicMapping
+     * <em>PDO Dynamic Mapping</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetPDODynamicMapping()
+     * @see #isPDODynamicMapping()
+     * @see #setPDODynamicMapping(boolean)
+     * @generated
+     */
+    void unsetPDODynamicMapping();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDODynamicMapping
+     * <em>PDO Dynamic Mapping</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>PDO Dynamic Mapping</em>' attribute
+     *         is set.
+     * @see #unsetPDODynamicMapping()
+     * @see #isPDODynamicMapping()
+     * @see #setPDODynamicMapping(boolean)
+     * @generated
+     */
+    boolean isSetPDODynamicMapping();
+
+    /**
      * Returns the value of the '<em><b>PDO Granularity</b></em>' attribute. The
      * default value is <code>"8"</code>. <!-- begin-user-doc -->
      * <p>
@@ -2358,7 +2628,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDO Granularity</em>' attribute.
      * @see #isSetPDOGranularity()
      * @see #unsetPDOGranularity()
@@ -2372,11 +2642,11 @@ public interface TGeneralFeatures extends EObject {
     short getPDOGranularity();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
      * <em>PDO Granularity</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDO Granularity</em>' attribute.
      * @see #isSetPDOGranularity()
@@ -2387,11 +2657,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDOGranularity(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
      * <em>PDO Granularity</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDOGranularity()
      * @see #getPDOGranularity()
      * @see #setPDOGranularity(short)
@@ -2400,11 +2670,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDOGranularity();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOGranularity
      * <em>PDO Granularity</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDO Granularity</em>' attribute is
      *         set.
      * @see #unsetPDOGranularity()
@@ -2422,7 +2692,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDO Max Descr Mem</em>' attribute.
      * @see #isSetPDOMaxDescrMem()
      * @see #unsetPDOMaxDescrMem()
@@ -2436,11 +2706,11 @@ public interface TGeneralFeatures extends EObject {
     long getPDOMaxDescrMem();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
      * <em>PDO Max Descr Mem</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDO Max Descr Mem</em>' attribute.
      * @see #isSetPDOMaxDescrMem()
@@ -2451,11 +2721,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDOMaxDescrMem(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
      * <em>PDO Max Descr Mem</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDOMaxDescrMem()
      * @see #getPDOMaxDescrMem()
      * @see #setPDOMaxDescrMem(long)
@@ -2464,11 +2734,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDOMaxDescrMem();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOMaxDescrMem
      * <em>PDO Max Descr Mem</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDO Max Descr Mem</em>' attribute
      *         is set.
      * @see #unsetPDOMaxDescrMem()
@@ -2487,7 +2757,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDORPDO Channel Objects</em>' attribute.
      * @see #isSetPDORPDOChannelObjects()
      * @see #unsetPDORPDOChannelObjects()
@@ -2501,11 +2771,11 @@ public interface TGeneralFeatures extends EObject {
     short getPDORPDOChannelObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
      * <em>PDORPDO Channel Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDORPDO Channel Objects</em>'
      *            attribute.
@@ -2517,11 +2787,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDORPDOChannelObjects(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
      * <em>PDORPDO Channel Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetPDORPDOChannelObjects()
      * @see #getPDORPDOChannelObjects()
      * @see #setPDORPDOChannelObjects(short)
@@ -2530,11 +2800,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDORPDOChannelObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannelObjects
      * <em>PDORPDO Channel Objects</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDORPDO Channel Objects</em>'
      *         attribute is set.
      * @see #unsetPDORPDOChannelObjects()
@@ -2552,7 +2822,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDORPDO Channels</em>' attribute.
      * @see #isSetPDORPDOChannels()
      * @see #unsetPDORPDOChannels()
@@ -2566,11 +2836,11 @@ public interface TGeneralFeatures extends EObject {
     int getPDORPDOChannels();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
      * <em>PDORPDO Channels</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDORPDO Channels</em>' attribute.
      * @see #isSetPDORPDOChannels()
@@ -2581,11 +2851,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDORPDOChannels(int value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
      * <em>PDORPDO Channels</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDORPDOChannels()
      * @see #getPDORPDOChannels()
      * @see #setPDORPDOChannels(int)
@@ -2594,11 +2864,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDORPDOChannels();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOChannels
      * <em>PDORPDO Channels</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDORPDO Channels</em>' attribute is
      *         set.
      * @see #unsetPDORPDOChannels()
@@ -2617,7 +2887,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDORPDO Cycle Data Lim</em>' attribute.
      * @see #isSetPDORPDOCycleDataLim()
      * @see #unsetPDORPDOCycleDataLim()
@@ -2631,11 +2901,11 @@ public interface TGeneralFeatures extends EObject {
     long getPDORPDOCycleDataLim();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
      * <em>PDORPDO Cycle Data Lim</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDORPDO Cycle Data Lim</em>'
      *            attribute.
@@ -2647,11 +2917,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDORPDOCycleDataLim(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
      * <em>PDORPDO Cycle Data Lim</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDORPDOCycleDataLim()
      * @see #getPDORPDOCycleDataLim()
      * @see #setPDORPDOCycleDataLim(long)
@@ -2660,11 +2930,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDORPDOCycleDataLim();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOCycleDataLim
      * <em>PDORPDO Cycle Data Lim</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDORPDO Cycle Data Lim</em>'
      *         attribute is set.
      * @see #unsetPDORPDOCycleDataLim()
@@ -2683,7 +2953,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDORPDO Overall Objects</em>' attribute.
      * @see #isSetPDORPDOOverallObjects()
      * @see #unsetPDORPDOOverallObjects()
@@ -2697,11 +2967,11 @@ public interface TGeneralFeatures extends EObject {
     int getPDORPDOOverallObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
      * <em>PDORPDO Overall Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDORPDO Overall Objects</em>'
      *            attribute.
@@ -2713,11 +2983,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDORPDOOverallObjects(int value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
      * <em>PDORPDO Overall Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetPDORPDOOverallObjects()
      * @see #getPDORPDOOverallObjects()
      * @see #setPDORPDOOverallObjects(int)
@@ -2726,11 +2996,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDORPDOOverallObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDORPDOOverallObjects
      * <em>PDORPDO Overall Objects</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDORPDO Overall Objects</em>'
      *         attribute is set.
      * @see #unsetPDORPDOOverallObjects()
@@ -2748,7 +3018,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDO Self Receipt</em>' attribute.
      * @see #isSetPDOSelfReceipt()
      * @see #unsetPDOSelfReceipt()
@@ -2762,11 +3032,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isPDOSelfReceipt();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
      * <em>PDO Self Receipt</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDO Self Receipt</em>' attribute.
      * @see #isSetPDOSelfReceipt()
@@ -2777,11 +3047,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDOSelfReceipt(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
      * <em>PDO Self Receipt</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDOSelfReceipt()
      * @see #isPDOSelfReceipt()
      * @see #setPDOSelfReceipt(boolean)
@@ -2790,11 +3060,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDOSelfReceipt();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPDOSelfReceipt
      * <em>PDO Self Receipt</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDO Self Receipt</em>' attribute is
      *         set.
      * @see #unsetPDOSelfReceipt()
@@ -2813,7 +3083,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDOTPDO Channel Objects</em>' attribute.
      * @see #isSetPDOTPDOChannelObjects()
      * @see #unsetPDOTPDOChannelObjects()
@@ -2827,11 +3097,11 @@ public interface TGeneralFeatures extends EObject {
     short getPDOTPDOChannelObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
      * <em>PDOTPDO Channel Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDOTPDO Channel Objects</em>'
      *            attribute.
@@ -2843,11 +3113,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDOTPDOChannelObjects(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
      * <em>PDOTPDO Channel Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetPDOTPDOChannelObjects()
      * @see #getPDOTPDOChannelObjects()
      * @see #setPDOTPDOChannelObjects(short)
@@ -2856,11 +3126,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDOTPDOChannelObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOChannelObjects
      * <em>PDOTPDO Channel Objects</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDOTPDO Channel Objects</em>'
      *         attribute is set.
      * @see #unsetPDOTPDOChannelObjects()
@@ -2879,7 +3149,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDOTPDO Cycle Data Lim</em>' attribute.
      * @see #isSetPDOTPDOCycleDataLim()
      * @see #unsetPDOTPDOCycleDataLim()
@@ -2893,11 +3163,11 @@ public interface TGeneralFeatures extends EObject {
     long getPDOTPDOCycleDataLim();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
      * <em>PDOTPDO Cycle Data Lim</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDOTPDO Cycle Data Lim</em>'
      *            attribute.
@@ -2909,11 +3179,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDOTPDOCycleDataLim(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
      * <em>PDOTPDO Cycle Data Lim</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDOTPDOCycleDataLim()
      * @see #getPDOTPDOCycleDataLim()
      * @see #setPDOTPDOCycleDataLim(long)
@@ -2922,11 +3192,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDOTPDOCycleDataLim();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOCycleDataLim
      * <em>PDOTPDO Cycle Data Lim</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDOTPDO Cycle Data Lim</em>'
      *         attribute is set.
      * @see #unsetPDOTPDOCycleDataLim()
@@ -2945,7 +3215,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PDOTPDO Overall Objects</em>' attribute.
      * @see #isSetPDOTPDOOverallObjects()
      * @see #unsetPDOTPDOOverallObjects()
@@ -2959,11 +3229,11 @@ public interface TGeneralFeatures extends EObject {
     int getPDOTPDOOverallObjects();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
      * <em>PDOTPDO Overall Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PDOTPDO Overall Objects</em>'
      *            attribute.
@@ -2975,11 +3245,11 @@ public interface TGeneralFeatures extends EObject {
     void setPDOTPDOOverallObjects(int value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
      * <em>PDOTPDO Overall Objects</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetPDOTPDOOverallObjects()
      * @see #getPDOTPDOOverallObjects()
      * @see #setPDOTPDOOverallObjects(int)
@@ -2988,11 +3258,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPDOTPDOOverallObjects();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPDOTPDOOverallObjects
      * <em>PDOTPDO Overall Objects</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PDOTPDO Overall Objects</em>'
      *         attribute is set.
      * @see #unsetPDOTPDOOverallObjects()
@@ -3004,19 +3274,19 @@ public interface TGeneralFeatures extends EObject {
 
     /**
      * Returns the value of the '<em><b>PHY Ext EPL Ports</b></em>' attribute.
-     * The default value is <code>"1"</code>. <!-- begin-user-doc -->
+     * The default value is <code>"2"</code>. <!-- begin-user-doc -->
      * <p>
      * If the meaning of the '<em>PHY Ext EPL Ports</em>' attribute isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PHY Ext EPL Ports</em>' attribute.
      * @see #isSetPHYExtEPLPorts()
      * @see #unsetPHYExtEPLPorts()
      * @see #setPHYExtEPLPorts(short)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_PHYExtEPLPorts()
-     * @model default="1" unsettable="true"
+     * @model default="2" unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedByte"
      *        extendedMetaData="kind='attribute' name='PHYExtEPLPorts'"
      * @generated
@@ -3024,11 +3294,11 @@ public interface TGeneralFeatures extends EObject {
     short getPHYExtEPLPorts();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
      * <em>PHY Ext EPL Ports</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PHY Ext EPL Ports</em>' attribute.
      * @see #isSetPHYExtEPLPorts()
@@ -3039,11 +3309,11 @@ public interface TGeneralFeatures extends EObject {
     void setPHYExtEPLPorts(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
      * <em>PHY Ext EPL Ports</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPHYExtEPLPorts()
      * @see #getPHYExtEPLPorts()
      * @see #setPHYExtEPLPorts(short)
@@ -3052,11 +3322,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPHYExtEPLPorts();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYExtEPLPorts
      * <em>PHY Ext EPL Ports</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PHY Ext EPL Ports</em>' attribute
      *         is set.
      * @see #unsetPHYExtEPLPorts()
@@ -3074,7 +3344,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PHY Hub Delay</em>' attribute.
      * @see #isSetPHYHubDelay()
      * @see #unsetPHYHubDelay()
@@ -3088,11 +3358,11 @@ public interface TGeneralFeatures extends EObject {
     long getPHYHubDelay();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
      * <em>PHY Hub Delay</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PHY Hub Delay</em>' attribute.
      * @see #isSetPHYHubDelay()
@@ -3103,11 +3373,11 @@ public interface TGeneralFeatures extends EObject {
     void setPHYHubDelay(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
      * <em>PHY Hub Delay</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPHYHubDelay()
      * @see #getPHYHubDelay()
      * @see #setPHYHubDelay(long)
@@ -3116,11 +3386,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPHYHubDelay();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubDelay
      * <em>PHY Hub Delay</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PHY Hub Delay</em>' attribute is
      *         set.
      * @see #unsetPHYHubDelay()
@@ -3132,19 +3402,19 @@ public interface TGeneralFeatures extends EObject {
 
     /**
      * Returns the value of the '<em><b>PHY Hub Integrated</b></em>' attribute.
-     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * The default value is <code>"true"</code>. <!-- begin-user-doc -->
      * <p>
      * If the meaning of the '<em>PHY Hub Integrated</em>' attribute isn't
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PHY Hub Integrated</em>' attribute.
      * @see #isSetPHYHubIntegrated()
      * @see #unsetPHYHubIntegrated()
      * @see #setPHYHubIntegrated(boolean)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_PHYHubIntegrated()
-     * @model default="false" unsettable="true"
+     * @model default="true" unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
      *        extendedMetaData="kind='attribute' name='PHYHubIntegrated'"
      * @generated
@@ -3152,11 +3422,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isPHYHubIntegrated();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
      * <em>PHY Hub Integrated</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PHY Hub Integrated</em>' attribute.
      * @see #isSetPHYHubIntegrated()
@@ -3167,11 +3437,11 @@ public interface TGeneralFeatures extends EObject {
     void setPHYHubIntegrated(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
      * <em>PHY Hub Integrated</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPHYHubIntegrated()
      * @see #isPHYHubIntegrated()
      * @see #setPHYHubIntegrated(boolean)
@@ -3180,11 +3450,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPHYHubIntegrated();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isPHYHubIntegrated
      * <em>PHY Hub Integrated</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PHY Hub Integrated</em>' attribute
      *         is set.
      * @see #unsetPHYHubIntegrated()
@@ -3202,7 +3472,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PHY Hub Jitter</em>' attribute.
      * @see #isSetPHYHubJitter()
      * @see #unsetPHYHubJitter()
@@ -3216,11 +3486,11 @@ public interface TGeneralFeatures extends EObject {
     long getPHYHubJitter();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
      * <em>PHY Hub Jitter</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PHY Hub Jitter</em>' attribute.
      * @see #isSetPHYHubJitter()
@@ -3231,11 +3501,11 @@ public interface TGeneralFeatures extends EObject {
     void setPHYHubJitter(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
      * <em>PHY Hub Jitter</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPHYHubJitter()
      * @see #getPHYHubJitter()
      * @see #setPHYHubJitter(long)
@@ -3244,11 +3514,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetPHYHubJitter();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getPHYHubJitter
      * <em>PHY Hub Jitter</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PHY Hub Jitter</em>' attribute is
      *         set.
      * @see #unsetPHYHubJitter()
@@ -3267,7 +3537,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>RT1RT1 Security Support</em>' attribute.
      * @see #isSetRT1RT1SecuritySupport()
      * @see #unsetRT1RT1SecuritySupport()
@@ -3281,11 +3551,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isRT1RT1SecuritySupport();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
      * <em>RT1RT1 Security Support</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>RT1RT1 Security Support</em>'
      *            attribute.
@@ -3297,11 +3567,11 @@ public interface TGeneralFeatures extends EObject {
     void setRT1RT1SecuritySupport(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
      * <em>RT1RT1 Security Support</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetRT1RT1SecuritySupport()
      * @see #isRT1RT1SecuritySupport()
      * @see #setRT1RT1SecuritySupport(boolean)
@@ -3310,11 +3580,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetRT1RT1SecuritySupport();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1SecuritySupport
      * <em>RT1RT1 Security Support</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>RT1RT1 Security Support</em>'
      *         attribute is set.
      * @see #unsetRT1RT1SecuritySupport()
@@ -3332,7 +3602,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>RT1RT1 Support</em>' attribute.
      * @see #isSetRT1RT1Support()
      * @see #unsetRT1RT1Support()
@@ -3346,11 +3616,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isRT1RT1Support();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
      * <em>RT1RT1 Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>RT1RT1 Support</em>' attribute.
      * @see #isSetRT1RT1Support()
@@ -3361,11 +3631,11 @@ public interface TGeneralFeatures extends EObject {
     void setRT1RT1Support(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
      * <em>RT1RT1 Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetRT1RT1Support()
      * @see #isRT1RT1Support()
      * @see #setRT1RT1Support(boolean)
@@ -3374,11 +3644,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetRT1RT1Support();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT1RT1Support
      * <em>RT1RT1 Support</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>RT1RT1 Support</em>' attribute is
      *         set.
      * @see #unsetRT1RT1Support()
@@ -3396,7 +3666,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>RT2RT2 Support</em>' attribute.
      * @see #isSetRT2RT2Support()
      * @see #unsetRT2RT2Support()
@@ -3410,11 +3680,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isRT2RT2Support();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
      * <em>RT2RT2 Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>RT2RT2 Support</em>' attribute.
      * @see #isSetRT2RT2Support()
@@ -3425,11 +3695,11 @@ public interface TGeneralFeatures extends EObject {
     void setRT2RT2Support(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
      * <em>RT2RT2 Support</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetRT2RT2Support()
      * @see #isRT2RT2Support()
      * @see #setRT2RT2Support(boolean)
@@ -3438,11 +3708,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetRT2RT2Support();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isRT2RT2Support
      * <em>RT2RT2 Support</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>RT2RT2 Support</em>' attribute is
      *         set.
      * @see #unsetRT2RT2Support()
@@ -3460,7 +3730,7 @@ public interface TGeneralFeatures extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Client</em>' attribute.
      * @see #isSetSDOClient()
      * @see #unsetSDOClient()
@@ -3474,11 +3744,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOClient();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
      * <em>SDO Client</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Client</em>' attribute.
      * @see #isSetSDOClient()
@@ -3489,11 +3759,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOClient(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
      * <em>SDO Client</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOClient()
      * @see #isSDOClient()
      * @see #setSDOClient(boolean)
@@ -3502,11 +3772,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOClient();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOClient
      * <em>SDO Client</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Client</em>' attribute is set.
      * @see #unsetSDOClient()
      * @see #isSDOClient()
@@ -3523,7 +3793,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd File Read</em>' attribute.
      * @see #isSetSDOCmdFileRead()
      * @see #unsetSDOCmdFileRead()
@@ -3537,11 +3807,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdFileRead();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
      * <em>SDO Cmd File Read</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd File Read</em>' attribute.
      * @see #isSetSDOCmdFileRead()
@@ -3552,11 +3822,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdFileRead(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
      * <em>SDO Cmd File Read</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdFileRead()
      * @see #isSDOCmdFileRead()
      * @see #setSDOCmdFileRead(boolean)
@@ -3565,11 +3835,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdFileRead();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileRead
      * <em>SDO Cmd File Read</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd File Read</em>' attribute
      *         is set.
      * @see #unsetSDOCmdFileRead()
@@ -3587,7 +3857,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd File Write</em>' attribute.
      * @see #isSetSDOCmdFileWrite()
      * @see #unsetSDOCmdFileWrite()
@@ -3601,11 +3871,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdFileWrite();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
      * <em>SDO Cmd File Write</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd File Write</em>' attribute.
      * @see #isSetSDOCmdFileWrite()
@@ -3616,11 +3886,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdFileWrite(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
      * <em>SDO Cmd File Write</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdFileWrite()
      * @see #isSDOCmdFileWrite()
      * @see #setSDOCmdFileWrite(boolean)
@@ -3629,11 +3899,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdFileWrite();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdFileWrite
      * <em>SDO Cmd File Write</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd File Write</em>' attribute
      *         is set.
      * @see #unsetSDOCmdFileWrite()
@@ -3651,7 +3921,7 @@ public interface TGeneralFeatures extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Link Name</em>' attribute.
      * @see #isSetSDOCmdLinkName()
      * @see #unsetSDOCmdLinkName()
@@ -3665,11 +3935,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdLinkName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
      * <em>SDO Cmd Link Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Link Name</em>' attribute.
      * @see #isSetSDOCmdLinkName()
@@ -3680,11 +3950,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdLinkName(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
      * <em>SDO Cmd Link Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdLinkName()
      * @see #isSDOCmdLinkName()
      * @see #setSDOCmdLinkName(boolean)
@@ -3693,11 +3963,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdLinkName();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdLinkName
      * <em>SDO Cmd Link Name</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Link Name</em>' attribute
      *         is set.
      * @see #unsetSDOCmdLinkName()
@@ -3716,7 +3986,7 @@ public interface TGeneralFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Read All By Index</em>' attribute.
      * @see #isSetSDOCmdReadAllByIndex()
      * @see #unsetSDOCmdReadAllByIndex()
@@ -3730,11 +4000,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdReadAllByIndex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
      * <em>SDO Cmd Read All By Index</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Read All By Index</em>'
      *            attribute.
@@ -3746,11 +4016,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdReadAllByIndex(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
      * <em>SDO Cmd Read All By Index</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdReadAllByIndex()
      * @see #isSDOCmdReadAllByIndex()
      * @see #setSDOCmdReadAllByIndex(boolean)
@@ -3759,11 +4029,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdReadAllByIndex();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadAllByIndex
      * <em>SDO Cmd Read All By Index</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Read All By Index</em>'
      *         attribute is set.
      * @see #unsetSDOCmdReadAllByIndex()
@@ -3782,7 +4052,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Read By Name</em>' attribute.
      * @see #isSetSDOCmdReadByName()
      * @see #unsetSDOCmdReadByName()
@@ -3796,11 +4066,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdReadByName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
      * <em>SDO Cmd Read By Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Read By Name</em>'
      *            attribute.
@@ -3812,11 +4082,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdReadByName(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
      * <em>SDO Cmd Read By Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdReadByName()
      * @see #isSDOCmdReadByName()
      * @see #setSDOCmdReadByName(boolean)
@@ -3825,11 +4095,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdReadByName();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadByName
      * <em>SDO Cmd Read By Name</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Read By Name</em>'
      *         attribute is set.
      * @see #unsetSDOCmdReadByName()
@@ -3848,7 +4118,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Read Mult Param</em>' attribute.
      * @see #isSetSDOCmdReadMultParam()
      * @see #unsetSDOCmdReadMultParam()
@@ -3862,11 +4132,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdReadMultParam();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
      * <em>SDO Cmd Read Mult Param</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Read Mult Param</em>'
      *            attribute.
@@ -3878,11 +4148,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdReadMultParam(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
      * <em>SDO Cmd Read Mult Param</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdReadMultParam()
      * @see #isSDOCmdReadMultParam()
      * @see #setSDOCmdReadMultParam(boolean)
@@ -3891,11 +4161,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdReadMultParam();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdReadMultParam
      * <em>SDO Cmd Read Mult Param</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Read Mult Param</em>'
      *         attribute is set.
      * @see #unsetSDOCmdReadMultParam()
@@ -3914,7 +4184,7 @@ public interface TGeneralFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Write All By Index</em>' attribute.
      * @see #isSetSDOCmdWriteAllByIndex()
      * @see #unsetSDOCmdWriteAllByIndex()
@@ -3928,11 +4198,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdWriteAllByIndex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
      * <em>SDO Cmd Write All By Index</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Write All By Index</em>'
      *            attribute.
@@ -3944,11 +4214,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdWriteAllByIndex(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
      * <em>SDO Cmd Write All By Index</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdWriteAllByIndex()
      * @see #isSDOCmdWriteAllByIndex()
      * @see #setSDOCmdWriteAllByIndex(boolean)
@@ -3957,11 +4227,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdWriteAllByIndex();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteAllByIndex
      * <em>SDO Cmd Write All By Index</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Write All By Index</em>'
      *         attribute is set.
      * @see #unsetSDOCmdWriteAllByIndex()
@@ -3980,7 +4250,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Write By Name</em>' attribute.
      * @see #isSetSDOCmdWriteByName()
      * @see #unsetSDOCmdWriteByName()
@@ -3994,11 +4264,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdWriteByName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
      * <em>SDO Cmd Write By Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Write By Name</em>'
      *            attribute.
@@ -4010,11 +4280,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdWriteByName(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
      * <em>SDO Cmd Write By Name</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdWriteByName()
      * @see #isSDOCmdWriteByName()
      * @see #setSDOCmdWriteByName(boolean)
@@ -4023,11 +4293,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdWriteByName();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteByName
      * <em>SDO Cmd Write By Name</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Write By Name</em>'
      *         attribute is set.
      * @see #unsetSDOCmdWriteByName()
@@ -4046,7 +4316,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Cmd Write Mult Param</em>' attribute.
      * @see #isSetSDOCmdWriteMultParam()
      * @see #unsetSDOCmdWriteMultParam()
@@ -4060,11 +4330,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOCmdWriteMultParam();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
      * <em>SDO Cmd Write Mult Param</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Cmd Write Mult Param</em>'
      *            attribute.
@@ -4076,11 +4346,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOCmdWriteMultParam(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
      * <em>SDO Cmd Write Mult Param</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetSDOCmdWriteMultParam()
      * @see #isSDOCmdWriteMultParam()
      * @see #setSDOCmdWriteMultParam(boolean)
@@ -4089,11 +4359,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOCmdWriteMultParam();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOCmdWriteMultParam
      * <em>SDO Cmd Write Mult Param</em>}' attribute is set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Cmd Write Mult Param</em>'
      *         attribute is set.
      * @see #unsetSDOCmdWriteMultParam()
@@ -4111,7 +4381,7 @@ public interface TGeneralFeatures extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Max Connections</em>' attribute.
      * @see #isSetSDOMaxConnections()
      * @see #unsetSDOMaxConnections()
@@ -4125,11 +4395,11 @@ public interface TGeneralFeatures extends EObject {
     long getSDOMaxConnections();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
      * <em>SDO Max Connections</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Max Connections</em>' attribute.
      * @see #isSetSDOMaxConnections()
@@ -4140,11 +4410,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOMaxConnections(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
      * <em>SDO Max Connections</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOMaxConnections()
      * @see #getSDOMaxConnections()
      * @see #setSDOMaxConnections(long)
@@ -4153,11 +4423,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOMaxConnections();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxConnections
      * <em>SDO Max Connections</em>}' attribute is set. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Max Connections</em>' attribute
      *         is set.
      * @see #unsetSDOMaxConnections()
@@ -4175,7 +4445,7 @@ public interface TGeneralFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Max Parallel Connections</em>'
      *         attribute.
      * @see #isSetSDOMaxParallelConnections()
@@ -4184,18 +4454,18 @@ public interface TGeneralFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_SDOMaxParallelConnections()
      * @model default="1" unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        extendedMetaData
-     *        ="kind='attribute' name='SDOMaxParallelConnections'"
+     *        extendedMetaData="kind='attribute'
+     *        name='SDOMaxParallelConnections'"
      * @generated
      */
     long getSDOMaxParallelConnections();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
      * <em>SDO Max Parallel Connections</em>}' attribute. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Max Parallel Connections</em>'
      *            attribute.
@@ -4207,11 +4477,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOMaxParallelConnections(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
      * <em>SDO Max Parallel Connections</em>}' attribute. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetSDOMaxParallelConnections()
      * @see #getSDOMaxParallelConnections()
      * @see #setSDOMaxParallelConnections(long)
@@ -4220,11 +4490,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOMaxParallelConnections();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOMaxParallelConnections
      * <em>SDO Max Parallel Connections</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Max Parallel Connections</em>'
      *         attribute is set.
      * @see #unsetSDOMaxParallelConnections()
@@ -4242,7 +4512,7 @@ public interface TGeneralFeatures extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Seq Layer Tx History Size</em>'
      *         attribute.
      * @see #isSetSDOSeqLayerTxHistorySize()
@@ -4251,18 +4521,18 @@ public interface TGeneralFeatures extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_SDOSeqLayerTxHistorySize()
      * @model default="5" unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedShort"
-     *        extendedMetaData
-     *        ="kind='attribute' name='SDOSeqLayerTxHistorySize'"
+     *        extendedMetaData="kind='attribute'
+     *        name='SDOSeqLayerTxHistorySize'"
      * @generated
      */
     int getSDOSeqLayerTxHistorySize();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
      * <em>SDO Seq Layer Tx History Size</em>}' attribute. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Seq Layer Tx History Size</em>'
      *            attribute.
@@ -4274,11 +4544,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOSeqLayerTxHistorySize(int value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
      * <em>SDO Seq Layer Tx History Size</em>}' attribute. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetSDOSeqLayerTxHistorySize()
      * @see #getSDOSeqLayerTxHistorySize()
      * @see #setSDOSeqLayerTxHistorySize(int)
@@ -4287,11 +4557,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOSeqLayerTxHistorySize();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#getSDOSeqLayerTxHistorySize
      * <em>SDO Seq Layer Tx History Size</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Seq Layer Tx History Size</em>'
      *         attribute is set.
      * @see #unsetSDOSeqLayerTxHistorySize()
@@ -4309,7 +4579,7 @@ public interface TGeneralFeatures extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SDO Server</em>' attribute.
      * @see #isSetSDOServer()
      * @see #unsetSDOServer()
@@ -4323,11 +4593,11 @@ public interface TGeneralFeatures extends EObject {
     boolean isSDOServer();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
      * <em>SDO Server</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SDO Server</em>' attribute.
      * @see #isSetSDOServer()
@@ -4338,11 +4608,11 @@ public interface TGeneralFeatures extends EObject {
     void setSDOServer(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
      * <em>SDO Server</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetSDOServer()
      * @see #isSDOServer()
      * @see #setSDOServer(boolean)
@@ -4351,11 +4621,11 @@ public interface TGeneralFeatures extends EObject {
     void unsetSDOServer();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOServer
      * <em>SDO Server</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>SDO Server</em>' attribute is set.
      * @see #unsetSDOServer()
      * @see #isSDOServer()
@@ -4363,5 +4633,197 @@ public interface TGeneralFeatures extends EObject {
      * @generated
      */
     boolean isSetSDOServer();
+
+    /**
+     * Returns the value of the '<em><b>SDO Support ASnd</b></em>' attribute.
+     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>SDO Support ASnd</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>SDO Support ASnd</em>' attribute.
+     * @see #isSetSDOSupportASnd()
+     * @see #unsetSDOSupportASnd()
+     * @see #setSDOSupportASnd(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_SDOSupportASnd()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='SDOSupportASnd'"
+     * @generated
+     */
+    boolean isSDOSupportASnd();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportASnd
+     * <em>SDO Support ASnd</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>SDO Support ASnd</em>' attribute.
+     * @see #isSetSDOSupportASnd()
+     * @see #unsetSDOSupportASnd()
+     * @see #isSDOSupportASnd()
+     * @generated
+     */
+    void setSDOSupportASnd(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportASnd
+     * <em>SDO Support ASnd</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetSDOSupportASnd()
+     * @see #isSDOSupportASnd()
+     * @see #setSDOSupportASnd(boolean)
+     * @generated
+     */
+    void unsetSDOSupportASnd();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportASnd
+     * <em>SDO Support ASnd</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>SDO Support ASnd</em>' attribute is
+     *         set.
+     * @see #unsetSDOSupportASnd()
+     * @see #isSDOSupportASnd()
+     * @see #setSDOSupportASnd(boolean)
+     * @generated
+     */
+    boolean isSetSDOSupportASnd();
+
+    /**
+     * Returns the value of the '<em><b>SDO Support PDO</b></em>' attribute. The
+     * default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>SDO Support PDO</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>SDO Support PDO</em>' attribute.
+     * @see #isSetSDOSupportPDO()
+     * @see #unsetSDOSupportPDO()
+     * @see #setSDOSupportPDO(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_SDOSupportPDO()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='SDOSupportPDO'"
+     * @generated
+     */
+    boolean isSDOSupportPDO();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportPDO
+     * <em>SDO Support PDO</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>SDO Support PDO</em>' attribute.
+     * @see #isSetSDOSupportPDO()
+     * @see #unsetSDOSupportPDO()
+     * @see #isSDOSupportPDO()
+     * @generated
+     */
+    void setSDOSupportPDO(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportPDO
+     * <em>SDO Support PDO</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetSDOSupportPDO()
+     * @see #isSDOSupportPDO()
+     * @see #setSDOSupportPDO(boolean)
+     * @generated
+     */
+    void unsetSDOSupportPDO();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportPDO
+     * <em>SDO Support PDO</em>}' attribute is set. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @return whether the value of the '<em>SDO Support PDO</em>' attribute is
+     *         set.
+     * @see #unsetSDOSupportPDO()
+     * @see #isSDOSupportPDO()
+     * @see #setSDOSupportPDO(boolean)
+     * @generated
+     */
+    boolean isSetSDOSupportPDO();
+
+    /**
+     * Returns the value of the '<em><b>SDO Support Udp Ip</b></em>' attribute.
+     * The default value is <code>"false"</code>. <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>SDO Support Udp Ip</em>' attribute isn't
+     * clear, there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     *
+     * @return the value of the '<em>SDO Support Udp Ip</em>' attribute.
+     * @see #isSetSDOSupportUdpIp()
+     * @see #unsetSDOSupportUdpIp()
+     * @see #setSDOSupportUdpIp(boolean)
+     * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTGeneralFeatures_SDOSupportUdpIp()
+     * @model default="false" unsettable="true"
+     *        dataType="org.eclipse.emf.ecore.xml.type.Boolean"
+     *        extendedMetaData="kind='attribute' name='SDOSupportUdpIp'"
+     * @generated
+     */
+    boolean isSDOSupportUdpIp();
+
+    /**
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportUdpIp
+     * <em>SDO Support Udp Ip</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @param value
+     *            the new value of the '<em>SDO Support Udp Ip</em>' attribute.
+     * @see #isSetSDOSupportUdpIp()
+     * @see #unsetSDOSupportUdpIp()
+     * @see #isSDOSupportUdpIp()
+     * @generated
+     */
+    void setSDOSupportUdpIp(boolean value);
+
+    /**
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportUdpIp
+     * <em>SDO Support Udp Ip</em>}' attribute. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
+     * @see #isSetSDOSupportUdpIp()
+     * @see #isSDOSupportUdpIp()
+     * @see #setSDOSupportUdpIp(boolean)
+     * @generated
+     */
+    void unsetSDOSupportUdpIp();
+
+    /**
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TGeneralFeatures#isSDOSupportUdpIp
+     * <em>SDO Support Udp Ip</em>}' attribute is set. <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return whether the value of the '<em>SDO Support Udp Ip</em>' attribute
+     *         is set.
+     * @see #unsetSDOSupportUdpIp()
+     * @see #isSDOSupportUdpIp()
+     * @see #setSDOSupportUdpIp(boolean)
+     * @generated
+     */
+    boolean isSetSDOSupportUdpIp();
 
 } // TGeneralFeatures

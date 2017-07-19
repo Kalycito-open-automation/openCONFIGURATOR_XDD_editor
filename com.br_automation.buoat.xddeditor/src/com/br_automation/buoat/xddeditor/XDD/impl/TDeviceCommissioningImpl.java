@@ -1,14 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.NodeTypeType;
-import com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -17,37 +9,36 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.NodeTypeType;
+import com.br_automation.buoat.xddeditor.XDD.TDeviceCommissioning;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TDevice Commissioning</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object '<em><b>TDevice
+ * Commissioning</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNetworkName
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNetworkName
  * <em>Network Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNodeID
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNodeID
  * <em>Node ID</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNodeName
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNodeName
  * <em>Node Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNodeType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getNodeType
  * <em>Node Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getUsedNetworkInterface
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TDeviceCommissioningImpl#getUsedNetworkInterface
  * <em>Used Network Interface</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceCommissioning {
     /**
-     * The default value of the '{@link #getNetworkName() <em>Network Name</em>}
-     * ' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     * The default value of the '{@link #getNetworkName() <em>Network
+     * Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getNetworkName()
      * @generated
      * @ordered
@@ -57,7 +48,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The cached value of the '{@link #getNetworkName() <em>Network Name</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNetworkName()
      * @generated
      * @ordered
@@ -67,7 +58,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The default value of the '{@link #getNodeID() <em>Node ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNodeID()
      * @generated
      * @ordered
@@ -77,7 +68,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The cached value of the '{@link #getNodeID() <em>Node ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNodeID()
      * @generated
      * @ordered
@@ -87,7 +78,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * This is true if the Node ID attribute has been set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -96,7 +87,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The default value of the '{@link #getNodeName() <em>Node Name</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNodeName()
      * @generated
      * @ordered
@@ -106,7 +97,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The cached value of the '{@link #getNodeName() <em>Node Name</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNodeName()
      * @generated
      * @ordered
@@ -116,7 +107,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The default value of the '{@link #getNodeType() <em>Node Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNodeType()
      * @generated
      * @ordered
@@ -126,7 +117,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * The cached value of the '{@link #getNodeType() <em>Node Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getNodeType()
      * @generated
      * @ordered
@@ -136,17 +127,17 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * This is true if the Node Type attribute has been set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
     protected boolean nodeTypeESet;
 
     /**
-     * The default value of the '{@link #getUsedNetworkInterface()
-     * <em>Used Network Interface</em>}' attribute. <!-- begin-user-doc --> <!--
+     * The default value of the '{@link #getUsedNetworkInterface() <em>Used
+     * Network Interface</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #getUsedNetworkInterface()
      * @generated
      * @ordered
@@ -154,10 +145,10 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     protected static final short USED_NETWORK_INTERFACE_EDEFAULT = 0;
 
     /**
-     * The cached value of the '{@link #getUsedNetworkInterface()
-     * <em>Used Network Interface</em>}' attribute. <!-- begin-user-doc --> <!--
+     * The cached value of the '{@link #getUsedNetworkInterface() <em>Used
+     * Network Interface</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #getUsedNetworkInterface()
      * @generated
      * @ordered
@@ -167,7 +158,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
     /**
      * This is true if the Used Network Interface attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -175,7 +166,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TDeviceCommissioningImpl() {
@@ -184,7 +175,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -194,7 +185,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getNetworkName() {
@@ -203,20 +194,20 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setNetworkName(String newNetworkName) {
         String oldNetworkName = networkName;
         networkName = newNetworkName;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME, oldNetworkName, networkName));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME,
+                    oldNetworkName, networkName));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public short getNodeID() {
@@ -225,7 +216,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setNodeID(short newNodeID) {
@@ -234,13 +225,13 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         boolean oldNodeIDESet = nodeIDESet;
         nodeIDESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDEVICE_COMMISSIONING__NODE_ID, oldNodeID, nodeID, !oldNodeIDESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDEVICE_COMMISSIONING__NODE_ID, oldNodeID,
+                    nodeID, !oldNodeIDESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetNodeID() {
@@ -249,14 +240,13 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         nodeID = NODE_ID_EDEFAULT;
         nodeIDESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TDEVICE_COMMISSIONING__NODE_ID, oldNodeID, NODE_ID_EDEFAULT,
-                oldNodeIDESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TDEVICE_COMMISSIONING__NODE_ID,
+                    oldNodeID, NODE_ID_EDEFAULT, oldNodeIDESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetNodeID() {
@@ -265,7 +255,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getNodeName() {
@@ -274,20 +264,20 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setNodeName(String newNodeName) {
         String oldNodeName = nodeName;
         nodeName = newNodeName;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME, oldNodeName, nodeName));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME,
+                    oldNodeName, nodeName));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public NodeTypeType getNodeType() {
@@ -296,7 +286,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setNodeType(NodeTypeType newNodeType) {
@@ -305,14 +295,13 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         boolean oldNodeTypeESet = nodeTypeESet;
         nodeTypeESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE, oldNodeType, nodeType,
-                !oldNodeTypeESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE,
+                    oldNodeType, nodeType, !oldNodeTypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetNodeType() {
@@ -321,14 +310,13 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         nodeType = NODE_TYPE_EDEFAULT;
         nodeTypeESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE, oldNodeType, NODE_TYPE_EDEFAULT,
-                oldNodeTypeESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE,
+                    oldNodeType, NODE_TYPE_EDEFAULT, oldNodeTypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetNodeType() {
@@ -337,7 +325,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public short getUsedNetworkInterface() {
@@ -346,7 +334,7 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setUsedNetworkInterface(short newUsedNetworkInterface) {
@@ -356,13 +344,13 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         usedNetworkInterfaceESet = true;
         if (eNotificationRequired())
             eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE, oldUsedNetworkInterface,
-                usedNetworkInterface, !oldUsedNetworkInterfaceESet));
+                    XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE, oldUsedNetworkInterface,
+                    usedNetworkInterface, !oldUsedNetworkInterfaceESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetUsedNetworkInterface() {
@@ -372,13 +360,13 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         usedNetworkInterfaceESet = false;
         if (eNotificationRequired())
             eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE, oldUsedNetworkInterface,
-                USED_NETWORK_INTERFACE_EDEFAULT, oldUsedNetworkInterfaceESet));
+                    XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE, oldUsedNetworkInterface,
+                    USED_NETWORK_INTERFACE_EDEFAULT, oldUsedNetworkInterfaceESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetUsedNetworkInterface() {
@@ -387,107 +375,105 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
-                return getNetworkName();
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
-                return getNodeID();
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
-                return getNodeName();
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
-                return getNodeType();
-            case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
-                return getUsedNetworkInterface();
+        case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
+            return getNetworkName();
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
+            return getNodeID();
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
+            return getNodeName();
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
+            return getNodeType();
+        case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
+            return getUsedNetworkInterface();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
-                setNetworkName((String) newValue);
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
-                setNodeID((Short) newValue);
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
-                setNodeName((String) newValue);
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
-                setNodeType((NodeTypeType) newValue);
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
-                setUsedNetworkInterface((Short) newValue);
-                return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
+            setNetworkName((String) newValue);
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
+            setNodeID((Short) newValue);
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
+            setNodeName((String) newValue);
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
+            setNodeType((NodeTypeType) newValue);
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
+            setUsedNetworkInterface((Short) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
-                setNetworkName(NETWORK_NAME_EDEFAULT);
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
-                unsetNodeID();
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
-                setNodeName(NODE_NAME_EDEFAULT);
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
-                unsetNodeType();
-                return;
-            case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
-                unsetUsedNetworkInterface();
-                return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
+            setNetworkName(NETWORK_NAME_EDEFAULT);
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
+            unsetNodeID();
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
+            setNodeName(NODE_NAME_EDEFAULT);
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
+            unsetNodeType();
+            return;
+        case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
+            unsetUsedNetworkInterface();
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
-                return NETWORK_NAME_EDEFAULT == null ? networkName != null : !NETWORK_NAME_EDEFAULT
-                    .equals(networkName);
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
-                return isSetNodeID();
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
-                return NODE_NAME_EDEFAULT == null ? nodeName != null : !NODE_NAME_EDEFAULT
-                    .equals(nodeName);
-            case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
-                return isSetNodeType();
-            case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
-                return isSetUsedNetworkInterface();
+        case XDDPackage.TDEVICE_COMMISSIONING__NETWORK_NAME:
+            return NETWORK_NAME_EDEFAULT == null ? networkName != null : !NETWORK_NAME_EDEFAULT.equals(networkName);
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_ID:
+            return isSetNodeID();
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_NAME:
+            return NODE_NAME_EDEFAULT == null ? nodeName != null : !NODE_NAME_EDEFAULT.equals(nodeName);
+        case XDDPackage.TDEVICE_COMMISSIONING__NODE_TYPE:
+            return isSetNodeType();
+        case XDDPackage.TDEVICE_COMMISSIONING__USED_NETWORK_INTERFACE:
+            return isSetUsedNetworkInterface();
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -519,4 +505,4 @@ public class TDeviceCommissioningImpl extends EObjectImpl implements TDeviceComm
         return result.toString();
     }
 
-} //TDeviceCommissioningImpl
+} // TDeviceCommissioningImpl

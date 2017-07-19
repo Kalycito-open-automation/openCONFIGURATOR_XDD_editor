@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -11,33 +7,27 @@ import java.util.List;
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TApplication Layers</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>TApplication Layers</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getIdentity
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getIdentity
  * <em>Identity</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDataTypeList
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDataTypeList
  * <em>Data Type List</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getObjectList
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getObjectList
  * <em>Object List</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDynamicChannels
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDynamicChannels
  * <em>Dynamic Channels</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
  * <em>Communication Entity Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getConformanceClass
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getConformanceClass
  * <em>Conformance Class</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTApplicationLayers()
  * @model extendedMetaData="name='t_ApplicationLayers' kind='elementOnly'"
  * @generated
@@ -51,22 +41,22 @@ public interface TApplicationLayers extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Identity</em>' containment reference.
      * @see #setIdentity(IdentityType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTApplicationLayers_Identity()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='identity' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='identity' namespace='##targetNamespace'"
      * @generated
      */
     IdentityType getIdentity();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getIdentity
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getIdentity
      * <em>Identity</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Identity</em>' containment
      *            reference.
@@ -83,22 +73,23 @@ public interface TApplicationLayers extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Data Type List</em>' containment reference.
      * @see #setDataTypeList(DataTypeListType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTApplicationLayers_DataTypeList()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='DataTypeList' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='DataTypeList'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     DataTypeListType getDataTypeList();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDataTypeList
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDataTypeList
      * <em>Data Type List</em>}' containment reference. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Data Type List</em>' containment
      *            reference.
@@ -115,22 +106,23 @@ public interface TApplicationLayers extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Object List</em>' containment reference.
      * @see #setObjectList(ObjectListType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTApplicationLayers_ObjectList()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='ObjectList' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='ObjectList'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     ObjectListType getObjectList();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getObjectList
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getObjectList
      * <em>Object List</em>}' containment reference. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Object List</em>' containment
      *            reference.
@@ -147,23 +139,23 @@ public interface TApplicationLayers extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Dynamic Channels</em>' containment
      *         reference.
      * @see #setDynamicChannels(DynamicChannelsType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTApplicationLayers_DynamicChannels()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='dynamicChannels' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='dynamicChannels' namespace='##targetNamespace'"
      * @generated
      */
     DynamicChannelsType getDynamicChannels();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDynamicChannels
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getDynamicChannels
      * <em>Dynamic Channels</em>}' containment reference. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Dynamic Channels</em>' containment
      *            reference.
@@ -176,11 +168,11 @@ public interface TApplicationLayers extends EObject {
      * Returns the value of the '<em><b>Communication Entity Type</b></em>'
      * attribute. The default value is <code>"slave"</code>. <!-- begin-user-doc
      * --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * Shall not be used. Provided for compatibility to CANopen.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Communication Entity Type</em>' attribute.
      * @see #isSetCommunicationEntityType()
      * @see #unsetCommunicationEntityType()
@@ -194,11 +186,11 @@ public interface TApplicationLayers extends EObject {
     List<String> getCommunicationEntityType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
      * <em>Communication Entity Type</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Communication Entity Type</em>'
      *            attribute.
@@ -210,11 +202,11 @@ public interface TApplicationLayers extends EObject {
     void setCommunicationEntityType(List<String> value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
      * <em>Communication Entity Type</em>}' attribute. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #isSetCommunicationEntityType()
      * @see #getCommunicationEntityType()
      * @see #setCommunicationEntityType(List)
@@ -223,11 +215,11 @@ public interface TApplicationLayers extends EObject {
     void unsetCommunicationEntityType();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getCommunicationEntityType
      * <em>Communication Entity Type</em>}' attribute is set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Communication Entity Type</em>'
      *         attribute is set.
      * @see #unsetCommunicationEntityType()
@@ -240,13 +232,13 @@ public interface TApplicationLayers extends EObject {
     /**
      * Returns the value of the '<em><b>Conformance Class</b></em>' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * Conformance class of the device type. Using that attribute it is possible
      * to classify the device according to the supported services of the
      * communication protocol.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Conformance Class</em>' attribute.
      * @see #setConformanceClass(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTApplicationLayers_ConformanceClass()
@@ -257,11 +249,11 @@ public interface TApplicationLayers extends EObject {
     String getConformanceClass();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getConformanceClass
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TApplicationLayers#getConformanceClass
      * <em>Conformance Class</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Conformance Class</em>' attribute.
      * @see #getConformanceClass()

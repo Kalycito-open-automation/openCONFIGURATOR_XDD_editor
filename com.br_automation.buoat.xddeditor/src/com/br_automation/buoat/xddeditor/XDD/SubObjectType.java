@@ -1,29 +1,24 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Sub Object Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Sub
+ * Object Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
  * <em>Access Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getActualValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getActualValue
  * <em>Actual Value</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDataType
  * <em>Data Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDefaultValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDefaultValue
  * <em>Default Value</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDenotation
  * <em>Denotation</em>}</li>
@@ -31,8 +26,8 @@ import org.eclipse.emf.ecore.EObject;
  * <em>High Limit</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getLowLimit
  * <em>Low Limit</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getName <em>
- * Name</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getName
+ * <em>Name</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
  * <em>Object Type</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjFlags
@@ -41,12 +36,10 @@ import org.eclipse.emf.ecore.EObject;
  * <em>PD Omapping</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getSubIndex
  * <em>Sub Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getUniqueIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getUniqueIDRef
  * <em>Unique ID Ref</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType()
  * @model extendedMetaData="name='SubObject_._type' kind='empty'"
  * @generated
@@ -62,25 +55,25 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Access Type</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.TObjectAccessType
      * @see #isSetAccessType()
      * @see #unsetAccessType()
      * @see #setAccessType(TObjectAccessType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_AccessType()
-     * @model unsettable="true"
-     *        extendedMetaData="kind='attribute' name='accessType'"
+     * @model unsettable="true" extendedMetaData="kind='attribute'
+     *        name='accessType'"
      * @generated
      */
     TObjectAccessType getAccessType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
      * <em>Access Type</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Access Type</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.TObjectAccessType
@@ -92,11 +85,11 @@ public interface SubObjectType extends EObject {
     void setAccessType(TObjectAccessType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
      * <em>Access Type</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetAccessType()
      * @see #getAccessType()
      * @see #setAccessType(TObjectAccessType)
@@ -105,11 +98,11 @@ public interface SubObjectType extends EObject {
     void unsetAccessType();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getAccessType
      * <em>Access Type</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Access Type</em>' attribute is set.
      * @see #unsetAccessType()
      * @see #getAccessType()
@@ -126,7 +119,7 @@ public interface SubObjectType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Actual Value</em>' attribute.
      * @see #setActualValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_ActualValue()
@@ -137,11 +130,11 @@ public interface SubObjectType extends EObject {
     String getActualValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getActualValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getActualValue
      * <em>Actual Value</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Actual Value</em>' attribute.
      * @see #getActualValue()
@@ -157,7 +150,7 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Data Type</em>' attribute.
      * @see #setDataType(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_DataType()
@@ -168,11 +161,11 @@ public interface SubObjectType extends EObject {
     byte[] getDataType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDataType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDataType
      * <em>Data Type</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Data Type</em>' attribute.
      * @see #getDataType()
@@ -188,7 +181,7 @@ public interface SubObjectType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Default Value</em>' attribute.
      * @see #setDefaultValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_DefaultValue()
@@ -199,11 +192,11 @@ public interface SubObjectType extends EObject {
     String getDefaultValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDefaultValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDefaultValue
      * <em>Default Value</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Default Value</em>' attribute.
      * @see #getDefaultValue()
@@ -219,7 +212,7 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Denotation</em>' attribute.
      * @see #setDenotation(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_Denotation()
@@ -230,11 +223,11 @@ public interface SubObjectType extends EObject {
     String getDenotation();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDenotation
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getDenotation
      * <em>Denotation</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Denotation</em>' attribute.
      * @see #getDenotation()
@@ -250,7 +243,7 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>High Limit</em>' attribute.
      * @see #setHighLimit(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_HighLimit()
@@ -261,11 +254,11 @@ public interface SubObjectType extends EObject {
     String getHighLimit();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getHighLimit
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getHighLimit
      * <em>High Limit</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>High Limit</em>' attribute.
      * @see #getHighLimit()
@@ -281,7 +274,7 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Low Limit</em>' attribute.
      * @see #setLowLimit(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_LowLimit()
@@ -292,11 +285,11 @@ public interface SubObjectType extends EObject {
     String getLowLimit();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getLowLimit
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getLowLimit
      * <em>Low Limit</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Low Limit</em>' attribute.
      * @see #getLowLimit()
@@ -312,7 +305,7 @@ public interface SubObjectType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_Name()
@@ -323,10 +316,10 @@ public interface SubObjectType extends EObject {
     String getName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getName
      * <em>Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Name</em>' attribute.
      * @see #getName()
@@ -342,7 +335,7 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Object Type</em>' attribute.
      * @see #isSetObjectType()
      * @see #unsetObjectType()
@@ -350,18 +343,18 @@ public interface SubObjectType extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_ObjectType()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedByte"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='objectType'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='objectType'"
      * @generated
      */
     short getObjectType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
      * <em>Object Type</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Object Type</em>' attribute.
      * @see #isSetObjectType()
@@ -372,11 +365,11 @@ public interface SubObjectType extends EObject {
     void setObjectType(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
      * <em>Object Type</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetObjectType()
      * @see #getObjectType()
      * @see #setObjectType(short)
@@ -385,11 +378,11 @@ public interface SubObjectType extends EObject {
     void unsetObjectType();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjectType
      * <em>Object Type</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Object Type</em>' attribute is set.
      * @see #unsetObjectType()
      * @see #getObjectType()
@@ -406,7 +399,7 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Obj Flags</em>' attribute.
      * @see #setObjFlags(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_ObjFlags()
@@ -417,11 +410,11 @@ public interface SubObjectType extends EObject {
     byte[] getObjFlags();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjFlags
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getObjFlags
      * <em>Obj Flags</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Obj Flags</em>' attribute.
      * @see #getObjFlags()
@@ -439,25 +432,25 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>PD Omapping</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.TObjectPDOMapping
      * @see #isSetPDOmapping()
      * @see #unsetPDOmapping()
      * @see #setPDOmapping(TObjectPDOMapping)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_PDOmapping()
-     * @model unsettable="true"
-     *        extendedMetaData="kind='attribute' name='PDOmapping'"
+     * @model unsettable="true" extendedMetaData="kind='attribute'
+     *        name='PDOmapping'"
      * @generated
      */
     TObjectPDOMapping getPDOmapping();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getPDOmapping
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getPDOmapping
      * <em>PD Omapping</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>PD Omapping</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.TObjectPDOMapping
@@ -469,11 +462,11 @@ public interface SubObjectType extends EObject {
     void setPDOmapping(TObjectPDOMapping value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getPDOmapping
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getPDOmapping
      * <em>PD Omapping</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPDOmapping()
      * @see #getPDOmapping()
      * @see #setPDOmapping(TObjectPDOMapping)
@@ -482,11 +475,11 @@ public interface SubObjectType extends EObject {
     void unsetPDOmapping();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getPDOmapping
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getPDOmapping
      * <em>PD Omapping</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>PD Omapping</em>' attribute is set.
      * @see #unsetPDOmapping()
      * @see #getPDOmapping()
@@ -503,23 +496,23 @@ public interface SubObjectType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Sub Index</em>' attribute.
      * @see #setSubIndex(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_SubIndex()
      * @model dataType="org.eclipse.emf.ecore.xml.type.HexBinary"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='subIndex'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='subIndex'"
      * @generated
      */
     byte[] getSubIndex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getSubIndex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getSubIndex
      * <em>Sub Index</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Sub Index</em>' attribute.
      * @see #getSubIndex()
@@ -535,7 +528,7 @@ public interface SubObjectType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Unique ID Ref</em>' attribute.
      * @see #setUniqueIDRef(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSubObjectType_UniqueIDRef()
@@ -546,11 +539,11 @@ public interface SubObjectType extends EObject {
     String getUniqueIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getUniqueIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.SubObjectType#getUniqueIDRef
      * <em>Unique ID Ref</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Unique ID Ref</em>' attribute.
      * @see #getUniqueIDRef()

@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>Support Type</b></em>', and utility methods for working with them.
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>Support Type</b></em>', and utility methods for working with them.
  * <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getSupportType()
  * @model extendedMetaData="name='support_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum SupportType implements Enumerator {
     /**
      * The '<em><b>Mandatory</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MANDATORY_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum SupportType implements Enumerator {
     /**
      * The '<em><b>Optional</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #OPTIONAL_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum SupportType implements Enumerator {
     /**
      * The '<em><b>Conditional</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #CONDITIONAL_VALUE
      * @generated
      * @ordered
@@ -59,7 +55,7 @@ public enum SupportType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MANDATORY
      * @model name="mandatory"
      * @generated
@@ -74,7 +70,7 @@ public enum SupportType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #OPTIONAL
      * @model name="optional"
      * @generated
@@ -89,7 +85,7 @@ public enum SupportType implements Enumerator {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #CONDITIONAL
      * @model name="conditional"
      * @generated
@@ -100,25 +96,26 @@ public enum SupportType implements Enumerator {
     /**
      * An array of all the '<em><b>Support Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private static final SupportType[] VALUES_ARRAY = new SupportType[] { MANDATORY, OPTIONAL,
-        CONDITIONAL, };
+    private static final SupportType[] VALUES_ARRAY = new SupportType[] { MANDATORY, OPTIONAL, CONDITIONAL, };
 
     /**
      * A public read-only list of all the '<em><b>Support Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<SupportType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<SupportType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>Support Type</b></em>' literal with the specified
      * literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static SupportType get(String literal) {
@@ -134,7 +131,10 @@ public enum SupportType implements Enumerator {
     /**
      * Returns the '<em><b>Support Type</b></em>' literal with the specified
      * name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static SupportType getByName(String name) {
@@ -150,38 +150,41 @@ public enum SupportType implements Enumerator {
     /**
      * Returns the '<em><b>Support Type</b></em>' literal with the specified
      * integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static SupportType get(int value) {
         switch (value) {
-            case MANDATORY_VALUE:
-                return MANDATORY;
-            case OPTIONAL_VALUE:
-                return OPTIONAL;
-            case CONDITIONAL_VALUE:
-                return CONDITIONAL;
+        case MANDATORY_VALUE:
+            return MANDATORY;
+        case OPTIONAL_VALUE:
+            return OPTIONAL;
+        case CONDITIONAL_VALUE:
+            return CONDITIONAL;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -189,12 +192,10 @@ public enum SupportType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private SupportType(int value,
-        String name,
-        String literal) {
+    private SupportType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -202,27 +203,30 @@ public enum SupportType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -230,7 +234,7 @@ public enum SupportType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -238,4 +242,4 @@ public enum SupportType implements Enumerator {
         return literal;
     }
 
-} //SupportType
+} // SupportType

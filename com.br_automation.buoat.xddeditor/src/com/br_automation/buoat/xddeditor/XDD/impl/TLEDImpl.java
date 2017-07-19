@@ -1,20 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.DescriptionRefType;
-import com.br_automation.buoat.xddeditor.XDD.DescriptionType;
-import com.br_automation.buoat.xddeditor.XDD.LEDcolorsType;
-import com.br_automation.buoat.xddeditor.XDD.LEDstateType;
-import com.br_automation.buoat.xddeditor.XDD.LEDtypeType;
-import com.br_automation.buoat.xddeditor.XDD.LabelRefType;
-import com.br_automation.buoat.xddeditor.XDD.LabelType;
-import com.br_automation.buoat.xddeditor.XDD.TLED;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import java.util.Collection;
 
@@ -34,23 +20,32 @@ import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.FeatureMap;
 import org.eclipse.emf.ecore.util.InternalEList;
 
+import com.br_automation.buoat.xddeditor.XDD.DescriptionRefType;
+import com.br_automation.buoat.xddeditor.XDD.DescriptionType;
+import com.br_automation.buoat.xddeditor.XDD.LEDcolorsType;
+import com.br_automation.buoat.xddeditor.XDD.LEDstateType;
+import com.br_automation.buoat.xddeditor.XDD.LEDtypeType;
+import com.br_automation.buoat.xddeditor.XDD.LabelRefType;
+import com.br_automation.buoat.xddeditor.XDD.LabelType;
+import com.br_automation.buoat.xddeditor.XDD.TLED;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TLED</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>TLED</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getGroup <em>
- * Group</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getLabel <em>
- * Label</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getDescription
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getGroup
+ * <em>Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getLabel
+ * <em>Label</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getDescription
  * <em>Description</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getLabelRef
  * <em>Label Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getDescriptionRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getDescriptionRef
  * <em>Description Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getLEDstate
  * <em>LE Dstate</em>}</li>
@@ -59,15 +54,14 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TLEDImpl#getLEDtype
  * <em>LE Dtype</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute
      * list. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getGroup()
      * @generated
      * @ordered
@@ -77,7 +71,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * The cached value of the '{@link #getLEDstate() <em>LE Dstate</em>}'
      * containment reference list. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getLEDstate()
      * @generated
      * @ordered
@@ -87,7 +81,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * The default value of the '{@link #getLEDcolors() <em>LE Dcolors</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getLEDcolors()
      * @generated
      * @ordered
@@ -97,7 +91,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * The cached value of the '{@link #getLEDcolors() <em>LE Dcolors</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getLEDcolors()
      * @generated
      * @ordered
@@ -107,7 +101,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * This is true if the LE Dcolors attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -116,7 +110,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * The default value of the '{@link #getLEDtype() <em>LE Dtype</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getLEDtype()
      * @generated
      * @ordered
@@ -126,7 +120,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * The cached value of the '{@link #getLEDtype() <em>LE Dtype</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getLEDtype()
      * @generated
      * @ordered
@@ -136,7 +130,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
     /**
      * This is true if the LE Dtype attribute has been set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -144,7 +138,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TLEDImpl() {
@@ -153,7 +147,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -163,7 +157,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public FeatureMap getGroup() {
@@ -175,7 +169,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<LabelType> getLabel() {
@@ -184,7 +178,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<DescriptionType> getDescription() {
@@ -193,7 +187,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<LabelRefType> getLabelRef() {
@@ -202,7 +196,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<DescriptionRefType> getDescriptionRef() {
@@ -211,20 +205,19 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<LEDstateType> getLEDstate() {
         if (lEDstate == null) {
-            lEDstate = new EObjectContainmentEList<LEDstateType>(LEDstateType.class, this,
-                XDDPackage.TLED__LE_DSTATE);
+            lEDstate = new EObjectContainmentEList<LEDstateType>(LEDstateType.class, this, XDDPackage.TLED__LE_DSTATE);
         }
         return lEDstate;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public LEDcolorsType getLEDcolors() {
@@ -233,7 +226,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setLEDcolors(LEDcolorsType newLEDcolors) {
@@ -242,13 +235,13 @@ public class TLEDImpl extends EObjectImpl implements TLED {
         boolean oldLEDcolorsESet = lEDcolorsESet;
         lEDcolorsESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TLED__LE_DCOLORS,
-                oldLEDcolors, lEDcolors, !oldLEDcolorsESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TLED__LE_DCOLORS, oldLEDcolors, lEDcolors,
+                    !oldLEDcolorsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetLEDcolors() {
@@ -257,13 +250,13 @@ public class TLEDImpl extends EObjectImpl implements TLED {
         lEDcolors = LE_DCOLORS_EDEFAULT;
         lEDcolorsESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TLED__LE_DCOLORS,
-                oldLEDcolors, LE_DCOLORS_EDEFAULT, oldLEDcolorsESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TLED__LE_DCOLORS, oldLEDcolors,
+                    LE_DCOLORS_EDEFAULT, oldLEDcolorsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetLEDcolors() {
@@ -272,7 +265,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public LEDtypeType getLEDtype() {
@@ -281,7 +274,7 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setLEDtype(LEDtypeType newLEDtype) {
@@ -290,13 +283,13 @@ public class TLEDImpl extends EObjectImpl implements TLED {
         boolean oldLEDtypeESet = lEDtypeESet;
         lEDtypeESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TLED__LE_DTYPE,
-                oldLEDtype, lEDtype, !oldLEDtypeESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TLED__LE_DTYPE, oldLEDtype, lEDtype,
+                    !oldLEDtypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetLEDtype() {
@@ -305,13 +298,13 @@ public class TLEDImpl extends EObjectImpl implements TLED {
         lEDtype = LE_DTYPE_EDEFAULT;
         lEDtypeESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TLED__LE_DTYPE,
-                oldLEDtype, LE_DTYPE_EDEFAULT, oldLEDtypeESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TLED__LE_DTYPE, oldLEDtype,
+                    LE_DTYPE_EDEFAULT, oldLEDtypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetLEDtype() {
@@ -320,169 +313,167 @@ public class TLEDImpl extends EObjectImpl implements TLED {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd,
-        int featureID,
-        NotificationChain msgs) {
+    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
         switch (featureID) {
-            case XDDPackage.TLED__GROUP:
-                return ((InternalEList<?>) getGroup()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TLED__LABEL:
-                return ((InternalEList<?>) getLabel()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TLED__DESCRIPTION:
-                return ((InternalEList<?>) getDescription()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TLED__LABEL_REF:
-                return ((InternalEList<?>) getLabelRef()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TLED__DESCRIPTION_REF:
-                return ((InternalEList<?>) getDescriptionRef()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TLED__LE_DSTATE:
-                return ((InternalEList<?>) getLEDstate()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TLED__GROUP:
+            return ((InternalEList<?>) getGroup()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TLED__LABEL:
+            return ((InternalEList<?>) getLabel()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TLED__DESCRIPTION:
+            return ((InternalEList<?>) getDescription()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TLED__LABEL_REF:
+            return ((InternalEList<?>) getLabelRef()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TLED__DESCRIPTION_REF:
+            return ((InternalEList<?>) getDescriptionRef()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TLED__LE_DSTATE:
+            return ((InternalEList<?>) getLEDstate()).basicRemove(otherEnd, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TLED__GROUP:
-                if (coreType)
-                    return getGroup();
-                return ((FeatureMap.Internal) getGroup()).getWrapper();
-            case XDDPackage.TLED__LABEL:
-                return getLabel();
-            case XDDPackage.TLED__DESCRIPTION:
-                return getDescription();
-            case XDDPackage.TLED__LABEL_REF:
-                return getLabelRef();
-            case XDDPackage.TLED__DESCRIPTION_REF:
-                return getDescriptionRef();
-            case XDDPackage.TLED__LE_DSTATE:
-                return getLEDstate();
-            case XDDPackage.TLED__LE_DCOLORS:
-                return getLEDcolors();
-            case XDDPackage.TLED__LE_DTYPE:
-                return getLEDtype();
+        case XDDPackage.TLED__GROUP:
+            if (coreType)
+                return getGroup();
+            return ((FeatureMap.Internal) getGroup()).getWrapper();
+        case XDDPackage.TLED__LABEL:
+            return getLabel();
+        case XDDPackage.TLED__DESCRIPTION:
+            return getDescription();
+        case XDDPackage.TLED__LABEL_REF:
+            return getLabelRef();
+        case XDDPackage.TLED__DESCRIPTION_REF:
+            return getDescriptionRef();
+        case XDDPackage.TLED__LE_DSTATE:
+            return getLEDstate();
+        case XDDPackage.TLED__LE_DCOLORS:
+            return getLEDcolors();
+        case XDDPackage.TLED__LE_DTYPE:
+            return getLEDtype();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TLED__GROUP:
-                ((FeatureMap.Internal) getGroup()).set(newValue);
-                return;
-            case XDDPackage.TLED__LABEL:
-                getLabel().clear();
-                getLabel().addAll((Collection<? extends LabelType>) newValue);
-                return;
-            case XDDPackage.TLED__DESCRIPTION:
-                getDescription().clear();
-                getDescription().addAll((Collection<? extends DescriptionType>) newValue);
-                return;
-            case XDDPackage.TLED__LABEL_REF:
-                getLabelRef().clear();
-                getLabelRef().addAll((Collection<? extends LabelRefType>) newValue);
-                return;
-            case XDDPackage.TLED__DESCRIPTION_REF:
-                getDescriptionRef().clear();
-                getDescriptionRef().addAll((Collection<? extends DescriptionRefType>) newValue);
-                return;
-            case XDDPackage.TLED__LE_DSTATE:
-                getLEDstate().clear();
-                getLEDstate().addAll((Collection<? extends LEDstateType>) newValue);
-                return;
-            case XDDPackage.TLED__LE_DCOLORS:
-                setLEDcolors((LEDcolorsType) newValue);
-                return;
-            case XDDPackage.TLED__LE_DTYPE:
-                setLEDtype((LEDtypeType) newValue);
-                return;
+        case XDDPackage.TLED__GROUP:
+            ((FeatureMap.Internal) getGroup()).set(newValue);
+            return;
+        case XDDPackage.TLED__LABEL:
+            getLabel().clear();
+            getLabel().addAll((Collection<? extends LabelType>) newValue);
+            return;
+        case XDDPackage.TLED__DESCRIPTION:
+            getDescription().clear();
+            getDescription().addAll((Collection<? extends DescriptionType>) newValue);
+            return;
+        case XDDPackage.TLED__LABEL_REF:
+            getLabelRef().clear();
+            getLabelRef().addAll((Collection<? extends LabelRefType>) newValue);
+            return;
+        case XDDPackage.TLED__DESCRIPTION_REF:
+            getDescriptionRef().clear();
+            getDescriptionRef().addAll((Collection<? extends DescriptionRefType>) newValue);
+            return;
+        case XDDPackage.TLED__LE_DSTATE:
+            getLEDstate().clear();
+            getLEDstate().addAll((Collection<? extends LEDstateType>) newValue);
+            return;
+        case XDDPackage.TLED__LE_DCOLORS:
+            setLEDcolors((LEDcolorsType) newValue);
+            return;
+        case XDDPackage.TLED__LE_DTYPE:
+            setLEDtype((LEDtypeType) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TLED__GROUP:
-                getGroup().clear();
-                return;
-            case XDDPackage.TLED__LABEL:
-                getLabel().clear();
-                return;
-            case XDDPackage.TLED__DESCRIPTION:
-                getDescription().clear();
-                return;
-            case XDDPackage.TLED__LABEL_REF:
-                getLabelRef().clear();
-                return;
-            case XDDPackage.TLED__DESCRIPTION_REF:
-                getDescriptionRef().clear();
-                return;
-            case XDDPackage.TLED__LE_DSTATE:
-                getLEDstate().clear();
-                return;
-            case XDDPackage.TLED__LE_DCOLORS:
-                unsetLEDcolors();
-                return;
-            case XDDPackage.TLED__LE_DTYPE:
-                unsetLEDtype();
-                return;
+        case XDDPackage.TLED__GROUP:
+            getGroup().clear();
+            return;
+        case XDDPackage.TLED__LABEL:
+            getLabel().clear();
+            return;
+        case XDDPackage.TLED__DESCRIPTION:
+            getDescription().clear();
+            return;
+        case XDDPackage.TLED__LABEL_REF:
+            getLabelRef().clear();
+            return;
+        case XDDPackage.TLED__DESCRIPTION_REF:
+            getDescriptionRef().clear();
+            return;
+        case XDDPackage.TLED__LE_DSTATE:
+            getLEDstate().clear();
+            return;
+        case XDDPackage.TLED__LE_DCOLORS:
+            unsetLEDcolors();
+            return;
+        case XDDPackage.TLED__LE_DTYPE:
+            unsetLEDtype();
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TLED__GROUP:
-                return group != null && !group.isEmpty();
-            case XDDPackage.TLED__LABEL:
-                return !getLabel().isEmpty();
-            case XDDPackage.TLED__DESCRIPTION:
-                return !getDescription().isEmpty();
-            case XDDPackage.TLED__LABEL_REF:
-                return !getLabelRef().isEmpty();
-            case XDDPackage.TLED__DESCRIPTION_REF:
-                return !getDescriptionRef().isEmpty();
-            case XDDPackage.TLED__LE_DSTATE:
-                return lEDstate != null && !lEDstate.isEmpty();
-            case XDDPackage.TLED__LE_DCOLORS:
-                return isSetLEDcolors();
-            case XDDPackage.TLED__LE_DTYPE:
-                return isSetLEDtype();
+        case XDDPackage.TLED__GROUP:
+            return group != null && !group.isEmpty();
+        case XDDPackage.TLED__LABEL:
+            return !getLabel().isEmpty();
+        case XDDPackage.TLED__DESCRIPTION:
+            return !getDescription().isEmpty();
+        case XDDPackage.TLED__LABEL_REF:
+            return !getLabelRef().isEmpty();
+        case XDDPackage.TLED__DESCRIPTION_REF:
+            return !getDescriptionRef().isEmpty();
+        case XDDPackage.TLED__LE_DSTATE:
+            return lEDstate != null && !lEDstate.isEmpty();
+        case XDDPackage.TLED__LE_DCOLORS:
+            return isSetLEDcolors();
+        case XDDPackage.TLED__LE_DTYPE:
+            return isSetLEDtype();
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -507,4 +498,4 @@ public class TLEDImpl extends EObjectImpl implements TLED {
         return result.toString();
     }
 
-} //TLEDImpl
+} // TLEDImpl

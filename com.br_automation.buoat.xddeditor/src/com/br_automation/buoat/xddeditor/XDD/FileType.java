@@ -1,25 +1,21 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>File Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>File
+ * Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
- * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.FileType#getURI <em>URI
- * </em>}</li>
- * </ul>
  * </p>
- * 
+ * <ul>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.FileType#getURI
+ * <em>URI</em>}</li>
+ * </ul>
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getFileType()
  * @model extendedMetaData="name='file_._type' kind='empty'"
  * @generated
@@ -33,7 +29,7 @@ public interface FileType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>URI</em>' attribute.
      * @see #setURI(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getFileType_URI()
@@ -44,10 +40,10 @@ public interface FileType extends EObject {
     String getURI();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.FileType#getURI
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.FileType#getURI
      * <em>URI</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>URI</em>' attribute.
      * @see #getURI()

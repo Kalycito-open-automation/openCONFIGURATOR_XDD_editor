@@ -1,123 +1,107 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Parameter Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>Parameter Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getGroup <em>
- * Group</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLabel <em>
- * Label</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDescription
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getGroup
+ * <em>Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLabel
+ * <em>Label</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDescription
  * <em>Description</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLabelRef
  * <em>Label Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDescriptionRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDescriptionRef
  * <em>Description Ref</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBOOL <em>
- * BOOL</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBOOL
+ * <em>BOOL</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBITSTRING
  * <em>BITSTRING</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBYTE <em>
- * BYTE</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getCHAR <em>
- * CHAR</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWORD <em>
- * WORD</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDWORD <em>
- * DWORD</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLWORD <em>
- * LWORD</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSINT <em>
- * SINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getINT <em>INT
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDINT <em>
- * DINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLINT <em>
- * LINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUSINT <em>
- * USINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUINT <em>
- * UINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUDINT <em>
- * UDINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getULINT <em>
- * ULINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getREAL <em>
- * REAL</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLREAL <em>
- * LREAL</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSTRING <em>
- * STRING</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBYTE
+ * <em>BYTE</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getCHAR
+ * <em>CHAR</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWORD
+ * <em>WORD</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDWORD
+ * <em>DWORD</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLWORD
+ * <em>LWORD</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSINT
+ * <em>SINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getINT
+ * <em>INT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDINT
+ * <em>DINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLINT
+ * <em>LINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUSINT
+ * <em>USINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUINT
+ * <em>UINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUDINT
+ * <em>UDINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getULINT
+ * <em>ULINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getREAL
+ * <em>REAL</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLREAL
+ * <em>LREAL</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSTRING
+ * <em>STRING</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWSTRING
  * <em>WSTRING</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDataTypeIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDataTypeIDRef
  * <em>Data Type ID Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getVariableRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getVariableRef
  * <em>Variable Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getConditionalSupport
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getConditionalSupport
  * <em>Conditional Support</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDenotation
  * <em>Denotation</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getActualValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getActualValue
  * <em>Actual Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDefaultValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDefaultValue
  * <em>Default Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSubstituteValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSubstituteValue
  * <em>Substitute Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAllowedValues
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAllowedValues
  * <em>Allowed Values</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUnit <em>
- * Unit</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUnit
+ * <em>Unit</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getProperty
  * <em>Property</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess <em>
- * Access</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
+ * <em>Access</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccessList
  * <em>Access List</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getMultiplier
  * <em>Multiplier</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getOffset <em>
- * Offset</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getOffset
+ * <em>Offset</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
  * <em>Persistent</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
  * <em>Support</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getTemplateIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getTemplateIDRef
  * <em>Template ID Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUniqueID
  * <em>Unique ID</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType()
  * @model extendedMetaData="name='parameter_._type' kind='elementOnly'"
  * @generated
@@ -132,7 +116,7 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -146,17 +130,17 @@ public interface ParameterType extends EObject {
      * list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of the identifying name inside the XML file
      * itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Label()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='label' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='label'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelType> getLabel();
@@ -166,18 +150,18 @@ public interface ParameterType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of descriptive information inside the XML
      * file itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Description()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='description' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='description'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionType> getDescription();
@@ -187,17 +171,17 @@ public interface ParameterType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of identifying names inside an external text
      * resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label Ref</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_LabelRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='labelRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='labelRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelRefType> getLabelRef();
@@ -207,18 +191,18 @@ public interface ParameterType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of reference descriptive texts inside an
      * external text resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_DescriptionRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='descriptionRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='descriptionRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionRefType> getDescriptionRef();
@@ -231,22 +215,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>BOOL</em>' containment reference.
      * @see #setBOOL(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_BOOL()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='BOOL' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='BOOL'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getBOOL();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBOOL
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBOOL
      * <em>BOOL</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>BOOL</em>' containment reference.
      * @see #getBOOL()
@@ -262,22 +246,22 @@ public interface ParameterType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>BITSTRING</em>' containment reference.
      * @see #setBITSTRING(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_BITSTRING()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='BITSTRING' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='BITSTRING' namespace='##targetNamespace'"
      * @generated
      */
     EObject getBITSTRING();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBITSTRING
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBITSTRING
      * <em>BITSTRING</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>BITSTRING</em>' containment
      *            reference.
@@ -294,22 +278,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>BYTE</em>' containment reference.
      * @see #setBYTE(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_BYTE()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='BYTE' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='BYTE'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getBYTE();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBYTE
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getBYTE
      * <em>BYTE</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>BYTE</em>' containment reference.
      * @see #getBYTE()
@@ -325,22 +309,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>CHAR</em>' containment reference.
      * @see #setCHAR(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_CHAR()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='CHAR' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='CHAR'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getCHAR();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getCHAR
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getCHAR
      * <em>CHAR</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>CHAR</em>' containment reference.
      * @see #getCHAR()
@@ -356,22 +340,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>WORD</em>' containment reference.
      * @see #setWORD(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_WORD()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='WORD' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='WORD'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getWORD();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWORD
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWORD
      * <em>WORD</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>WORD</em>' containment reference.
      * @see #getWORD()
@@ -387,22 +371,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DWORD</em>' containment reference.
      * @see #setDWORD(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_DWORD()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='DWORD' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='DWORD'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getDWORD();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDWORD
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDWORD
      * <em>DWORD</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DWORD</em>' containment reference.
      * @see #getDWORD()
@@ -418,22 +402,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LWORD</em>' containment reference.
      * @see #setLWORD(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_LWORD()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='LWORD' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='LWORD'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getLWORD();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLWORD
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLWORD
      * <em>LWORD</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>LWORD</em>' containment reference.
      * @see #getLWORD()
@@ -449,22 +433,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SINT</em>' containment reference.
      * @see #setSINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_SINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='SINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='SINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getSINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSINT
      * <em>SINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SINT</em>' containment reference.
      * @see #getSINT()
@@ -480,22 +464,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>INT</em>' containment reference.
      * @see #setINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_INT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='INT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='INT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getINT
      * <em>INT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>INT</em>' containment reference.
      * @see #getINT()
@@ -511,22 +495,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DINT</em>' containment reference.
      * @see #setDINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_DINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='DINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='DINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getDINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDINT
      * <em>DINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DINT</em>' containment reference.
      * @see #getDINT()
@@ -542,22 +526,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LINT</em>' containment reference.
      * @see #setLINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_LINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='LINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='LINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getLINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLINT
      * <em>LINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>LINT</em>' containment reference.
      * @see #getLINT()
@@ -573,22 +557,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>USINT</em>' containment reference.
      * @see #setUSINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_USINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='USINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='USINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getUSINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUSINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUSINT
      * <em>USINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>USINT</em>' containment reference.
      * @see #getUSINT()
@@ -604,22 +588,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>UINT</em>' containment reference.
      * @see #setUINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_UINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='UINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='UINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getUINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUINT
      * <em>UINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>UINT</em>' containment reference.
      * @see #getUINT()
@@ -635,22 +619,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>UDINT</em>' containment reference.
      * @see #setUDINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_UDINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='UDINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='UDINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getUDINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUDINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUDINT
      * <em>UDINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>UDINT</em>' containment reference.
      * @see #getUDINT()
@@ -666,22 +650,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>ULINT</em>' containment reference.
      * @see #setULINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_ULINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='ULINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='ULINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getULINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getULINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getULINT
      * <em>ULINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>ULINT</em>' containment reference.
      * @see #getULINT()
@@ -697,22 +681,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>REAL</em>' containment reference.
      * @see #setREAL(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_REAL()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='REAL' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='REAL'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getREAL();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getREAL
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getREAL
      * <em>REAL</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>REAL</em>' containment reference.
      * @see #getREAL()
@@ -728,22 +712,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LREAL</em>' containment reference.
      * @see #setLREAL(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_LREAL()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='LREAL' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='LREAL'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getLREAL();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLREAL
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getLREAL
      * <em>LREAL</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>LREAL</em>' containment reference.
      * @see #getLREAL()
@@ -759,22 +743,22 @@ public interface ParameterType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>STRING</em>' containment reference.
      * @see #setSTRING(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_STRING()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='STRING' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='STRING'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getSTRING();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSTRING
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSTRING
      * <em>STRING</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>STRING</em>' containment reference.
      * @see #getSTRING()
@@ -790,22 +774,22 @@ public interface ParameterType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>WSTRING</em>' containment reference.
      * @see #setWSTRING(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_WSTRING()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='WSTRING' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='WSTRING'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getWSTRING();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWSTRING
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getWSTRING
      * <em>WSTRING</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>WSTRING</em>' containment reference.
      * @see #getWSTRING()
@@ -821,23 +805,23 @@ public interface ParameterType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Data Type ID Ref</em>' containment
      *         reference.
      * @see #setDataTypeIDRef(TDataTypeIDRef)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_DataTypeIDRef()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='dataTypeIDRef' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='dataTypeIDRef' namespace='##targetNamespace'"
      * @generated
      */
     TDataTypeIDRef getDataTypeIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDataTypeIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDataTypeIDRef
      * <em>Data Type ID Ref</em>}' containment reference. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Data Type ID Ref</em>' containment
      *            reference.
@@ -856,12 +840,12 @@ public interface ParameterType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Variable Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_VariableRef()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='variableRef' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='variableRef' namespace='##targetNamespace'"
      * @generated
      */
     EList<TVariableRef> getVariableRef();
@@ -877,12 +861,12 @@ public interface ParameterType extends EObject {
      * here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Conditional Support</em>' containment
      *         reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_ConditionalSupport()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='conditionalSupport' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='conditionalSupport' namespace='##targetNamespace'"
      * @generated
      */
     EList<TConditionalSupport> getConditionalSupport();
@@ -895,22 +879,22 @@ public interface ParameterType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Denotation</em>' containment reference.
      * @see #setDenotation(TDenotation)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Denotation()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='denotation' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='denotation' namespace='##targetNamespace'"
      * @generated
      */
     TDenotation getDenotation();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDenotation
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDenotation
      * <em>Denotation</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Denotation</em>' containment
      *            reference.
@@ -927,22 +911,22 @@ public interface ParameterType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Actual Value</em>' containment reference.
      * @see #setActualValue(TValue)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_ActualValue()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='actualValue' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='actualValue' namespace='##targetNamespace'"
      * @generated
      */
     TValue getActualValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getActualValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getActualValue
      * <em>Actual Value</em>}' containment reference. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Actual Value</em>' containment
      *            reference.
@@ -959,22 +943,22 @@ public interface ParameterType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Default Value</em>' containment reference.
      * @see #setDefaultValue(TValue)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_DefaultValue()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='defaultValue' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='defaultValue' namespace='##targetNamespace'"
      * @generated
      */
     TValue getDefaultValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDefaultValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getDefaultValue
      * <em>Default Value</em>}' containment reference. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Default Value</em>' containment
      *            reference.
@@ -991,23 +975,23 @@ public interface ParameterType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Substitute Value</em>' containment
      *         reference.
      * @see #setSubstituteValue(TValue)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_SubstituteValue()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='substituteValue' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='substituteValue' namespace='##targetNamespace'"
      * @generated
      */
     TValue getSubstituteValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSubstituteValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSubstituteValue
      * <em>Substitute Value</em>}' containment reference. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Substitute Value</em>' containment
      *            reference.
@@ -1024,22 +1008,22 @@ public interface ParameterType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Allowed Values</em>' containment reference.
      * @see #setAllowedValues(TAllowedValues)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_AllowedValues()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='allowedValues' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='allowedValues' namespace='##targetNamespace'"
      * @generated
      */
     TAllowedValues getAllowedValues();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAllowedValues
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAllowedValues
      * <em>Allowed Values</em>}' containment reference. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Allowed Values</em>' containment
      *            reference.
@@ -1056,22 +1040,22 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Unit</em>' containment reference.
      * @see #setUnit(TUnit)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Unit()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='unit' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='unit'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     TUnit getUnit();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUnit
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUnit
      * <em>Unit</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Unit</em>' containment reference.
      * @see #getUnit()
@@ -1089,18 +1073,18 @@ public interface ParameterType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Property</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Property()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='property' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='property' namespace='##targetNamespace'"
      * @generated
      */
     EList<TProperty> getProperty();
 
     /**
-     * Returns the value of the '<em><b>Access</b></em>' attribute. The default
-     * value is <code>"read"</code>. The literals are from the enumeration
+     * Returns the value of the '<em><b>Access</b></em>' attribute. The literals
+     * are from the enumeration
      * {@link com.br_automation.buoat.xddeditor.XDD.AccessType}. <!--
      * begin-user-doc -->
      * <p>
@@ -1108,25 +1092,25 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Access</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.AccessType
      * @see #isSetAccess()
      * @see #unsetAccess()
      * @see #setAccess(AccessType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Access()
-     * @model default="read" unsettable="true"
-     *        extendedMetaData="kind='attribute' name='access'"
+     * @model unsettable="true" extendedMetaData="kind='attribute'
+     *        name='access'"
      * @generated
      */
     AccessType getAccess();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
      * <em>Access</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Access</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.AccessType
@@ -1138,11 +1122,11 @@ public interface ParameterType extends EObject {
     void setAccess(AccessType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
      * <em>Access</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @see #isSetAccess()
      * @see #getAccess()
      * @see #setAccess(AccessType)
@@ -1151,11 +1135,11 @@ public interface ParameterType extends EObject {
     void unsetAccess();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccess
      * <em>Access</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Access</em>' attribute is set.
      * @see #unsetAccess()
      * @see #getAccess()
@@ -1172,22 +1156,22 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Access List</em>' attribute.
      * @see #setAccessList(List)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_AccessList()
-     * @model dataType="com.br_automation.buoat.xddeditor.XDD.AccessListType"
+     * @model dataType="com.br_automation.buoat.xddeditor.ethernet.AccessListType"
      *        many="false" extendedMetaData="kind='attribute' name='accessList'"
      * @generated
      */
     List<String> getAccessList();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccessList
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getAccessList
      * <em>Access List</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Access List</em>' attribute.
      * @see #getAccessList()
@@ -1203,7 +1187,7 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Multiplier</em>' attribute.
      * @see #setMultiplier(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Multiplier()
@@ -1214,11 +1198,11 @@ public interface ParameterType extends EObject {
     String getMultiplier();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getMultiplier
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getMultiplier
      * <em>Multiplier</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Multiplier</em>' attribute.
      * @see #getMultiplier()
@@ -1234,7 +1218,7 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Offset</em>' attribute.
      * @see #setOffset(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Offset()
@@ -1245,11 +1229,11 @@ public interface ParameterType extends EObject {
     String getOffset();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getOffset
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getOffset
      * <em>Offset</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Offset</em>' attribute.
      * @see #getOffset()
@@ -1265,7 +1249,7 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Persistent</em>' attribute.
      * @see #isSetPersistent()
      * @see #unsetPersistent()
@@ -1279,11 +1263,11 @@ public interface ParameterType extends EObject {
     boolean isPersistent();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
      * <em>Persistent</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Persistent</em>' attribute.
      * @see #isSetPersistent()
@@ -1294,11 +1278,11 @@ public interface ParameterType extends EObject {
     void setPersistent(boolean value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
      * <em>Persistent</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetPersistent()
      * @see #isPersistent()
      * @see #setPersistent(boolean)
@@ -1307,11 +1291,11 @@ public interface ParameterType extends EObject {
     void unsetPersistent();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#isPersistent
      * <em>Persistent</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Persistent</em>' attribute is set.
      * @see #unsetPersistent()
      * @see #isPersistent()
@@ -1330,25 +1314,25 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Support</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.SupportType
      * @see #isSetSupport()
      * @see #unsetSupport()
      * @see #setSupport(SupportType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_Support()
-     * @model unsettable="true"
-     *        extendedMetaData="kind='attribute' name='support'"
+     * @model unsettable="true" extendedMetaData="kind='attribute'
+     *        name='support'"
      * @generated
      */
     SupportType getSupport();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
      * <em>Support</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Support</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.SupportType
@@ -1360,11 +1344,11 @@ public interface ParameterType extends EObject {
     void setSupport(SupportType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
      * <em>Support</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @see #isSetSupport()
      * @see #getSupport()
      * @see #setSupport(SupportType)
@@ -1373,11 +1357,11 @@ public interface ParameterType extends EObject {
     void unsetSupport();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getSupport
      * <em>Support</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Support</em>' attribute is set.
      * @see #unsetSupport()
      * @see #getSupport()
@@ -1394,7 +1378,7 @@ public interface ParameterType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Template ID Ref</em>' attribute.
      * @see #setTemplateIDRef(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_TemplateIDRef()
@@ -1405,11 +1389,11 @@ public interface ParameterType extends EObject {
     String getTemplateIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getTemplateIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getTemplateIDRef
      * <em>Template ID Ref</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Template ID Ref</em>' attribute.
      * @see #getTemplateIDRef()
@@ -1425,23 +1409,23 @@ public interface ParameterType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Unique ID</em>' attribute.
      * @see #setUniqueID(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getParameterType_UniqueID()
      * @model id="true" dataType="org.eclipse.emf.ecore.xml.type.ID"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='uniqueID'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='uniqueID'"
      * @generated
      */
     String getUniqueID();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUniqueID
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ParameterType#getUniqueID
      * <em>Unique ID</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Unique ID</em>' attribute.
      * @see #getUniqueID()

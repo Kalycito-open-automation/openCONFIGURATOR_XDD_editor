@@ -6,17 +6,14 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 import org.eclipse.emf.common.ui.viewer.IViewerProvider;
-
 import org.eclipse.emf.edit.domain.EditingDomain;
 import org.eclipse.emf.edit.domain.IEditingDomainProvider;
-
 import org.eclipse.emf.edit.ui.action.ControlAction;
 import org.eclipse.emf.edit.ui.action.CreateChildAction;
 import org.eclipse.emf.edit.ui.action.CreateSiblingAction;
 import org.eclipse.emf.edit.ui.action.EditingDomainActionBarContributor;
 import org.eclipse.emf.edit.ui.action.LoadResourceAction;
 import org.eclipse.emf.edit.ui.action.ValidateAction;
-
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.ActionContributionItem;
 import org.eclipse.jface.action.IAction;
@@ -28,29 +25,26 @@ import org.eclipse.jface.action.IToolBarManager;
 import org.eclipse.jface.action.MenuManager;
 import org.eclipse.jface.action.Separator;
 import org.eclipse.jface.action.SubContributionItem;
-
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.ISelectionChangedListener;
 import org.eclipse.jface.viewers.ISelectionProvider;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.jface.viewers.SelectionChangedEvent;
 import org.eclipse.jface.viewers.Viewer;
-
 import org.eclipse.ui.IEditorPart;
 import org.eclipse.ui.PartInitException;
 
 /**
  * This is the action bar contributor for the XDD model editor. <!--
  * begin-user-doc --> <!-- end-user-doc -->
- * 
+ *
  * @generated
  */
-public class XDDActionBarContributor extends EditingDomainActionBarContributor implements
-    ISelectionChangedListener {
+public class XDDActionBarContributor extends EditingDomainActionBarContributor implements ISelectionChangedListener {
     /**
      * This keeps track of the active editor. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected IEditorPart activeEditorPart;
@@ -58,7 +52,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This keeps track of the current selection provider. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected ISelectionProvider selectionProvider;
@@ -66,11 +60,11 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This action opens the Properties view. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected IAction showPropertiesViewAction = new Action(
-        XDDEditorPlugin.INSTANCE.getString("_UI_ShowPropertiesView_menu_item")) {
+            XDDEditorPlugin.INSTANCE.getString("_UI_ShowPropertiesView_menu_item")) {
         @Override
         public void run() {
             try {
@@ -85,11 +79,11 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * This action refreshes the viewer of the current editor if the editor
      * implements {@link org.eclipse.emf.common.ui.viewer.IViewerProvider}. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected IAction refreshViewerAction = new Action(
-        XDDEditorPlugin.INSTANCE.getString("_UI_RefreshViewer_menu_item")) {
+            XDDEditorPlugin.INSTANCE.getString("_UI_RefreshViewer_menu_item")) {
         @Override
         public boolean isEnabled() {
             return activeEditorPart instanceof IViewerProvider;
@@ -111,7 +105,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * {@link org.eclipse.emf.edit.ui.action.CreateChildAction} corresponding to
      * each descriptor generated for the current selection by the item provider.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected Collection<IAction> createChildActions;
@@ -120,7 +114,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * This is the menu manager into which menu contribution items should be
      * added for CreateChild actions. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @generated
      */
     protected IMenuManager createChildMenuManager;
@@ -130,7 +124,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * {@link org.eclipse.emf.edit.ui.action.CreateSiblingAction} corresponding
      * to each descriptor generated for the current selection by the item
      * provider. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected Collection<IAction> createSiblingActions;
@@ -139,7 +133,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * This is the menu manager into which menu contribution items should be
      * added for CreateSibling actions. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected IMenuManager createSiblingMenuManager;
@@ -147,7 +141,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This creates an instance of the contributor. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     public XDDActionBarContributor() {
@@ -160,7 +154,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This adds Separators for editor additions to the tool bar. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -173,16 +167,15 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * This adds to the menu bar a menu and some separators for editor
      * additions, as well as the sub-menus for object creation items. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void contributeToMenu(IMenuManager menuManager) {
         super.contributeToMenu(menuManager);
 
-        IMenuManager submenuManager = new MenuManager(
-            XDDEditorPlugin.INSTANCE.getString("_UI_XDDEditor_menu"),
-            "com.br_automation.buoat.xddeditor.XDDMenuID");
+        IMenuManager submenuManager = new MenuManager(XDDEditorPlugin.INSTANCE.getString("_UI_XDDEditor_menu"),
+                "com.br_automation.buoat.xddeditor.ethernetMenuID");
         menuManager.insertAfter("additions", submenuManager);
         submenuManager.add(new Separator("settings"));
         submenuManager.add(new Separator("actions"));
@@ -191,14 +184,12 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
 
         // Prepare for CreateChild item addition or removal.
         //
-        createChildMenuManager = new MenuManager(
-            XDDEditorPlugin.INSTANCE.getString("_UI_CreateChild_menu_item"));
+        createChildMenuManager = new MenuManager(XDDEditorPlugin.INSTANCE.getString("_UI_CreateChild_menu_item"));
         submenuManager.insertBefore("additions", createChildMenuManager);
 
         // Prepare for CreateSibling item addition or removal.
         //
-        createSiblingMenuManager = new MenuManager(
-            XDDEditorPlugin.INSTANCE.getString("_UI_CreateSibling_menu_item"));
+        createSiblingMenuManager = new MenuManager(XDDEditorPlugin.INSTANCE.getString("_UI_CreateSibling_menu_item"));
         submenuManager.insertBefore("additions", createSiblingMenuManager);
 
         // Force an update because Eclipse hides empty menus now.
@@ -216,7 +207,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * When the active editor changes, this remembers the change and registers
      * with it as a selection provider. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -238,8 +229,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
             // Fake a selection changed event to update the menus.
             //
             if (selectionProvider.getSelection() != null) {
-                selectionChanged(new SelectionChangedEvent(selectionProvider,
-                    selectionProvider.getSelection()));
+                selectionChanged(new SelectionChangedEvent(selectionProvider, selectionProvider.getSelection()));
             }
         }
     }
@@ -251,7 +241,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * the children and siblings that can be added to the selected object and
      * updating the menus accordingly. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @generated
      */
     public void selectionChanged(SelectionChangedEvent event) {
@@ -270,8 +260,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
         Collection<?> newSiblingDescriptors = null;
 
         ISelection selection = event.getSelection();
-        if (selection instanceof IStructuredSelection
-            && ((IStructuredSelection) selection).size() == 1) {
+        if (selection instanceof IStructuredSelection && ((IStructuredSelection) selection).size() == 1) {
             Object object = ((IStructuredSelection) selection).getFirstElement();
 
             EditingDomain domain = ((IEditingDomainProvider) activeEditorPart).getEditingDomain();
@@ -299,11 +288,10 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * This generates a {@link org.eclipse.emf.edit.ui.action.CreateChildAction}
      * for each object in <code>descriptors</code>, and returns the collection
      * of these actions. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    protected Collection<IAction> generateCreateChildActions(Collection<?> descriptors,
-        ISelection selection) {
+    protected Collection<IAction> generateCreateChildActions(Collection<?> descriptors, ISelection selection) {
         Collection<IAction> actions = new ArrayList<IAction>();
         if (descriptors != null) {
             for (Object descriptor : descriptors) {
@@ -318,11 +306,10 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * {@link org.eclipse.emf.edit.ui.action.CreateSiblingAction} for each
      * object in <code>descriptors</code>, and returns the collection of these
      * actions. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    protected Collection<IAction> generateCreateSiblingActions(Collection<?> descriptors,
-        ISelection selection) {
+    protected Collection<IAction> generateCreateSiblingActions(Collection<?> descriptors, ISelection selection) {
         Collection<IAction> actions = new ArrayList<IAction>();
         if (descriptors != null) {
             for (Object descriptor : descriptors) {
@@ -340,12 +327,11 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * contribution item <code>contributionID</code>. If
      * <code>contributionID</code> is <code>null</code>, they are simply added.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    protected void populateManager(IContributionManager manager,
-        Collection<? extends IAction> actions,
-        String contributionID) {
+    protected void populateManager(IContributionManager manager, Collection<? extends IAction> actions,
+            String contributionID) {
         if (actions != null) {
             for (IAction action : actions) {
                 if (contributionID != null) {
@@ -363,11 +349,10 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
      * {@link org.eclipse.jface.action.IAction}s contained in the
      * <code>actions</code> collection. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    protected void depopulateManager(IContributionManager manager,
-        Collection<? extends IAction> actions) {
+    protected void depopulateManager(IContributionManager manager, Collection<? extends IAction> actions) {
         if (actions != null) {
             IContributionItem[] items = manager.getItems();
             for (int i = 0; i < items.length; i++) {
@@ -393,7 +378,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This populates the pop-up menu before it appears. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -401,13 +386,11 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
         super.menuAboutToShow(menuManager);
         MenuManager submenuManager = null;
 
-        submenuManager = new MenuManager(
-            XDDEditorPlugin.INSTANCE.getString("_UI_CreateChild_menu_item"));
+        submenuManager = new MenuManager(XDDEditorPlugin.INSTANCE.getString("_UI_CreateChild_menu_item"));
         populateManager(submenuManager, createChildActions, null);
         menuManager.insertBefore("edit", submenuManager);
 
-        submenuManager = new MenuManager(
-            XDDEditorPlugin.INSTANCE.getString("_UI_CreateSibling_menu_item"));
+        submenuManager = new MenuManager(XDDEditorPlugin.INSTANCE.getString("_UI_CreateSibling_menu_item"));
         populateManager(submenuManager, createSiblingActions, null);
         menuManager.insertBefore("edit", submenuManager);
     }
@@ -415,7 +398,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This inserts global actions before the "additions-end" separator. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -432,7 +415,7 @@ public class XDDActionBarContributor extends EditingDomainActionBarContributor i
     /**
      * This ensures that a delete action will clean up all references to deleted
      * objects. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override

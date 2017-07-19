@@ -1,13 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.TextEntryType;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -16,28 +9,29 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.TextEntryType;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>Text Entry Type</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object '<em><b>Text
+ * Entry Type</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TextEntryTypeImpl#getValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TextEntryTypeImpl#getValue
  * <em>Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TextEntryTypeImpl#getTextID
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TextEntryTypeImpl#getTextID
  * <em>Text ID</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
     /**
      * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -47,7 +41,7 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
     /**
      * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -57,7 +51,7 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
     /**
      * The default value of the '{@link #getTextID() <em>Text ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getTextID()
      * @generated
      * @ordered
@@ -67,7 +61,7 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
     /**
      * The cached value of the '{@link #getTextID() <em>Text ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getTextID()
      * @generated
      * @ordered
@@ -76,7 +70,7 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TextEntryTypeImpl() {
@@ -85,7 +79,7 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -95,7 +89,7 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getValue() {
@@ -104,20 +98,19 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setValue(String newValue) {
         String oldValue = value;
         value = newValue;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TEXT_ENTRY_TYPE__VALUE, oldValue, value));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TEXT_ENTRY_TYPE__VALUE, oldValue, value));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getTextID() {
@@ -126,88 +119,88 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setTextID(String newTextID) {
         String oldTextID = textID;
         textID = newTextID;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID, oldTextID, textID));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID, oldTextID,
+                    textID));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
-                return getValue();
-            case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
-                return getTextID();
+        case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
+            return getValue();
+        case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
+            return getTextID();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
-                setValue((String) newValue);
-                return;
-            case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
-                setTextID((String) newValue);
-                return;
+        case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
+            setValue((String) newValue);
+            return;
+        case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
+            setTextID((String) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
-                setValue(VALUE_EDEFAULT);
-                return;
-            case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
-                setTextID(TEXT_ID_EDEFAULT);
-                return;
+        case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
+            setValue(VALUE_EDEFAULT);
+            return;
+        case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
+            setTextID(TEXT_ID_EDEFAULT);
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
-                return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
-            case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
-                return TEXT_ID_EDEFAULT == null ? textID != null : !TEXT_ID_EDEFAULT.equals(textID);
+        case XDDPackage.TEXT_ENTRY_TYPE__VALUE:
+            return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
+        case XDDPackage.TEXT_ENTRY_TYPE__TEXT_ID:
+            return TEXT_ID_EDEFAULT == null ? textID != null : !TEXT_ID_EDEFAULT.equals(textID);
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -224,4 +217,4 @@ public class TextEntryTypeImpl extends EObjectImpl implements TextEntryType {
         return result.toString();
     }
 
-} //TextEntryTypeImpl
+} // TextEntryTypeImpl

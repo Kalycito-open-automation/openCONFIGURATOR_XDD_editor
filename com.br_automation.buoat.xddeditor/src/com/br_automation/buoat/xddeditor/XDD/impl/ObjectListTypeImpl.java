@@ -1,14 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.ObjectListType;
-import com.br_automation.buoat.xddeditor.XDD.TObject;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import java.util.Collection;
 
@@ -26,34 +18,34 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
+import com.br_automation.buoat.xddeditor.XDD.ObjectListType;
+import com.br_automation.buoat.xddeditor.XDD.TObject;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>Object List Type</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object '<em><b>Object
+ * List Type</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getObject
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getObject
  * <em>Object</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getMandatoryObjects
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getMandatoryObjects
  * <em>Mandatory Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getManufacturerObjects
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getManufacturerObjects
  * <em>Manufacturer Objects</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getOptionalObjects
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.ObjectListTypeImpl#getOptionalObjects
  * <em>Optional Objects</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     /**
      * The cached value of the '{@link #getObject() <em>Object</em>}'
      * containment reference list. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getObject()
      * @generated
      * @ordered
@@ -61,10 +53,9 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     protected EList<TObject> object;
 
     /**
-     * The default value of the '{@link #getMandatoryObjects()
-     * <em>Mandatory Objects</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The default value of the '{@link #getMandatoryObjects() <em>Mandatory
+     * Objects</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getMandatoryObjects()
      * @generated
      * @ordered
@@ -72,10 +63,9 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     protected static final long MANDATORY_OBJECTS_EDEFAULT = 0L;
 
     /**
-     * The cached value of the '{@link #getMandatoryObjects()
-     * <em>Mandatory Objects</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The cached value of the '{@link #getMandatoryObjects() <em>Mandatory
+     * Objects</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getMandatoryObjects()
      * @generated
      * @ordered
@@ -85,7 +75,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     /**
      * This is true if the Mandatory Objects attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -95,7 +85,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
      * The default value of the '{@link #getManufacturerObjects()
      * <em>Manufacturer Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #getManufacturerObjects()
      * @generated
      * @ordered
@@ -106,7 +96,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
      * The cached value of the '{@link #getManufacturerObjects()
      * <em>Manufacturer Objects</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #getManufacturerObjects()
      * @generated
      * @ordered
@@ -116,17 +106,16 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     /**
      * This is true if the Manufacturer Objects attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
     protected boolean manufacturerObjectsESet;
 
     /**
-     * The default value of the '{@link #getOptionalObjects()
-     * <em>Optional Objects</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The default value of the '{@link #getOptionalObjects() <em>Optional
+     * Objects</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getOptionalObjects()
      * @generated
      * @ordered
@@ -134,10 +123,9 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     protected static final long OPTIONAL_OBJECTS_EDEFAULT = 0L;
 
     /**
-     * The cached value of the '{@link #getOptionalObjects()
-     * <em>Optional Objects</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * The cached value of the '{@link #getOptionalObjects() <em>Optional
+     * Objects</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getOptionalObjects()
      * @generated
      * @ordered
@@ -147,7 +135,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
     /**
      * This is true if the Optional Objects attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -155,7 +143,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected ObjectListTypeImpl() {
@@ -164,7 +152,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -174,20 +162,19 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<TObject> getObject() {
         if (object == null) {
-            object = new EObjectContainmentEList<TObject>(TObject.class, this,
-                XDDPackage.OBJECT_LIST_TYPE__OBJECT);
+            object = new EObjectContainmentEList<TObject>(TObject.class, this, XDDPackage.OBJECT_LIST_TYPE__OBJECT);
         }
         return object;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public long getMandatoryObjects() {
@@ -196,7 +183,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setMandatoryObjects(long newMandatoryObjects) {
@@ -205,14 +192,13 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         boolean oldMandatoryObjectsESet = mandatoryObjectsESet;
         mandatoryObjectsESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS, oldMandatoryObjects,
-                mandatoryObjects, !oldMandatoryObjectsESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS,
+                    oldMandatoryObjects, mandatoryObjects, !oldMandatoryObjectsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetMandatoryObjects() {
@@ -221,14 +207,13 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         mandatoryObjects = MANDATORY_OBJECTS_EDEFAULT;
         mandatoryObjectsESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS, oldMandatoryObjects,
-                MANDATORY_OBJECTS_EDEFAULT, oldMandatoryObjectsESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS,
+                    oldMandatoryObjects, MANDATORY_OBJECTS_EDEFAULT, oldMandatoryObjectsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetMandatoryObjects() {
@@ -237,7 +222,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public long getManufacturerObjects() {
@@ -246,7 +231,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setManufacturerObjects(long newManufacturerObjects) {
@@ -255,14 +240,13 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         boolean oldManufacturerObjectsESet = manufacturerObjectsESet;
         manufacturerObjectsESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS, oldManufacturerObjects,
-                manufacturerObjects, !oldManufacturerObjectsESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS,
+                    oldManufacturerObjects, manufacturerObjects, !oldManufacturerObjectsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetManufacturerObjects() {
@@ -271,14 +255,13 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         manufacturerObjects = MANUFACTURER_OBJECTS_EDEFAULT;
         manufacturerObjectsESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS, oldManufacturerObjects,
-                MANUFACTURER_OBJECTS_EDEFAULT, oldManufacturerObjectsESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS,
+                    oldManufacturerObjects, MANUFACTURER_OBJECTS_EDEFAULT, oldManufacturerObjectsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetManufacturerObjects() {
@@ -287,7 +270,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public long getOptionalObjects() {
@@ -296,7 +279,7 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setOptionalObjects(long newOptionalObjects) {
@@ -305,14 +288,13 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         boolean oldOptionalObjectsESet = optionalObjectsESet;
         optionalObjectsESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS, oldOptionalObjects, optionalObjects,
-                !oldOptionalObjectsESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS,
+                    oldOptionalObjects, optionalObjects, !oldOptionalObjectsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetOptionalObjects() {
@@ -321,14 +303,13 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         optionalObjects = OPTIONAL_OBJECTS_EDEFAULT;
         optionalObjectsESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS, oldOptionalObjects,
-                OPTIONAL_OBJECTS_EDEFAULT, oldOptionalObjectsESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS,
+                    oldOptionalObjects, OPTIONAL_OBJECTS_EDEFAULT, oldOptionalObjectsESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetOptionalObjects() {
@@ -337,113 +318,111 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd,
-        int featureID,
-        NotificationChain msgs) {
+    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
         switch (featureID) {
-            case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
-                return ((InternalEList<?>) getObject()).basicRemove(otherEnd, msgs);
+        case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
+            return ((InternalEList<?>) getObject()).basicRemove(otherEnd, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
-                return getObject();
-            case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
-                return getMandatoryObjects();
-            case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
-                return getManufacturerObjects();
-            case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
-                return getOptionalObjects();
+        case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
+            return getObject();
+        case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
+            return getMandatoryObjects();
+        case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
+            return getManufacturerObjects();
+        case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
+            return getOptionalObjects();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
-                getObject().clear();
-                getObject().addAll((Collection<? extends TObject>) newValue);
-                return;
-            case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
-                setMandatoryObjects((Long) newValue);
-                return;
-            case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
-                setManufacturerObjects((Long) newValue);
-                return;
-            case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
-                setOptionalObjects((Long) newValue);
-                return;
+        case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
+            getObject().clear();
+            getObject().addAll((Collection<? extends TObject>) newValue);
+            return;
+        case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
+            setMandatoryObjects((Long) newValue);
+            return;
+        case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
+            setManufacturerObjects((Long) newValue);
+            return;
+        case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
+            setOptionalObjects((Long) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
-                getObject().clear();
-                return;
-            case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
-                unsetMandatoryObjects();
-                return;
-            case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
-                unsetManufacturerObjects();
-                return;
-            case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
-                unsetOptionalObjects();
-                return;
+        case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
+            getObject().clear();
+            return;
+        case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
+            unsetMandatoryObjects();
+            return;
+        case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
+            unsetManufacturerObjects();
+            return;
+        case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
+            unsetOptionalObjects();
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
-                return object != null && !object.isEmpty();
-            case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
-                return isSetMandatoryObjects();
-            case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
-                return isSetManufacturerObjects();
-            case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
-                return isSetOptionalObjects();
+        case XDDPackage.OBJECT_LIST_TYPE__OBJECT:
+            return object != null && !object.isEmpty();
+        case XDDPackage.OBJECT_LIST_TYPE__MANDATORY_OBJECTS:
+            return isSetMandatoryObjects();
+        case XDDPackage.OBJECT_LIST_TYPE__MANUFACTURER_OBJECTS:
+            return isSetManufacturerObjects();
+        case XDDPackage.OBJECT_LIST_TYPE__OPTIONAL_OBJECTS:
+            return isSetOptionalObjects();
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -471,4 +450,4 @@ public class ObjectListTypeImpl extends EObjectImpl implements ObjectListType {
         return result.toString();
     }
 
-} //ObjectListTypeImpl
+} // ObjectListTypeImpl

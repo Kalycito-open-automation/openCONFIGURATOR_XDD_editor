@@ -1,13 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.TProductID;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -16,28 +9,29 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.TProductID;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TProduct ID</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>TProduct ID</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TProductIDImpl#getValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TProductIDImpl#getValue
  * <em>Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TProductIDImpl#isReadOnly
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TProductIDImpl#isReadOnly
  * <em>Read Only</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TProductIDImpl extends EObjectImpl implements TProductID {
     /**
      * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -47,7 +41,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
     /**
      * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -57,7 +51,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
     /**
      * The default value of the '{@link #isReadOnly() <em>Read Only</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isReadOnly()
      * @generated
      * @ordered
@@ -67,7 +61,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
     /**
      * The cached value of the '{@link #isReadOnly() <em>Read Only</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isReadOnly()
      * @generated
      * @ordered
@@ -77,7 +71,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
     /**
      * This is true if the Read Only attribute has been set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -85,7 +79,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TProductIDImpl() {
@@ -94,7 +88,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -104,7 +98,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getValue() {
@@ -113,20 +107,19 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setValue(String newValue) {
         String oldValue = value;
         value = newValue;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPRODUCT_ID__VALUE,
-                oldValue, value));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPRODUCT_ID__VALUE, oldValue, value));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isReadOnly() {
@@ -135,7 +128,7 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setReadOnly(boolean newReadOnly) {
@@ -144,13 +137,13 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
         boolean oldReadOnlyESet = readOnlyESet;
         readOnlyESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TPRODUCT_ID__READ_ONLY, oldReadOnly, readOnly, !oldReadOnlyESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPRODUCT_ID__READ_ONLY, oldReadOnly,
+                    readOnly, !oldReadOnlyESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetReadOnly() {
@@ -159,13 +152,13 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
         readOnly = READ_ONLY_EDEFAULT;
         readOnlyESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TPRODUCT_ID__READ_ONLY, oldReadOnly, READ_ONLY_EDEFAULT, oldReadOnlyESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TPRODUCT_ID__READ_ONLY, oldReadOnly,
+                    READ_ONLY_EDEFAULT, oldReadOnlyESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetReadOnly() {
@@ -174,75 +167,75 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TPRODUCT_ID__VALUE:
-                return getValue();
-            case XDDPackage.TPRODUCT_ID__READ_ONLY:
-                return isReadOnly();
+        case XDDPackage.TPRODUCT_ID__VALUE:
+            return getValue();
+        case XDDPackage.TPRODUCT_ID__READ_ONLY:
+            return isReadOnly();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TPRODUCT_ID__VALUE:
-                setValue((String) newValue);
-                return;
-            case XDDPackage.TPRODUCT_ID__READ_ONLY:
-                setReadOnly((Boolean) newValue);
-                return;
+        case XDDPackage.TPRODUCT_ID__VALUE:
+            setValue((String) newValue);
+            return;
+        case XDDPackage.TPRODUCT_ID__READ_ONLY:
+            setReadOnly((Boolean) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TPRODUCT_ID__VALUE:
-                setValue(VALUE_EDEFAULT);
-                return;
-            case XDDPackage.TPRODUCT_ID__READ_ONLY:
-                unsetReadOnly();
-                return;
+        case XDDPackage.TPRODUCT_ID__VALUE:
+            setValue(VALUE_EDEFAULT);
+            return;
+        case XDDPackage.TPRODUCT_ID__READ_ONLY:
+            unsetReadOnly();
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TPRODUCT_ID__VALUE:
-                return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
-            case XDDPackage.TPRODUCT_ID__READ_ONLY:
-                return isSetReadOnly();
+        case XDDPackage.TPRODUCT_ID__VALUE:
+            return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
+        case XDDPackage.TPRODUCT_ID__READ_ONLY:
+            return isSetReadOnly();
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -262,4 +255,4 @@ public class TProductIDImpl extends EObjectImpl implements TProductID {
         return result.toString();
     }
 
-} //TProductIDImpl
+} // TProductIDImpl

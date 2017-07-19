@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>Version Type Type</b></em>', and utility methods for working with
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>Version Type Type</b></em>', and utility methods for working with
  * them. <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getVersionTypeType()
  * @model extendedMetaData="name='versionType_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * The '<em><b>SW</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #SW_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * The '<em><b>FW</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #FW_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * The '<em><b>HW</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #HW_VALUE
      * @generated
      * @ordered
@@ -55,7 +51,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * The '<em><b>SW</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Software <!-- end-model-doc -->
-     * 
+     *
      * @see #SW
      * @model
      * @generated
@@ -66,7 +62,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * The '<em><b>FW</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Firmware <!-- end-model-doc -->
-     * 
+     *
      * @see #FW
      * @model
      * @generated
@@ -77,7 +73,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * The '<em><b>HW</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Hardware <!-- end-model-doc -->
-     * 
+     *
      * @see #HW
      * @model
      * @generated
@@ -88,7 +84,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * An array of all the '<em><b>Version Type Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private static final VersionTypeType[] VALUES_ARRAY = new VersionTypeType[] { SW, FW, HW, };
@@ -96,16 +92,18 @@ public enum VersionTypeType implements Enumerator {
     /**
      * A public read-only list of all the '<em><b>Version Type Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<VersionTypeType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<VersionTypeType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>Version Type Type</b></em>' literal with the
      * specified literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static VersionTypeType get(String literal) {
@@ -121,7 +119,10 @@ public enum VersionTypeType implements Enumerator {
     /**
      * Returns the '<em><b>Version Type Type</b></em>' literal with the
      * specified name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static VersionTypeType getByName(String name) {
@@ -137,38 +138,41 @@ public enum VersionTypeType implements Enumerator {
     /**
      * Returns the '<em><b>Version Type Type</b></em>' literal with the
      * specified integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static VersionTypeType get(int value) {
         switch (value) {
-            case SW_VALUE:
-                return SW;
-            case FW_VALUE:
-                return FW;
-            case HW_VALUE:
-                return HW;
+        case SW_VALUE:
+            return SW;
+        case FW_VALUE:
+            return FW;
+        case HW_VALUE:
+            return HW;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -176,12 +180,10 @@ public enum VersionTypeType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private VersionTypeType(int value,
-        String name,
-        String literal) {
+    private VersionTypeType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -189,27 +191,30 @@ public enum VersionTypeType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -217,7 +222,7 @@ public enum VersionTypeType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -225,4 +230,4 @@ public enum VersionTypeType implements Enumerator {
         return literal;
     }
 
-} //VersionTypeType
+} // VersionTypeType

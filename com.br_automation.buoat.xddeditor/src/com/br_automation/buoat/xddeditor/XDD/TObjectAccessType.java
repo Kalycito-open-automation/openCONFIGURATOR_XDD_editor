@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>TObject Access Type</b></em>', and utility methods for working with
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>TObject Access Type</b></em>', and utility methods for working with
  * them. <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTObjectAccessType()
  * @model extendedMetaData="name='t_ObjectAccessType'"
  * @generated
@@ -25,7 +21,7 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * The '<em><b>Ro</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #RO_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * The '<em><b>Wo</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #WO_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * The '<em><b>Rw</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #RW_VALUE
      * @generated
      * @ordered
@@ -55,7 +51,7 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * The '<em><b>Const</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #CONST_VALUE
      * @generated
      * @ordered
@@ -66,7 +62,7 @@ public enum TObjectAccessType implements Enumerator {
      * The '<em><b>Ro</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Object is read-only and can
      * change. <!-- end-model-doc -->
-     * 
+     *
      * @see #RO
      * @model name="ro"
      * @generated
@@ -78,7 +74,7 @@ public enum TObjectAccessType implements Enumerator {
      * The '<em><b>Wo</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Object is write-only. <!--
      * end-model-doc -->
-     * 
+     *
      * @see #WO
      * @model name="wo"
      * @generated
@@ -90,7 +86,7 @@ public enum TObjectAccessType implements Enumerator {
      * The '<em><b>Rw</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Object can be read and written
      * to. <!-- end-model-doc -->
-     * 
+     *
      * @see #RW
      * @model name="rw"
      * @generated
@@ -102,7 +98,7 @@ public enum TObjectAccessType implements Enumerator {
      * The '<em><b>Const</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Object is read-only and cannot
      * change. <!-- end-model-doc -->
-     * 
+     *
      * @see #CONST
      * @model name="const"
      * @generated
@@ -113,25 +109,26 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * An array of all the '<em><b>TObject Access Type</b></em>' enumerators.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private static final TObjectAccessType[] VALUES_ARRAY = new TObjectAccessType[] { RO, WO, RW,
-        CONST, };
+    private static final TObjectAccessType[] VALUES_ARRAY = new TObjectAccessType[] { RO, WO, RW, CONST, };
 
     /**
      * A public read-only list of all the '<em><b>TObject Access Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<TObjectAccessType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<TObjectAccessType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>TObject Access Type</b></em>' literal with the
      * specified literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static TObjectAccessType get(String literal) {
@@ -147,7 +144,10 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * Returns the '<em><b>TObject Access Type</b></em>' literal with the
      * specified name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static TObjectAccessType getByName(String name) {
@@ -163,40 +163,43 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * Returns the '<em><b>TObject Access Type</b></em>' literal with the
      * specified integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static TObjectAccessType get(int value) {
         switch (value) {
-            case RO_VALUE:
-                return RO;
-            case WO_VALUE:
-                return WO;
-            case RW_VALUE:
-                return RW;
-            case CONST_VALUE:
-                return CONST;
+        case RO_VALUE:
+            return RO;
+        case WO_VALUE:
+            return WO;
+        case RW_VALUE:
+            return RW;
+        case CONST_VALUE:
+            return CONST;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -204,12 +207,10 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private TObjectAccessType(int value,
-        String name,
-        String literal) {
+    private TObjectAccessType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -217,27 +218,30 @@ public enum TObjectAccessType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -245,7 +249,7 @@ public enum TObjectAccessType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -253,4 +257,4 @@ public enum TObjectAccessType implements Enumerator {
         return literal;
     }
 
-} //TObjectAccessType
+} // TObjectAccessType

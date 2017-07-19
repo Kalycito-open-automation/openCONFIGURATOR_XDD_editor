@@ -26,16 +26,15 @@ import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
  * This is the item provider adapter for a
  * {@link com.br_automation.buoat.xddeditor.XDD.ISO15745ProfileType} object.
  * <!-- begin-user-doc --> <!-- end-user-doc -->
- * 
+ *
  * @generated
  */
-public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter implements
-    IEditingDomainItemProvider, IStructuredItemContentProvider, ITreeItemContentProvider,
-    IItemLabelProvider, IItemPropertySource {
+public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter implements IEditingDomainItemProvider,
+        IStructuredItemContentProvider, ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
     /**
      * This constructs an instance from a factory and a notifier. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public ISO15745ProfileTypeItemProvider(AdapterFactory adapterFactory) {
@@ -45,7 +44,7 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
     /**
      * This returns the property descriptors for the adapted class. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -64,7 +63,7 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
      * {@link org.eclipse.emf.edit.command.RemoveCommand} or
      * {@link org.eclipse.emf.edit.command.MoveCommand} in
      * {@link #createCommand}. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -79,12 +78,13 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     protected EStructuralFeature getChildFeature(Object object, Object child) {
-        // Check the type of the specified child object and return the proper feature to use for
+        // Check the type of the specified child object and return the proper
+        // feature to use for
         // adding (see {@link AddCommand}) it as a child.
 
         return super.getChildFeature(object, child);
@@ -93,7 +93,7 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
     /**
      * This returns ISO15745ProfileType.gif. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -104,7 +104,7 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
     /**
      * This returns the label text for the adapted class. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -117,7 +117,7 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
      * update any cached children and by creating a viewer notification, which
      * it passes to {@link #fireNotifyChanged}. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -125,11 +125,10 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
         updateChildren(notification);
 
         switch (notification.getFeatureID(ISO15745ProfileType.class)) {
-            case XDDPackage.ISO15745_PROFILE_TYPE__PROFILE_HEADER:
-            case XDDPackage.ISO15745_PROFILE_TYPE__PROFILE_BODY:
-                fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(),
-                    true, false));
-                return;
+        case XDDPackage.ISO15745_PROFILE_TYPE__PROFILE_HEADER:
+        case XDDPackage.ISO15745_PROFILE_TYPE__PROFILE_BODY:
+            fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
+            return;
         }
         super.notifyChanged(notification);
     }
@@ -138,31 +137,27 @@ public class ISO15745ProfileTypeItemProvider extends ItemProviderAdapter impleme
      * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s
      * describing the children that can be created under this object. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
-    protected void
-        collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
+    protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
         super.collectNewChildDescriptors(newChildDescriptors, object);
 
-        newChildDescriptors.add(createChildParameter(
-            XDDPackage.eINSTANCE.getISO15745ProfileType_ProfileHeader(),
-            XDDFactory.eINSTANCE.createProfileHeaderDataType()));
+        newChildDescriptors.add(createChildParameter(XDDPackage.eINSTANCE.getISO15745ProfileType_ProfileHeader(),
+                XDDFactory.eINSTANCE.createProfileHeaderDataType()));
 
-        newChildDescriptors.add(createChildParameter(
-            XDDPackage.eINSTANCE.getISO15745ProfileType_ProfileBody(),
-            XDDFactory.eINSTANCE.createProfileBodyCommunicationNetworkPowerlink()));
+        newChildDescriptors.add(createChildParameter(XDDPackage.eINSTANCE.getISO15745ProfileType_ProfileBody(),
+                XDDFactory.eINSTANCE.createProfileBodyCommunicationNetworkPowerlink()));
 
-        newChildDescriptors.add(createChildParameter(
-            XDDPackage.eINSTANCE.getISO15745ProfileType_ProfileBody(),
-            XDDFactory.eINSTANCE.createProfileBodyDevicePowerlink()));
+        newChildDescriptors.add(createChildParameter(XDDPackage.eINSTANCE.getISO15745ProfileType_ProfileBody(),
+                XDDFactory.eINSTANCE.createProfileBodyDevicePowerlink()));
     }
 
     /**
      * Return the resource locator for this item provider's resources. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override

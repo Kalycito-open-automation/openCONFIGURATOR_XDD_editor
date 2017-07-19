@@ -1,43 +1,37 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TValue</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>TValue</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getGroup <em>Group
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getLabel <em>Label
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getDescription <em>
- * Description</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getGroup
+ * <em>Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getLabel
+ * <em>Label</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getDescription
+ * <em>Description</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getLabelRef <em>Label
  * Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getDescriptionRef
  * <em>Description Ref</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getMultiplier <em>
- * Multiplier</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getOffset <em>Offset
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getValue <em>Value
- * </em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getMultiplier
+ * <em>Multiplier</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getOffset
+ * <em>Offset</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TValue#getValue
+ * <em>Value</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue()
  * @model extendedMetaData="name='t_value' kind='elementOnly'"
  * @generated
@@ -52,7 +46,7 @@ public interface TValue extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -66,17 +60,17 @@ public interface TValue extends EObject {
      * list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of the identifying name inside the XML file
      * itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_Label()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='label' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='label'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelType> getLabel();
@@ -86,18 +80,18 @@ public interface TValue extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of descriptive information inside the XML
      * file itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_Description()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='description' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='description'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionType> getDescription();
@@ -107,17 +101,17 @@ public interface TValue extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of identifying names inside an external text
      * resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label Ref</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_LabelRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='labelRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='labelRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelRefType> getLabelRef();
@@ -127,18 +121,18 @@ public interface TValue extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of reference descriptive texts inside an
      * external text resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_DescriptionRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='descriptionRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='descriptionRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionRefType> getDescriptionRef();
@@ -151,7 +145,7 @@ public interface TValue extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Multiplier</em>' attribute.
      * @see #setMultiplier(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_Multiplier()
@@ -162,11 +156,11 @@ public interface TValue extends EObject {
     String getMultiplier();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TValue#getMultiplier
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TValue#getMultiplier
      * <em>Multiplier</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Multiplier</em>' attribute.
      * @see #getMultiplier()
@@ -182,7 +176,7 @@ public interface TValue extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Offset</em>' attribute.
      * @see #setOffset(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_Offset()
@@ -193,11 +187,11 @@ public interface TValue extends EObject {
     String getOffset();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TValue#getOffset
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TValue#getOffset
      * <em>Offset</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Offset</em>' attribute.
      * @see #getOffset()
@@ -213,7 +207,7 @@ public interface TValue extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Value</em>' attribute.
      * @see #setValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTValue_Value()
@@ -224,10 +218,10 @@ public interface TValue extends EObject {
     String getValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TValue#getValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TValue#getValue
      * <em>Value</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Value</em>' attribute.
      * @see #getValue()

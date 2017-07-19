@@ -1,28 +1,22 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Output Vars Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Output
+ * Vars Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.OutputVarsType#getVarDeclaration
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.OutputVarsType#getVarDeclaration
  * <em>Var Declaration</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getOutputVarsType()
  * @model extendedMetaData="name='outputVars_._type' kind='elementOnly'"
  * @generated
@@ -38,12 +32,13 @@ public interface OutputVarsType extends EObject {
      * list isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Var Declaration</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getOutputVarsType_VarDeclaration()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='varDeclaration' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='varDeclaration'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<TVarDeclaration> getVarDeclaration();

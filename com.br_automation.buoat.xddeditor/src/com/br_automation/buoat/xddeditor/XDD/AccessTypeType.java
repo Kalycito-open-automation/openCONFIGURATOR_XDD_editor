@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>Access Type Type</b></em>', and utility methods for working with them.
- * <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>Access Type Type</b></em>', and utility methods for working with
+ * them. <!-- end-user-doc -->
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getAccessTypeType()
  * @model extendedMetaData="name='accessType_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum AccessTypeType implements Enumerator {
     /**
      * The '<em><b>Read Only</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #READ_ONLY_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum AccessTypeType implements Enumerator {
     /**
      * The '<em><b>Write Only</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #WRITE_ONLY_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum AccessTypeType implements Enumerator {
     /**
      * The '<em><b>Read Write Output</b></em>' literal object. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #READ_WRITE_OUTPUT_VALUE
      * @generated
      * @ordered
@@ -59,7 +55,7 @@ public enum AccessTypeType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #READ_ONLY
      * @model name="readOnly"
      * @generated
@@ -74,7 +70,7 @@ public enum AccessTypeType implements Enumerator {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #WRITE_ONLY
      * @model name="writeOnly"
      * @generated
@@ -90,7 +86,7 @@ public enum AccessTypeType implements Enumerator {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #READ_WRITE_OUTPUT
      * @model name="readWriteOutput"
      * @generated
@@ -101,25 +97,27 @@ public enum AccessTypeType implements Enumerator {
     /**
      * An array of all the '<em><b>Access Type Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private static final AccessTypeType[] VALUES_ARRAY = new AccessTypeType[] { READ_ONLY,
-        WRITE_ONLY, READ_WRITE_OUTPUT, };
+    private static final AccessTypeType[] VALUES_ARRAY = new AccessTypeType[] { READ_ONLY, WRITE_ONLY,
+            READ_WRITE_OUTPUT, };
 
     /**
      * A public read-only list of all the '<em><b>Access Type Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<AccessTypeType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<AccessTypeType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>Access Type Type</b></em>' literal with the specified
      * literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static AccessTypeType get(String literal) {
@@ -135,7 +133,10 @@ public enum AccessTypeType implements Enumerator {
     /**
      * Returns the '<em><b>Access Type Type</b></em>' literal with the specified
      * name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static AccessTypeType getByName(String name) {
@@ -151,38 +152,41 @@ public enum AccessTypeType implements Enumerator {
     /**
      * Returns the '<em><b>Access Type Type</b></em>' literal with the specified
      * integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static AccessTypeType get(int value) {
         switch (value) {
-            case READ_ONLY_VALUE:
-                return READ_ONLY;
-            case WRITE_ONLY_VALUE:
-                return WRITE_ONLY;
-            case READ_WRITE_OUTPUT_VALUE:
-                return READ_WRITE_OUTPUT;
+        case READ_ONLY_VALUE:
+            return READ_ONLY;
+        case WRITE_ONLY_VALUE:
+            return WRITE_ONLY;
+        case READ_WRITE_OUTPUT_VALUE:
+            return READ_WRITE_OUTPUT;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -190,12 +194,10 @@ public enum AccessTypeType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private AccessTypeType(int value,
-        String name,
-        String literal) {
+    private AccessTypeType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -203,27 +205,30 @@ public enum AccessTypeType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -231,7 +236,7 @@ public enum AccessTypeType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -239,4 +244,4 @@ public enum AccessTypeType implements Enumerator {
         return literal;
     }
 
-} //AccessTypeType
+} // AccessTypeType

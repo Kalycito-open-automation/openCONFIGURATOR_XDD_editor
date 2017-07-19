@@ -17,10 +17,10 @@ import org.eclipse.swt.widgets.Label;
 /**
  * @brief Wizard to choose Template and if the ConfigurationWizard should be
  *        used.
- * 
+ *
  *        Provides a combobox and checkbox to set template and ask if the
  *        advanced wizard should be used.
- * 
+ *
  * @author Joris Lückenga
  */
 public class WizardTemplatePage extends WizardPage {
@@ -60,8 +60,8 @@ public class WizardTemplatePage extends WizardPage {
 
         this.rbtnLoadEmptyXDD = new Button(composite, SWT.RADIO);
         this.rbtnLoadEmptyXDD.setBounds(10, 121, 149, 16);
-        this.rbtnLoadEmptyXDD.setText("Load empty XDD file");
-        //If Empty Project is loaded....
+        this.rbtnLoadEmptyXDD.setText("Create an empty XDD file");
+        // If Empty Project is loaded....
         this.rbtnLoadEmptyXDD.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent e) {
@@ -77,8 +77,8 @@ public class WizardTemplatePage extends WizardPage {
 
         this.cmbTemplate = new Combo(composite, SWT.NONE);
         this.cmbTemplate.setBounds(30, 56, 186, 23);
-        this.cmbTemplate.setItems(new String[] { "Default device", "Default extended device",
-        "Default static device" });
+        this.cmbTemplate
+                .setItems(new String[] { "Default device", "Default extended device", "Default static device" });
         this.cmbTemplate.select(0);
 
         Label lblTemplateType = new Label(composite, SWT.NONE);
@@ -95,8 +95,8 @@ public class WizardTemplatePage extends WizardPage {
             }
         });
         rbtnLoadDefaultXDD.setSelection(true);
-        rbtnLoadDefaultXDD.setBounds(10, 10, 172, 16);
-        rbtnLoadDefaultXDD.setText("Load default XDD Template");
+        rbtnLoadDefaultXDD.setBounds(10, 10, 240, 16);
+        rbtnLoadDefaultXDD.setText("Create a new XDD file based on a template");
 
         this.cbtnUseConfigurationWizard = new Button(composite, SWT.CHECK);
         this.cbtnUseConfigurationWizard.addSelectionListener(new SelectionAdapter() {
@@ -106,10 +106,10 @@ public class WizardTemplatePage extends WizardPage {
                 if (WizardTemplatePage.this.cbtnUseConfigurationWizard.getSelection()) {
                     WizardTemplatePage.this.enableNext = true;
                     WizardTemplatePage.this.setPageComplete(true);
-                    //((WizardPage) getNextPage()).setPageComplete(false);
+                    // ((WizardPage) getNextPage()).setPageComplete(false);
                 } else {
                     WizardTemplatePage.this.enableNext = false;
-                    //((WizardPage) getNextPage()).setPageComplete(true);
+                    // ((WizardPage) getNextPage()).setPageComplete(true);
                     WizardTemplatePage.this.setPageComplete(false);
                     WizardTemplatePage.this.setPageComplete(true);
                 }
@@ -117,9 +117,8 @@ public class WizardTemplatePage extends WizardPage {
             }
         });
         this.cbtnUseConfigurationWizard.setBounds(30, 85, 304, 16);
-        this.cbtnUseConfigurationWizard
-        .setText("Use the Configuration Wizard to modify the Template");
-    } //createControl
+        this.cbtnUseConfigurationWizard.setText("Use the Configuration Wizard to modify the Template");
+    } // createControl
 
     /**
      * @return <code>True</code> if empty model should be generated,
@@ -147,4 +146,4 @@ public class WizardTemplatePage extends WizardPage {
         return this.cbtnUseConfigurationWizard.getSelection();
     }
 
-} //WizardPage
+} // WizardPage

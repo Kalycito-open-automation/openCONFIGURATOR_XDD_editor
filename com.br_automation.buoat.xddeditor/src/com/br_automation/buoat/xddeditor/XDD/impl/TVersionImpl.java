@@ -1,14 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.TVersion;
-import com.br_automation.buoat.xddeditor.XDD.VersionTypeType;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -17,30 +9,32 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.TVersion;
+import com.br_automation.buoat.xddeditor.XDD.VersionTypeType;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TVersion</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>TVersion</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TVersionImpl#getValue
  * <em>Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TVersionImpl#isReadOnly
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TVersionImpl#isReadOnly
  * <em>Read Only</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TVersionImpl#getVersionType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TVersionImpl#getVersionType
  * <em>Version Type</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -50,7 +44,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -60,7 +54,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * The default value of the '{@link #isReadOnly() <em>Read Only</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isReadOnly()
      * @generated
      * @ordered
@@ -70,7 +64,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * The cached value of the '{@link #isReadOnly() <em>Read Only</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #isReadOnly()
      * @generated
      * @ordered
@@ -80,16 +74,16 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * This is true if the Read Only attribute has been set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
     protected boolean readOnlyESet;
 
     /**
-     * The default value of the '{@link #getVersionType() <em>Version Type</em>}
-     * ' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     * The default value of the '{@link #getVersionType() <em>Version
+     * Type</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #getVersionType()
      * @generated
      * @ordered
@@ -99,7 +93,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * The cached value of the '{@link #getVersionType() <em>Version Type</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getVersionType()
      * @generated
      * @ordered
@@ -109,7 +103,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
     /**
      * This is true if the Version Type attribute has been set. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -117,7 +111,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TVersionImpl() {
@@ -126,7 +120,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -136,7 +130,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getValue() {
@@ -145,20 +139,19 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setValue(String newValue) {
         String oldValue = value;
         value = newValue;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TVERSION__VALUE,
-                oldValue, value));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TVERSION__VALUE, oldValue, value));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isReadOnly() {
@@ -167,7 +160,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setReadOnly(boolean newReadOnly) {
@@ -176,13 +169,13 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
         boolean oldReadOnlyESet = readOnlyESet;
         readOnlyESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TVERSION__READ_ONLY,
-                oldReadOnly, readOnly, !oldReadOnlyESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TVERSION__READ_ONLY, oldReadOnly, readOnly,
+                    !oldReadOnlyESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetReadOnly() {
@@ -191,13 +184,13 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
         readOnly = READ_ONLY_EDEFAULT;
         readOnlyESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TVERSION__READ_ONLY,
-                oldReadOnly, READ_ONLY_EDEFAULT, oldReadOnlyESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TVERSION__READ_ONLY, oldReadOnly,
+                    READ_ONLY_EDEFAULT, oldReadOnlyESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetReadOnly() {
@@ -206,7 +199,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public VersionTypeType getVersionType() {
@@ -215,7 +208,7 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setVersionType(VersionTypeType newVersionType) {
@@ -224,13 +217,13 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
         boolean oldVersionTypeESet = versionTypeESet;
         versionTypeESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TVERSION__VERSION_TYPE, oldVersionType, versionType, !oldVersionTypeESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TVERSION__VERSION_TYPE, oldVersionType,
+                    versionType, !oldVersionTypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetVersionType() {
@@ -239,14 +232,13 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
         versionType = VERSION_TYPE_EDEFAULT;
         versionTypeESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET,
-                XDDPackage.TVERSION__VERSION_TYPE, oldVersionType, VERSION_TYPE_EDEFAULT,
-                oldVersionTypeESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TVERSION__VERSION_TYPE, oldVersionType,
+                    VERSION_TYPE_EDEFAULT, oldVersionTypeESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetVersionType() {
@@ -255,85 +247,85 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TVERSION__VALUE:
-                return getValue();
-            case XDDPackage.TVERSION__READ_ONLY:
-                return isReadOnly();
-            case XDDPackage.TVERSION__VERSION_TYPE:
-                return getVersionType();
+        case XDDPackage.TVERSION__VALUE:
+            return getValue();
+        case XDDPackage.TVERSION__READ_ONLY:
+            return isReadOnly();
+        case XDDPackage.TVERSION__VERSION_TYPE:
+            return getVersionType();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TVERSION__VALUE:
-                setValue((String) newValue);
-                return;
-            case XDDPackage.TVERSION__READ_ONLY:
-                setReadOnly((Boolean) newValue);
-                return;
-            case XDDPackage.TVERSION__VERSION_TYPE:
-                setVersionType((VersionTypeType) newValue);
-                return;
+        case XDDPackage.TVERSION__VALUE:
+            setValue((String) newValue);
+            return;
+        case XDDPackage.TVERSION__READ_ONLY:
+            setReadOnly((Boolean) newValue);
+            return;
+        case XDDPackage.TVERSION__VERSION_TYPE:
+            setVersionType((VersionTypeType) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TVERSION__VALUE:
-                setValue(VALUE_EDEFAULT);
-                return;
-            case XDDPackage.TVERSION__READ_ONLY:
-                unsetReadOnly();
-                return;
-            case XDDPackage.TVERSION__VERSION_TYPE:
-                unsetVersionType();
-                return;
+        case XDDPackage.TVERSION__VALUE:
+            setValue(VALUE_EDEFAULT);
+            return;
+        case XDDPackage.TVERSION__READ_ONLY:
+            unsetReadOnly();
+            return;
+        case XDDPackage.TVERSION__VERSION_TYPE:
+            unsetVersionType();
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TVERSION__VALUE:
-                return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
-            case XDDPackage.TVERSION__READ_ONLY:
-                return isSetReadOnly();
-            case XDDPackage.TVERSION__VERSION_TYPE:
-                return isSetVersionType();
+        case XDDPackage.TVERSION__VALUE:
+            return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
+        case XDDPackage.TVERSION__READ_ONLY:
+            return isSetReadOnly();
+        case XDDPackage.TVERSION__VERSION_TYPE:
+            return isSetVersionType();
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -358,4 +350,4 @@ public class TVersionImpl extends EObjectImpl implements TVersion {
         return result.toString();
     }
 
-} //TVersionImpl
+} // TVersionImpl

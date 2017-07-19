@@ -1,29 +1,25 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Description Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>Description Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getValue
  * <em>Value</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getLang <em>
- * Lang</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getURI <em>
- * URI</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getLang
+ * <em>Lang</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getURI
+ * <em>URI</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDescriptionType()
  * @model extendedMetaData="name='description_._type' kind='simple'"
  * @generated
@@ -37,7 +33,7 @@ public interface DescriptionType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Value</em>' attribute.
      * @see #setValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDescriptionType_Value()
@@ -48,10 +44,10 @@ public interface DescriptionType extends EObject {
     String getValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getValue
      * <em>Value</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Value</em>' attribute.
      * @see #getValue()
@@ -62,14 +58,14 @@ public interface DescriptionType extends EObject {
     /**
      * Returns the value of the '<em><b>Lang</b></em>' attribute. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This attribute references the language used for the descriptive
      * information. This attribute consists of a combination of a language code
      * (as defined in ISO 639-2) plus an optional dash character plus an
      * optional country code (as defined in ISO 3166-1), ex: en-us, de, fr.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Lang</em>' attribute.
      * @see #setLang(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDescriptionType_Lang()
@@ -80,10 +76,10 @@ public interface DescriptionType extends EObject {
     String getLang();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getLang
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getLang
      * <em>Lang</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Lang</em>' attribute.
      * @see #getLang()
@@ -94,11 +90,11 @@ public interface DescriptionType extends EObject {
     /**
      * Returns the value of the '<em><b>URI</b></em>' attribute. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * Optional link to further descriptive information.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>URI</em>' attribute.
      * @see #setURI(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDescriptionType_URI()
@@ -109,10 +105,10 @@ public interface DescriptionType extends EObject {
     String getURI();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getURI
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DescriptionType#getURI
      * <em>URI</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>URI</em>' attribute.
      * @see #getURI()

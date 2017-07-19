@@ -1,26 +1,21 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TData Type ID Ref</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>TData
+ * Type ID Ref</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDataTypeIDRef#getUniqueIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDataTypeIDRef#getUniqueIDRef
  * <em>Unique ID Ref</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDataTypeIDRef()
  * @model extendedMetaData="name='t_dataTypeIDRef' kind='empty'"
  * @generated
@@ -34,7 +29,7 @@ public interface TDataTypeIDRef extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Unique ID Ref</em>' attribute.
      * @see #setUniqueIDRef(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDataTypeIDRef_UniqueIDRef()
@@ -45,11 +40,11 @@ public interface TDataTypeIDRef extends EObject {
     String getUniqueIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDataTypeIDRef#getUniqueIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDataTypeIDRef#getUniqueIDRef
      * <em>Unique ID Ref</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Unique ID Ref</em>' attribute.
      * @see #getUniqueIDRef()

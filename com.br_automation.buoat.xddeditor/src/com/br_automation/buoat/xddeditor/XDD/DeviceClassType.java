@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>Device Class Type</b></em>', and utility methods for working with
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>Device Class Type</b></em>', and utility methods for working with
  * them. <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDeviceClassType()
  * @model extendedMetaData="name='deviceClass_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum DeviceClassType implements Enumerator {
     /**
      * The '<em><b>Compact</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #COMPACT_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum DeviceClassType implements Enumerator {
     /**
      * The '<em><b>Modular</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MODULAR_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum DeviceClassType implements Enumerator {
     /**
      * The '<em><b>Configurable</b></em>' literal object. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @see #CONFIGURABLE_VALUE
      * @generated
      * @ordered
@@ -59,7 +55,7 @@ public enum DeviceClassType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #COMPACT
      * @model name="compact"
      * @generated
@@ -74,7 +70,7 @@ public enum DeviceClassType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MODULAR
      * @model name="modular"
      * @generated
@@ -89,7 +85,7 @@ public enum DeviceClassType implements Enumerator {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #CONFIGURABLE
      * @model name="configurable"
      * @generated
@@ -100,25 +96,26 @@ public enum DeviceClassType implements Enumerator {
     /**
      * An array of all the '<em><b>Device Class Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private static final DeviceClassType[] VALUES_ARRAY = new DeviceClassType[] { COMPACT, MODULAR,
-        CONFIGURABLE, };
+    private static final DeviceClassType[] VALUES_ARRAY = new DeviceClassType[] { COMPACT, MODULAR, CONFIGURABLE, };
 
     /**
      * A public read-only list of all the '<em><b>Device Class Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<DeviceClassType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<DeviceClassType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>Device Class Type</b></em>' literal with the
      * specified literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static DeviceClassType get(String literal) {
@@ -134,7 +131,10 @@ public enum DeviceClassType implements Enumerator {
     /**
      * Returns the '<em><b>Device Class Type</b></em>' literal with the
      * specified name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static DeviceClassType getByName(String name) {
@@ -150,38 +150,41 @@ public enum DeviceClassType implements Enumerator {
     /**
      * Returns the '<em><b>Device Class Type</b></em>' literal with the
      * specified integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static DeviceClassType get(int value) {
         switch (value) {
-            case COMPACT_VALUE:
-                return COMPACT;
-            case MODULAR_VALUE:
-                return MODULAR;
-            case CONFIGURABLE_VALUE:
-                return CONFIGURABLE;
+        case COMPACT_VALUE:
+            return COMPACT;
+        case MODULAR_VALUE:
+            return MODULAR;
+        case CONFIGURABLE_VALUE:
+            return CONFIGURABLE;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -189,12 +192,10 @@ public enum DeviceClassType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private DeviceClassType(int value,
-        String name,
-        String literal) {
+    private DeviceClassType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -202,27 +203,30 @@ public enum DeviceClassType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -230,7 +234,7 @@ public enum DeviceClassType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -238,4 +242,4 @@ public enum DeviceClassType implements Enumerator {
         return literal;
     }
 
-} //DeviceClassType
+} // DeviceClassType

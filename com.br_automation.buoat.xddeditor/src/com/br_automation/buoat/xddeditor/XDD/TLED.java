@@ -1,43 +1,37 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TLED</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>TLED</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getGroup <em>Group
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLabel <em>Label
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getDescription <em>
- * Description</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getGroup
+ * <em>Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLabel
+ * <em>Label</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getDescription
+ * <em>Description</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLabelRef <em>Label
  * Ref</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getDescriptionRef <em>
- * Description Ref</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getDescriptionRef
+ * <em>Description Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDstate <em>LE
  * Dstate</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors <em>LE
  * Dcolors</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype <em>LE Dtype
- * </em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype <em>LE
+ * Dtype</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED()
  * @model extendedMetaData="name='t_LED' kind='elementOnly'"
  * @generated
@@ -52,7 +46,7 @@ public interface TLED extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -66,17 +60,17 @@ public interface TLED extends EObject {
      * list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of the identifying name inside the XML file
      * itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_Label()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='label' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='label'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelType> getLabel();
@@ -86,18 +80,18 @@ public interface TLED extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of descriptive information inside the XML
      * file itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_Description()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='description' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='description'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionType> getDescription();
@@ -107,17 +101,17 @@ public interface TLED extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of identifying names inside an external text
      * resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label Ref</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_LabelRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='labelRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='labelRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelRefType> getLabelRef();
@@ -127,18 +121,18 @@ public interface TLED extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of reference descriptive texts inside an
      * external text resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_DescriptionRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='descriptionRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='descriptionRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionRefType> getDescriptionRef();
@@ -153,11 +147,12 @@ public interface TLED extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LE Dstate</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_LEDstate()
-     * @model containment="true" required="true" extendedMetaData=
-     *        "kind='element' name='LEDstate' namespace='##targetNamespace'"
+     * @model containment="true" required="true"
+     *        extendedMetaData="kind='element' name='LEDstate'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EList<LEDstateType> getLEDstate();
@@ -172,7 +167,7 @@ public interface TLED extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LE Dcolors</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.LEDcolorsType
      * @see #isSetLEDcolors()
@@ -186,11 +181,10 @@ public interface TLED extends EObject {
     LEDcolorsType getLEDcolors();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors
-     * <em>LE Dcolors</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors <em>LE
+     * Dcolors</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @param value
      *            the new value of the '<em>LE Dcolors</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.LEDcolorsType
@@ -202,11 +196,10 @@ public interface TLED extends EObject {
     void setLEDcolors(LEDcolorsType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors
-     * <em>LE Dcolors</em>}' attribute. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors <em>LE
+     * Dcolors</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #isSetLEDcolors()
      * @see #getLEDcolors()
      * @see #setLEDcolors(LEDcolorsType)
@@ -215,11 +208,11 @@ public interface TLED extends EObject {
     void unsetLEDcolors();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors
-     * <em>LE Dcolors</em>}' attribute is set. <!-- begin-user-doc --> <!--
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDcolors <em>LE
+     * Dcolors</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>LE Dcolors</em>' attribute is set.
      * @see #unsetLEDcolors()
      * @see #getLEDcolors()
@@ -238,25 +231,24 @@ public interface TLED extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LE Dtype</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.LEDtypeType
      * @see #isSetLEDtype()
      * @see #unsetLEDtype()
      * @see #setLEDtype(LEDtypeType)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTLED_LEDtype()
-     * @model unsettable="true"
-     *        extendedMetaData="kind='attribute' name='LEDtype'"
+     * @model unsettable="true" extendedMetaData="kind='attribute'
+     *        name='LEDtype'"
      * @generated
      */
     LEDtypeType getLEDtype();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype
-     * <em>LE Dtype</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
-     * -->
-     * 
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype <em>LE
+     * Dtype</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @param value
      *            the new value of the '<em>LE Dtype</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.LEDtypeType
@@ -268,11 +260,10 @@ public interface TLED extends EObject {
     void setLEDtype(LEDtypeType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype
-     * <em>LE Dtype</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
-     * -->
-     * 
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype <em>LE
+     * Dtype</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
+     *
      * @see #isSetLEDtype()
      * @see #getLEDtype()
      * @see #setLEDtype(LEDtypeType)
@@ -281,11 +272,11 @@ public interface TLED extends EObject {
     void unsetLEDtype();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype
-     * <em>LE Dtype</em>}' attribute is set. <!-- begin-user-doc --> <!--
-     * end-user-doc -->
-     * 
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TLED#getLEDtype <em>LE
+     * Dtype</em>}' attribute is set. <!-- begin-user-doc --> <!-- end-user-doc
+     * -->
+     *
      * @return whether the value of the '<em>LE Dtype</em>' attribute is set.
      * @see #unsetLEDtype()
      * @see #getLEDtype()

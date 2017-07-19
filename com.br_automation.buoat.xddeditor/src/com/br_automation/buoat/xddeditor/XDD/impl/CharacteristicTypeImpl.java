@@ -1,15 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.CharacteristicContentType;
-import com.br_automation.buoat.xddeditor.XDD.CharacteristicNameType;
-import com.br_automation.buoat.xddeditor.XDD.CharacteristicType;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import java.util.Collection;
 
@@ -27,21 +18,24 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
+import com.br_automation.buoat.xddeditor.XDD.CharacteristicContentType;
+import com.br_automation.buoat.xddeditor.XDD.CharacteristicNameType;
+import com.br_automation.buoat.xddeditor.XDD.CharacteristicType;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>Characteristic Type</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>Characteristic Type</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.CharacteristicTypeImpl#getCharacteristicName
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.CharacteristicTypeImpl#getCharacteristicName
  * <em>Characteristic Name</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.CharacteristicTypeImpl#getCharacteristicContent
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.CharacteristicTypeImpl#getCharacteristicContent
  * <em>Characteristic Content</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class CharacteristicTypeImpl extends EObjectImpl implements CharacteristicType {
@@ -49,7 +43,7 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
      * The cached value of the '{@link #getCharacteristicName()
      * <em>Characteristic Name</em>}' containment reference. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getCharacteristicName()
      * @generated
      * @ordered
@@ -60,7 +54,7 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
      * The cached value of the '{@link #getCharacteristicContent()
      * <em>Characteristic Content</em>}' containment reference list. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getCharacteristicContent()
      * @generated
      * @ordered
@@ -69,7 +63,7 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected CharacteristicTypeImpl() {
@@ -78,7 +72,7 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -88,7 +82,7 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public CharacteristicNameType getCharacteristicName() {
@@ -97,18 +91,16 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public NotificationChain
-        basicSetCharacteristicName(CharacteristicNameType newCharacteristicName,
+    public NotificationChain basicSetCharacteristicName(CharacteristicNameType newCharacteristicName,
             NotificationChain msgs) {
         CharacteristicNameType oldCharacteristicName = characteristicName;
         characteristicName = newCharacteristicName;
         if (eNotificationRequired()) {
             ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
-                XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, oldCharacteristicName,
-                newCharacteristicName);
+                    XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, oldCharacteristicName, newCharacteristicName);
             if (msgs == null)
                 msgs = notification;
             else
@@ -119,130 +111,123 @@ public class CharacteristicTypeImpl extends EObjectImpl implements Characteristi
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setCharacteristicName(CharacteristicNameType newCharacteristicName) {
         if (newCharacteristicName != characteristicName) {
             NotificationChain msgs = null;
             if (characteristicName != null)
-                msgs = ((InternalEObject) characteristicName).eInverseRemove(
-                    this, EOPPOSITE_FEATURE_BASE
-                        - XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, null, msgs);
+                msgs = ((InternalEObject) characteristicName).eInverseRemove(this,
+                        EOPPOSITE_FEATURE_BASE - XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, null, msgs);
             if (newCharacteristicName != null)
-                msgs = ((InternalEObject) newCharacteristicName).eInverseAdd(
-                    this, EOPPOSITE_FEATURE_BASE
-                        - XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, null, msgs);
+                msgs = ((InternalEObject) newCharacteristicName).eInverseAdd(this,
+                        EOPPOSITE_FEATURE_BASE - XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, null, msgs);
             msgs = basicSetCharacteristicName(newCharacteristicName, msgs);
             if (msgs != null)
                 msgs.dispatch();
         } else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME, newCharacteristicName,
-                newCharacteristicName));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME,
+                    newCharacteristicName, newCharacteristicName));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<CharacteristicContentType> getCharacteristicContent() {
         if (characteristicContent == null) {
             characteristicContent = new EObjectContainmentEList<CharacteristicContentType>(
-                CharacteristicContentType.class, this,
-                XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT);
+                    CharacteristicContentType.class, this, XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT);
         }
         return characteristicContent;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd,
-        int featureID,
-        NotificationChain msgs) {
+    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
         switch (featureID) {
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
-                return basicSetCharacteristicName(null, msgs);
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
-                return ((InternalEList<?>) getCharacteristicContent()).basicRemove(otherEnd, msgs);
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
+            return basicSetCharacteristicName(null, msgs);
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
+            return ((InternalEList<?>) getCharacteristicContent()).basicRemove(otherEnd, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
-                return getCharacteristicName();
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
-                return getCharacteristicContent();
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
+            return getCharacteristicName();
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
+            return getCharacteristicContent();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
-                setCharacteristicName((CharacteristicNameType) newValue);
-                return;
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
-                getCharacteristicContent().clear();
-                getCharacteristicContent().addAll(
-                    (Collection<? extends CharacteristicContentType>) newValue);
-                return;
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
+            setCharacteristicName((CharacteristicNameType) newValue);
+            return;
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
+            getCharacteristicContent().clear();
+            getCharacteristicContent().addAll((Collection<? extends CharacteristicContentType>) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
-                setCharacteristicName((CharacteristicNameType) null);
-                return;
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
-                getCharacteristicContent().clear();
-                return;
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
+            setCharacteristicName((CharacteristicNameType) null);
+            return;
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
+            getCharacteristicContent().clear();
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
-                return characteristicName != null;
-            case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
-                return characteristicContent != null && !characteristicContent.isEmpty();
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_NAME:
+            return characteristicName != null;
+        case XDDPackage.CHARACTERISTIC_TYPE__CHARACTERISTIC_CONTENT:
+            return characteristicContent != null && !characteristicContent.isEmpty();
         }
         return super.eIsSet(featureID);
     }
 
-} //CharacteristicTypeImpl
+} // CharacteristicTypeImpl

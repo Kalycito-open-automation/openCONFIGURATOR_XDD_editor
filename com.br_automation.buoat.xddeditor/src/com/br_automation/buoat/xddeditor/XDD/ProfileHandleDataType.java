@@ -1,32 +1,25 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Profile Handle Data Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Profile
+ * Handle Data Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileIdentification
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileIdentification
  * <em>Profile Identification</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileRevision
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileRevision
  * <em>Profile Revision</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileLocation
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileLocation
  * <em>Profile Location</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHandleDataType()
  * @model extendedMetaData="name='ProfileHandle_DataType' kind='elementOnly'"
  * @generated
@@ -40,23 +33,23 @@ public interface ProfileHandleDataType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Identification</em>' attribute.
      * @see #setProfileIdentification(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHandleDataType_ProfileIdentification()
      * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ProfileIdentification' namespace='##targetNamespace'"
+     *        extendedMetaData="kind='element' name='ProfileIdentification'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileIdentification();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileIdentification
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileIdentification
      * <em>Profile Identification</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Identification</em>'
      *            attribute.
@@ -73,23 +66,23 @@ public interface ProfileHandleDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Revision</em>' attribute.
      * @see #setProfileRevision(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHandleDataType_ProfileRevision()
      * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData=
-     *        "kind='element' name='ProfileRevision' namespace='##targetNamespace'"
+     *        extendedMetaData="kind='element' name='ProfileRevision'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileRevision();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileRevision
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileRevision
      * <em>Profile Revision</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Revision</em>' attribute.
      * @see #getProfileRevision()
@@ -105,22 +98,23 @@ public interface ProfileHandleDataType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Profile Location</em>' attribute.
      * @see #setProfileLocation(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getProfileHandleDataType_ProfileLocation()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI" extendedMetaData=
-     *        "kind='element' name='ProfileLocation' namespace='##targetNamespace'"
+     * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI"
+     *        extendedMetaData="kind='element' name='ProfileLocation'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     String getProfileLocation();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileLocation
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.ProfileHandleDataType#getProfileLocation
      * <em>Profile Location</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Profile Location</em>' attribute.
      * @see #getProfileLocation()

@@ -1,42 +1,33 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TDynamic Channel</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>TDynamic
+ * Channel</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
  * <em>Access Type</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAddressOffset
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAddressOffset
  * <em>Address Offset</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
  * <em>Bit Alignment</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getDataType
  * <em>Data Type</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getEndIndex
  * <em>End Index</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
  * <em>Max Number</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getStartIndex
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getStartIndex
  * <em>Start Index</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDynamicChannel()
  * @model extendedMetaData="name='t_dynamicChannel' kind='empty'"
  * @generated
@@ -52,7 +43,7 @@ public interface TDynamicChannel extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Access Type</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.AccessTypeType
      * @see #isSetAccessType()
@@ -66,11 +57,11 @@ public interface TDynamicChannel extends EObject {
     AccessTypeType getAccessType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
      * <em>Access Type</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Access Type</em>' attribute.
      * @see com.br_automation.buoat.xddeditor.XDD.AccessTypeType
@@ -82,11 +73,11 @@ public interface TDynamicChannel extends EObject {
     void setAccessType(AccessTypeType value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
      * <em>Access Type</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetAccessType()
      * @see #getAccessType()
      * @see #setAccessType(AccessTypeType)
@@ -95,11 +86,11 @@ public interface TDynamicChannel extends EObject {
     void unsetAccessType();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAccessType
      * <em>Access Type</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Access Type</em>' attribute is set.
      * @see #unsetAccessType()
      * @see #getAccessType()
@@ -116,23 +107,23 @@ public interface TDynamicChannel extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Address Offset</em>' attribute.
      * @see #setAddressOffset(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDynamicChannel_AddressOffset()
      * @model dataType="org.eclipse.emf.ecore.xml.type.HexBinary"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='addressOffset'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='addressOffset'"
      * @generated
      */
     byte[] getAddressOffset();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAddressOffset
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getAddressOffset
      * <em>Address Offset</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Address Offset</em>' attribute.
      * @see #getAddressOffset()
@@ -148,7 +139,7 @@ public interface TDynamicChannel extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Bit Alignment</em>' attribute.
      * @see #isSetBitAlignment()
      * @see #unsetBitAlignment()
@@ -162,11 +153,11 @@ public interface TDynamicChannel extends EObject {
     short getBitAlignment();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
      * <em>Bit Alignment</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Bit Alignment</em>' attribute.
      * @see #isSetBitAlignment()
@@ -177,11 +168,11 @@ public interface TDynamicChannel extends EObject {
     void setBitAlignment(short value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
      * <em>Bit Alignment</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetBitAlignment()
      * @see #getBitAlignment()
      * @see #setBitAlignment(short)
@@ -190,11 +181,11 @@ public interface TDynamicChannel extends EObject {
     void unsetBitAlignment();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getBitAlignment
      * <em>Bit Alignment</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Bit Alignment</em>' attribute is
      *         set.
      * @see #unsetBitAlignment()
@@ -212,23 +203,23 @@ public interface TDynamicChannel extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Data Type</em>' attribute.
      * @see #setDataType(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDynamicChannel_DataType()
      * @model dataType="org.eclipse.emf.ecore.xml.type.HexBinary"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='dataType'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='dataType'"
      * @generated
      */
     byte[] getDataType();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getDataType
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getDataType
      * <em>Data Type</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Data Type</em>' attribute.
      * @see #getDataType()
@@ -244,23 +235,23 @@ public interface TDynamicChannel extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>End Index</em>' attribute.
      * @see #setEndIndex(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDynamicChannel_EndIndex()
      * @model dataType="org.eclipse.emf.ecore.xml.type.HexBinary"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='endIndex'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='endIndex'"
      * @generated
      */
     byte[] getEndIndex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getEndIndex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getEndIndex
      * <em>End Index</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>End Index</em>' attribute.
      * @see #getEndIndex()
@@ -276,7 +267,7 @@ public interface TDynamicChannel extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Max Number</em>' attribute.
      * @see #isSetMaxNumber()
      * @see #unsetMaxNumber()
@@ -284,18 +275,18 @@ public interface TDynamicChannel extends EObject {
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDynamicChannel_MaxNumber()
      * @model unsettable="true"
      *        dataType="org.eclipse.emf.ecore.xml.type.UnsignedInt"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='maxNumber'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='maxNumber'"
      * @generated
      */
     long getMaxNumber();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
      * <em>Max Number</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Max Number</em>' attribute.
      * @see #isSetMaxNumber()
@@ -306,11 +297,11 @@ public interface TDynamicChannel extends EObject {
     void setMaxNumber(long value);
 
     /**
-     * Unsets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
+     * Unsets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
      * <em>Max Number</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #isSetMaxNumber()
      * @see #getMaxNumber()
      * @see #setMaxNumber(long)
@@ -319,11 +310,11 @@ public interface TDynamicChannel extends EObject {
     void unsetMaxNumber();
 
     /**
-     * Returns whether the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
+     * Returns whether the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getMaxNumber
      * <em>Max Number</em>}' attribute is set. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @return whether the value of the '<em>Max Number</em>' attribute is set.
      * @see #unsetMaxNumber()
      * @see #getMaxNumber()
@@ -340,23 +331,23 @@ public interface TDynamicChannel extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Start Index</em>' attribute.
      * @see #setStartIndex(byte[])
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTDynamicChannel_StartIndex()
      * @model dataType="org.eclipse.emf.ecore.xml.type.HexBinary"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='startIndex'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='startIndex'"
      * @generated
      */
     byte[] getStartIndex();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getStartIndex
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TDynamicChannel#getStartIndex
      * <em>Start Index</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Start Index</em>' attribute.
      * @see #getStartIndex()

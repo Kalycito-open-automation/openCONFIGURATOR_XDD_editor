@@ -1,13 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.TProperty;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -16,26 +9,29 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import com.br_automation.buoat.xddeditor.XDD.TProperty;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TProperty</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>TProperty</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TPropertyImpl#getName
  * <em>Name</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TPropertyImpl#getValue
  * <em>Value</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TPropertyImpl extends EObjectImpl implements TProperty {
     /**
      * The default value of the '{@link #getName() <em>Name</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getName()
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
     /**
      * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getName()
      * @generated
      * @ordered
@@ -55,7 +51,7 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
     /**
      * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -65,7 +61,7 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
     /**
      * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getValue()
      * @generated
      * @ordered
@@ -74,7 +70,7 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TPropertyImpl() {
@@ -83,7 +79,7 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -93,7 +89,7 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getName() {
@@ -102,20 +98,19 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setName(String newName) {
         String oldName = name;
         name = newName;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPROPERTY__NAME,
-                oldName, name));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPROPERTY__NAME, oldName, name));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getValue() {
@@ -124,88 +119,87 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setValue(String newValue) {
         String oldValue = value;
         value = newValue;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPROPERTY__VALUE,
-                oldValue, value));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TPROPERTY__VALUE, oldValue, value));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TPROPERTY__NAME:
-                return getName();
-            case XDDPackage.TPROPERTY__VALUE:
-                return getValue();
+        case XDDPackage.TPROPERTY__NAME:
+            return getName();
+        case XDDPackage.TPROPERTY__VALUE:
+            return getValue();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TPROPERTY__NAME:
-                setName((String) newValue);
-                return;
-            case XDDPackage.TPROPERTY__VALUE:
-                setValue((String) newValue);
-                return;
+        case XDDPackage.TPROPERTY__NAME:
+            setName((String) newValue);
+            return;
+        case XDDPackage.TPROPERTY__VALUE:
+            setValue((String) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TPROPERTY__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-            case XDDPackage.TPROPERTY__VALUE:
-                setValue(VALUE_EDEFAULT);
-                return;
+        case XDDPackage.TPROPERTY__NAME:
+            setName(NAME_EDEFAULT);
+            return;
+        case XDDPackage.TPROPERTY__VALUE:
+            setValue(VALUE_EDEFAULT);
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TPROPERTY__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-            case XDDPackage.TPROPERTY__VALUE:
-                return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
+        case XDDPackage.TPROPERTY__NAME:
+            return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+        case XDDPackage.TPROPERTY__VALUE:
+            return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -222,4 +216,4 @@ public class TPropertyImpl extends EObjectImpl implements TProperty {
         return result.toString();
     }
 
-} //TPropertyImpl
+} // TPropertyImpl

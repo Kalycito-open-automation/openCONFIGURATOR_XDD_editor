@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>IAS Interface Data Type Member0</b></em>', and utility methods for
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>IAS Interface Data Type Member0</b></em>', and utility methods for
  * working with them. <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getIASInterfaceDataTypeMember0()
  * @model extendedMetaData="name='IASInterface_DataType_._member_._0'"
  * @generated
@@ -25,7 +21,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>CSI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #CSI_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>HCI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #HCI_VALUE
      * @generated
      * @ordered
@@ -45,7 +41,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>ISI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #ISI_VALUE
      * @generated
      * @ordered
@@ -55,7 +51,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>API</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #API_VALUE
      * @generated
      * @ordered
@@ -65,7 +61,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>CMI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #CMI_VALUE
      * @generated
      * @ordered
@@ -75,7 +71,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>ESI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #ESI_VALUE
      * @generated
      * @ordered
@@ -85,7 +81,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>FSI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #FSI_VALUE
      * @generated
      * @ordered
@@ -95,7 +91,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>MTI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #MTI_VALUE
      * @generated
      * @ordered
@@ -105,7 +101,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>SEI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #SEI_VALUE
      * @generated
      * @ordered
@@ -115,7 +111,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * The '<em><b>USI</b></em>' literal object. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @see #USI_VALUE
      * @generated
      * @ordered
@@ -126,7 +122,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>CSI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Communication Services
      * Interface <!-- end-model-doc -->
-     * 
+     *
      * @see #CSI
      * @model
      * @generated
@@ -138,7 +134,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>HCI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Human/Computer Interface <!--
      * end-model-doc -->
-     * 
+     *
      * @see #HCI
      * @model
      * @generated
@@ -150,7 +146,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>ISI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Information Services Interface
      * <!-- end-model-doc -->
-     * 
+     *
      * @see #ISI
      * @model
      * @generated
@@ -162,7 +158,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>API</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Application Program Interface
      * <!-- end-model-doc -->
-     * 
+     *
      * @see #API
      * @model
      * @generated
@@ -174,7 +170,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>CMI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Configuration Management
      * Interface <!-- end-model-doc -->
-     * 
+     *
      * @see #CMI
      * @model
      * @generated
@@ -186,7 +182,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>ESI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Engineering Support Interface
      * <!-- end-model-doc -->
-     * 
+     *
      * @see #ESI
      * @model
      * @generated
@@ -198,7 +194,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>FSI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Facility Services Interface
      * <!-- end-model-doc -->
-     * 
+     *
      * @see #FSI
      * @model
      * @generated
@@ -210,7 +206,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>MTI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Material Transport Interface
      * <!-- end-model-doc -->
-     * 
+     *
      * @see #MTI
      * @model
      * @generated
@@ -222,7 +218,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>SEI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Safety and Environmental
      * Interface <!-- end-model-doc -->
-     * 
+     *
      * @see #SEI
      * @model
      * @generated
@@ -234,7 +230,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * The '<em><b>USI</b></em>' literal value. <!-- begin-user-doc --> <!--
      * end-user-doc --> <!-- begin-model-doc --> Utility Services Interface <!--
      * end-model-doc -->
-     * 
+     *
      * @see #USI
      * @model
      * @generated
@@ -245,27 +241,30 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * An array of all the '<em><b>IAS Interface Data Type Member0</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private static final IASInterfaceDataTypeMember0[] VALUES_ARRAY = new IASInterfaceDataTypeMember0[] {
-        CSI, HCI, ISI, API, CMI, ESI, FSI, MTI, SEI, USI, };
+    private static final IASInterfaceDataTypeMember0[] VALUES_ARRAY = new IASInterfaceDataTypeMember0[] { CSI, HCI, ISI,
+            API, CMI, ESI, FSI, MTI, SEI, USI, };
 
     /**
-     * A public read-only list of all the '
-     * <em><b>IAS Interface Data Type Member0</b></em>' enumerators. <!--
-     * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     * A public read-only list of all the '<em><b>IAS Interface Data Type
+     * Member0</b></em>' enumerators. <!-- begin-user-doc --> <!-- end-user-doc
+     * -->
+     *
      * @generated
      */
     public static final List<IASInterfaceDataTypeMember0> VALUES = Collections
-        .unmodifiableList(Arrays.asList(VALUES_ARRAY));
+            .unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>IAS Interface Data Type Member0</b></em>' literal
      * with the specified literal value. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static IASInterfaceDataTypeMember0 get(String literal) {
@@ -281,7 +280,10 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * Returns the '<em><b>IAS Interface Data Type Member0</b></em>' literal
      * with the specified name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static IASInterfaceDataTypeMember0 getByName(String name) {
@@ -298,52 +300,55 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
      * Returns the '<em><b>IAS Interface Data Type Member0</b></em>' literal
      * with the specified integer value. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static IASInterfaceDataTypeMember0 get(int value) {
         switch (value) {
-            case CSI_VALUE:
-                return CSI;
-            case HCI_VALUE:
-                return HCI;
-            case ISI_VALUE:
-                return ISI;
-            case API_VALUE:
-                return API;
-            case CMI_VALUE:
-                return CMI;
-            case ESI_VALUE:
-                return ESI;
-            case FSI_VALUE:
-                return FSI;
-            case MTI_VALUE:
-                return MTI;
-            case SEI_VALUE:
-                return SEI;
-            case USI_VALUE:
-                return USI;
+        case CSI_VALUE:
+            return CSI;
+        case HCI_VALUE:
+            return HCI;
+        case ISI_VALUE:
+            return ISI;
+        case API_VALUE:
+            return API;
+        case CMI_VALUE:
+            return CMI;
+        case ESI_VALUE:
+            return ESI;
+        case FSI_VALUE:
+            return FSI;
+        case MTI_VALUE:
+            return MTI;
+        case SEI_VALUE:
+            return SEI;
+        case USI_VALUE:
+            return USI;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -351,12 +356,10 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private IASInterfaceDataTypeMember0(int value,
-        String name,
-        String literal) {
+    private IASInterfaceDataTypeMember0(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -364,27 +367,30 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -392,7 +398,7 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -400,4 +406,4 @@ public enum IASInterfaceDataTypeMember0 implements Enumerator {
         return literal;
     }
 
-} //IASInterfaceDataTypeMember0
+} // IASInterfaceDataTypeMember0

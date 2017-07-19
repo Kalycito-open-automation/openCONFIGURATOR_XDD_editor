@@ -1,20 +1,6 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD.impl;
-
-import com.br_automation.buoat.xddeditor.XDD.AccessType1;
-import com.br_automation.buoat.xddeditor.XDD.DescriptionRefType;
-import com.br_automation.buoat.xddeditor.XDD.DescriptionType;
-import com.br_automation.buoat.xddeditor.XDD.LabelRefType;
-import com.br_automation.buoat.xddeditor.XDD.LabelType;
-import com.br_automation.buoat.xddeditor.XDD.TAllowedValues;
-import com.br_automation.buoat.xddeditor.XDD.TCount;
-import com.br_automation.buoat.xddeditor.XDD.TValue;
-import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
 
 import java.util.Collection;
 
@@ -33,44 +19,50 @@ import org.eclipse.emf.ecore.util.BasicFeatureMap;
 import org.eclipse.emf.ecore.util.FeatureMap;
 import org.eclipse.emf.ecore.util.InternalEList;
 
+import com.br_automation.buoat.xddeditor.XDD.AccessType1;
+import com.br_automation.buoat.xddeditor.XDD.DescriptionRefType;
+import com.br_automation.buoat.xddeditor.XDD.DescriptionType;
+import com.br_automation.buoat.xddeditor.XDD.LabelRefType;
+import com.br_automation.buoat.xddeditor.XDD.LabelType;
+import com.br_automation.buoat.xddeditor.XDD.TAllowedValues;
+import com.br_automation.buoat.xddeditor.XDD.TCount;
+import com.br_automation.buoat.xddeditor.XDD.TValue;
+import com.br_automation.buoat.xddeditor.XDD.XDDPackage;
+
 /**
- * <!-- begin-user-doc --> An implementation of the model object '
- * <em><b>TCount</b></em>'. <!-- end-user-doc -->
+ * <!-- begin-user-doc --> An implementation of the model object
+ * '<em><b>TCount</b></em>'. <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getGroup
  * <em>Group</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getLabel
  * <em>Label</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getDescription
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getDescription
  * <em>Description</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getLabelRef
  * <em>Label Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getDescriptionRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getDescriptionRef
  * <em>Description Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getDefaultValue
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getDefaultValue
  * <em>Default Value</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getAllowedValues
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getAllowedValues
  * <em>Allowed Values</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getAccess
  * <em>Access</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.impl.TCountImpl#getUniqueID
  * <em>Unique ID</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @generated
  */
 public class TCountImpl extends EObjectImpl implements TCount {
     /**
      * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute
      * list. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getGroup()
      * @generated
      * @ordered
@@ -78,10 +70,10 @@ public class TCountImpl extends EObjectImpl implements TCount {
     protected FeatureMap group;
 
     /**
-     * The cached value of the '{@link #getDefaultValue()
-     * <em>Default Value</em>}' containment reference. <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * 
+     * The cached value of the '{@link #getDefaultValue() <em>Default
+     * Value</em>}' containment reference. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
      * @see #getDefaultValue()
      * @generated
      * @ordered
@@ -89,10 +81,10 @@ public class TCountImpl extends EObjectImpl implements TCount {
     protected TValue defaultValue;
 
     /**
-     * The cached value of the '{@link #getAllowedValues()
-     * <em>Allowed Values</em>}' containment reference. <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * 
+     * The cached value of the '{@link #getAllowedValues() <em>Allowed
+     * Values</em>}' containment reference. <!-- begin-user-doc --> <!--
+     * end-user-doc -->
+     *
      * @see #getAllowedValues()
      * @generated
      * @ordered
@@ -102,7 +94,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
     /**
      * The default value of the '{@link #getAccess() <em>Access</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getAccess()
      * @generated
      * @ordered
@@ -112,7 +104,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
     /**
      * The cached value of the '{@link #getAccess() <em>Access</em>}' attribute.
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getAccess()
      * @generated
      * @ordered
@@ -122,7 +114,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
     /**
      * This is true if the Access attribute has been set. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      * @ordered
      */
@@ -131,7 +123,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
     /**
      * The default value of the '{@link #getUniqueID() <em>Unique ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getUniqueID()
      * @generated
      * @ordered
@@ -141,7 +133,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
     /**
      * The cached value of the '{@link #getUniqueID() <em>Unique ID</em>}'
      * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @see #getUniqueID()
      * @generated
      * @ordered
@@ -150,7 +142,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     protected TCountImpl() {
@@ -159,7 +151,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -169,7 +161,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public FeatureMap getGroup() {
@@ -181,7 +173,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<LabelType> getLabel() {
@@ -190,7 +182,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<DescriptionType> getDescription() {
@@ -199,7 +191,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<LabelRefType> getLabelRef() {
@@ -208,7 +200,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public EList<DescriptionRefType> getDescriptionRef() {
@@ -217,7 +209,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public TValue getDefaultValue() {
@@ -226,7 +218,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public NotificationChain basicSetDefaultValue(TValue newDefaultValue, NotificationChain msgs) {
@@ -234,7 +226,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
         defaultValue = newDefaultValue;
         if (eNotificationRequired()) {
             ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TCOUNT__DEFAULT_VALUE, oldDefaultValue, newDefaultValue);
+                    XDDPackage.TCOUNT__DEFAULT_VALUE, oldDefaultValue, newDefaultValue);
             if (msgs == null)
                 msgs = notification;
             else
@@ -245,29 +237,29 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setDefaultValue(TValue newDefaultValue) {
         if (newDefaultValue != defaultValue) {
             NotificationChain msgs = null;
             if (defaultValue != null)
-                msgs = ((InternalEObject) defaultValue).eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-                    - XDDPackage.TCOUNT__DEFAULT_VALUE, null, msgs);
+                msgs = ((InternalEObject) defaultValue).eInverseRemove(this,
+                        EOPPOSITE_FEATURE_BASE - XDDPackage.TCOUNT__DEFAULT_VALUE, null, msgs);
             if (newDefaultValue != null)
-                msgs = ((InternalEObject) newDefaultValue).eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-                    - XDDPackage.TCOUNT__DEFAULT_VALUE, null, msgs);
+                msgs = ((InternalEObject) newDefaultValue).eInverseAdd(this,
+                        EOPPOSITE_FEATURE_BASE - XDDPackage.TCOUNT__DEFAULT_VALUE, null, msgs);
             msgs = basicSetDefaultValue(newDefaultValue, msgs);
             if (msgs != null)
                 msgs.dispatch();
         } else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__DEFAULT_VALUE,
-                newDefaultValue, newDefaultValue));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__DEFAULT_VALUE, newDefaultValue,
+                    newDefaultValue));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public TAllowedValues getAllowedValues() {
@@ -276,16 +268,15 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public NotificationChain basicSetAllowedValues(TAllowedValues newAllowedValues,
-        NotificationChain msgs) {
+    public NotificationChain basicSetAllowedValues(TAllowedValues newAllowedValues, NotificationChain msgs) {
         TAllowedValues oldAllowedValues = allowedValues;
         allowedValues = newAllowedValues;
         if (eNotificationRequired()) {
             ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TCOUNT__ALLOWED_VALUES, oldAllowedValues, newAllowedValues);
+                    XDDPackage.TCOUNT__ALLOWED_VALUES, oldAllowedValues, newAllowedValues);
             if (msgs == null)
                 msgs = notification;
             else
@@ -296,29 +287,29 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setAllowedValues(TAllowedValues newAllowedValues) {
         if (newAllowedValues != allowedValues) {
             NotificationChain msgs = null;
             if (allowedValues != null)
-                msgs = ((InternalEObject) allowedValues).eInverseRemove(
-                    this, EOPPOSITE_FEATURE_BASE - XDDPackage.TCOUNT__ALLOWED_VALUES, null, msgs);
+                msgs = ((InternalEObject) allowedValues).eInverseRemove(this,
+                        EOPPOSITE_FEATURE_BASE - XDDPackage.TCOUNT__ALLOWED_VALUES, null, msgs);
             if (newAllowedValues != null)
-                msgs = ((InternalEObject) newAllowedValues).eInverseAdd(
-                    this, EOPPOSITE_FEATURE_BASE - XDDPackage.TCOUNT__ALLOWED_VALUES, null, msgs);
+                msgs = ((InternalEObject) newAllowedValues).eInverseAdd(this,
+                        EOPPOSITE_FEATURE_BASE - XDDPackage.TCOUNT__ALLOWED_VALUES, null, msgs);
             msgs = basicSetAllowedValues(newAllowedValues, msgs);
             if (msgs != null)
                 msgs.dispatch();
         } else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET,
-                XDDPackage.TCOUNT__ALLOWED_VALUES, newAllowedValues, newAllowedValues));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__ALLOWED_VALUES, newAllowedValues,
+                    newAllowedValues));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public AccessType1 getAccess() {
@@ -327,7 +318,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setAccess(AccessType1 newAccess) {
@@ -336,13 +327,13 @@ public class TCountImpl extends EObjectImpl implements TCount {
         boolean oldAccessESet = accessESet;
         accessESet = true;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__ACCESS,
-                oldAccess, access, !oldAccessESet));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__ACCESS, oldAccess, access,
+                    !oldAccessESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void unsetAccess() {
@@ -351,13 +342,13 @@ public class TCountImpl extends EObjectImpl implements TCount {
         access = ACCESS_EDEFAULT;
         accessESet = false;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TCOUNT__ACCESS,
-                oldAccess, ACCESS_EDEFAULT, oldAccessESet));
+            eNotify(new ENotificationImpl(this, Notification.UNSET, XDDPackage.TCOUNT__ACCESS, oldAccess,
+                    ACCESS_EDEFAULT, oldAccessESet));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public boolean isSetAccess() {
@@ -366,7 +357,7 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public String getUniqueID() {
@@ -375,194 +366,190 @@ public class TCountImpl extends EObjectImpl implements TCount {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     public void setUniqueID(String newUniqueID) {
         String oldUniqueID = uniqueID;
         uniqueID = newUniqueID;
         if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__UNIQUE_ID,
-                oldUniqueID, uniqueID));
+            eNotify(new ENotificationImpl(this, Notification.SET, XDDPackage.TCOUNT__UNIQUE_ID, oldUniqueID, uniqueID));
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd,
-        int featureID,
-        NotificationChain msgs) {
+    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
         switch (featureID) {
-            case XDDPackage.TCOUNT__GROUP:
-                return ((InternalEList<?>) getGroup()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TCOUNT__LABEL:
-                return ((InternalEList<?>) getLabel()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TCOUNT__DESCRIPTION:
-                return ((InternalEList<?>) getDescription()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TCOUNT__LABEL_REF:
-                return ((InternalEList<?>) getLabelRef()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TCOUNT__DESCRIPTION_REF:
-                return ((InternalEList<?>) getDescriptionRef()).basicRemove(otherEnd, msgs);
-            case XDDPackage.TCOUNT__DEFAULT_VALUE:
-                return basicSetDefaultValue(null, msgs);
-            case XDDPackage.TCOUNT__ALLOWED_VALUES:
-                return basicSetAllowedValues(null, msgs);
+        case XDDPackage.TCOUNT__GROUP:
+            return ((InternalEList<?>) getGroup()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TCOUNT__LABEL:
+            return ((InternalEList<?>) getLabel()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TCOUNT__DESCRIPTION:
+            return ((InternalEList<?>) getDescription()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TCOUNT__LABEL_REF:
+            return ((InternalEList<?>) getLabelRef()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TCOUNT__DESCRIPTION_REF:
+            return ((InternalEList<?>) getDescriptionRef()).basicRemove(otherEnd, msgs);
+        case XDDPackage.TCOUNT__DEFAULT_VALUE:
+            return basicSetDefaultValue(null, msgs);
+        case XDDPackage.TCOUNT__ALLOWED_VALUES:
+            return basicSetAllowedValues(null, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
-            case XDDPackage.TCOUNT__GROUP:
-                if (coreType)
-                    return getGroup();
-                return ((FeatureMap.Internal) getGroup()).getWrapper();
-            case XDDPackage.TCOUNT__LABEL:
-                return getLabel();
-            case XDDPackage.TCOUNT__DESCRIPTION:
-                return getDescription();
-            case XDDPackage.TCOUNT__LABEL_REF:
-                return getLabelRef();
-            case XDDPackage.TCOUNT__DESCRIPTION_REF:
-                return getDescriptionRef();
-            case XDDPackage.TCOUNT__DEFAULT_VALUE:
-                return getDefaultValue();
-            case XDDPackage.TCOUNT__ALLOWED_VALUES:
-                return getAllowedValues();
-            case XDDPackage.TCOUNT__ACCESS:
-                return getAccess();
-            case XDDPackage.TCOUNT__UNIQUE_ID:
-                return getUniqueID();
+        case XDDPackage.TCOUNT__GROUP:
+            if (coreType)
+                return getGroup();
+            return ((FeatureMap.Internal) getGroup()).getWrapper();
+        case XDDPackage.TCOUNT__LABEL:
+            return getLabel();
+        case XDDPackage.TCOUNT__DESCRIPTION:
+            return getDescription();
+        case XDDPackage.TCOUNT__LABEL_REF:
+            return getLabelRef();
+        case XDDPackage.TCOUNT__DESCRIPTION_REF:
+            return getDescriptionRef();
+        case XDDPackage.TCOUNT__DEFAULT_VALUE:
+            return getDefaultValue();
+        case XDDPackage.TCOUNT__ALLOWED_VALUES:
+            return getAllowedValues();
+        case XDDPackage.TCOUNT__ACCESS:
+            return getAccess();
+        case XDDPackage.TCOUNT__UNIQUE_ID:
+            return getUniqueID();
         }
         return super.eGet(featureID, resolve, coreType);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
-            case XDDPackage.TCOUNT__GROUP:
-                ((FeatureMap.Internal) getGroup()).set(newValue);
-                return;
-            case XDDPackage.TCOUNT__LABEL:
-                getLabel().clear();
-                getLabel().addAll((Collection<? extends LabelType>) newValue);
-                return;
-            case XDDPackage.TCOUNT__DESCRIPTION:
-                getDescription().clear();
-                getDescription().addAll((Collection<? extends DescriptionType>) newValue);
-                return;
-            case XDDPackage.TCOUNT__LABEL_REF:
-                getLabelRef().clear();
-                getLabelRef().addAll((Collection<? extends LabelRefType>) newValue);
-                return;
-            case XDDPackage.TCOUNT__DESCRIPTION_REF:
-                getDescriptionRef().clear();
-                getDescriptionRef().addAll((Collection<? extends DescriptionRefType>) newValue);
-                return;
-            case XDDPackage.TCOUNT__DEFAULT_VALUE:
-                setDefaultValue((TValue) newValue);
-                return;
-            case XDDPackage.TCOUNT__ALLOWED_VALUES:
-                setAllowedValues((TAllowedValues) newValue);
-                return;
-            case XDDPackage.TCOUNT__ACCESS:
-                setAccess((AccessType1) newValue);
-                return;
-            case XDDPackage.TCOUNT__UNIQUE_ID:
-                setUniqueID((String) newValue);
-                return;
+        case XDDPackage.TCOUNT__GROUP:
+            ((FeatureMap.Internal) getGroup()).set(newValue);
+            return;
+        case XDDPackage.TCOUNT__LABEL:
+            getLabel().clear();
+            getLabel().addAll((Collection<? extends LabelType>) newValue);
+            return;
+        case XDDPackage.TCOUNT__DESCRIPTION:
+            getDescription().clear();
+            getDescription().addAll((Collection<? extends DescriptionType>) newValue);
+            return;
+        case XDDPackage.TCOUNT__LABEL_REF:
+            getLabelRef().clear();
+            getLabelRef().addAll((Collection<? extends LabelRefType>) newValue);
+            return;
+        case XDDPackage.TCOUNT__DESCRIPTION_REF:
+            getDescriptionRef().clear();
+            getDescriptionRef().addAll((Collection<? extends DescriptionRefType>) newValue);
+            return;
+        case XDDPackage.TCOUNT__DEFAULT_VALUE:
+            setDefaultValue((TValue) newValue);
+            return;
+        case XDDPackage.TCOUNT__ALLOWED_VALUES:
+            setAllowedValues((TAllowedValues) newValue);
+            return;
+        case XDDPackage.TCOUNT__ACCESS:
+            setAccess((AccessType1) newValue);
+            return;
+        case XDDPackage.TCOUNT__UNIQUE_ID:
+            setUniqueID((String) newValue);
+            return;
         }
         super.eSet(featureID, newValue);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
-            case XDDPackage.TCOUNT__GROUP:
-                getGroup().clear();
-                return;
-            case XDDPackage.TCOUNT__LABEL:
-                getLabel().clear();
-                return;
-            case XDDPackage.TCOUNT__DESCRIPTION:
-                getDescription().clear();
-                return;
-            case XDDPackage.TCOUNT__LABEL_REF:
-                getLabelRef().clear();
-                return;
-            case XDDPackage.TCOUNT__DESCRIPTION_REF:
-                getDescriptionRef().clear();
-                return;
-            case XDDPackage.TCOUNT__DEFAULT_VALUE:
-                setDefaultValue((TValue) null);
-                return;
-            case XDDPackage.TCOUNT__ALLOWED_VALUES:
-                setAllowedValues((TAllowedValues) null);
-                return;
-            case XDDPackage.TCOUNT__ACCESS:
-                unsetAccess();
-                return;
-            case XDDPackage.TCOUNT__UNIQUE_ID:
-                setUniqueID(UNIQUE_ID_EDEFAULT);
-                return;
+        case XDDPackage.TCOUNT__GROUP:
+            getGroup().clear();
+            return;
+        case XDDPackage.TCOUNT__LABEL:
+            getLabel().clear();
+            return;
+        case XDDPackage.TCOUNT__DESCRIPTION:
+            getDescription().clear();
+            return;
+        case XDDPackage.TCOUNT__LABEL_REF:
+            getLabelRef().clear();
+            return;
+        case XDDPackage.TCOUNT__DESCRIPTION_REF:
+            getDescriptionRef().clear();
+            return;
+        case XDDPackage.TCOUNT__DEFAULT_VALUE:
+            setDefaultValue((TValue) null);
+            return;
+        case XDDPackage.TCOUNT__ALLOWED_VALUES:
+            setAllowedValues((TAllowedValues) null);
+            return;
+        case XDDPackage.TCOUNT__ACCESS:
+            unsetAccess();
+            return;
+        case XDDPackage.TCOUNT__UNIQUE_ID:
+            setUniqueID(UNIQUE_ID_EDEFAULT);
+            return;
         }
         super.eUnset(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
-            case XDDPackage.TCOUNT__GROUP:
-                return group != null && !group.isEmpty();
-            case XDDPackage.TCOUNT__LABEL:
-                return !getLabel().isEmpty();
-            case XDDPackage.TCOUNT__DESCRIPTION:
-                return !getDescription().isEmpty();
-            case XDDPackage.TCOUNT__LABEL_REF:
-                return !getLabelRef().isEmpty();
-            case XDDPackage.TCOUNT__DESCRIPTION_REF:
-                return !getDescriptionRef().isEmpty();
-            case XDDPackage.TCOUNT__DEFAULT_VALUE:
-                return defaultValue != null;
-            case XDDPackage.TCOUNT__ALLOWED_VALUES:
-                return allowedValues != null;
-            case XDDPackage.TCOUNT__ACCESS:
-                return isSetAccess();
-            case XDDPackage.TCOUNT__UNIQUE_ID:
-                return UNIQUE_ID_EDEFAULT == null ? uniqueID != null : !UNIQUE_ID_EDEFAULT
-                    .equals(uniqueID);
+        case XDDPackage.TCOUNT__GROUP:
+            return group != null && !group.isEmpty();
+        case XDDPackage.TCOUNT__LABEL:
+            return !getLabel().isEmpty();
+        case XDDPackage.TCOUNT__DESCRIPTION:
+            return !getDescription().isEmpty();
+        case XDDPackage.TCOUNT__LABEL_REF:
+            return !getLabelRef().isEmpty();
+        case XDDPackage.TCOUNT__DESCRIPTION_REF:
+            return !getDescriptionRef().isEmpty();
+        case XDDPackage.TCOUNT__DEFAULT_VALUE:
+            return defaultValue != null;
+        case XDDPackage.TCOUNT__ALLOWED_VALUES:
+            return allowedValues != null;
+        case XDDPackage.TCOUNT__ACCESS:
+            return isSetAccess();
+        case XDDPackage.TCOUNT__UNIQUE_ID:
+            return UNIQUE_ID_EDEFAULT == null ? uniqueID != null : !UNIQUE_ID_EDEFAULT.equals(uniqueID);
         }
         return super.eIsSet(featureID);
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -584,4 +571,4 @@ public class TCountImpl extends EObjectImpl implements TCount {
         return result.toString();
     }
 
-} //TCountImpl
+} // TCountImpl

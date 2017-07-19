@@ -1,8 +1,4 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
@@ -13,10 +9,10 @@ import java.util.List;
 import org.eclipse.emf.common.util.Enumerator;
 
 /**
- * <!-- begin-user-doc --> A representation of the literals of the enumeration '
- * <em><b>LE Dcolors Type</b></em>', and utility methods for working with them.
+ * <!-- begin-user-doc --> A representation of the literals of the enumeration
+ * '<em><b>LE Dcolors Type</b></em>', and utility methods for working with them.
  * <!-- end-user-doc -->
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getLEDcolorsType()
  * @model extendedMetaData="name='LEDcolors_._type'"
  * @generated
@@ -25,7 +21,7 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * The '<em><b>Monocolor</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MONOCOLOR_VALUE
      * @generated
      * @ordered
@@ -35,7 +31,7 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * The '<em><b>Bicolor</b></em>' literal object. <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #BICOLOR_VALUE
      * @generated
      * @ordered
@@ -49,7 +45,7 @@ public enum LEDcolorsType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #MONOCOLOR
      * @model name="monocolor"
      * @generated
@@ -64,7 +60,7 @@ public enum LEDcolorsType implements Enumerator {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @see #BICOLOR
      * @model name="bicolor"
      * @generated
@@ -75,7 +71,7 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * An array of all the '<em><b>LE Dcolors Type</b></em>' enumerators. <!--
      * begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private static final LEDcolorsType[] VALUES_ARRAY = new LEDcolorsType[] { MONOCOLOR, BICOLOR, };
@@ -83,16 +79,18 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * A public read-only list of all the '<em><b>LE Dcolors Type</b></em>'
      * enumerators. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
-    public static final List<LEDcolorsType> VALUES = Collections.unmodifiableList(Arrays
-        .asList(VALUES_ARRAY));
+    public static final List<LEDcolorsType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
      * Returns the '<em><b>LE Dcolors Type</b></em>' literal with the specified
      * literal value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param literal
+     *            the literal.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static LEDcolorsType get(String literal) {
@@ -108,7 +106,10 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * Returns the '<em><b>LE Dcolors Type</b></em>' literal with the specified
      * name. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param name
+     *            the name.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static LEDcolorsType getByName(String name) {
@@ -124,36 +125,39 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * Returns the '<em><b>LE Dcolors Type</b></em>' literal with the specified
      * integer value. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
+     * @param value
+     *            the integer value.
+     * @return the matching enumerator or <code>null</code>.
      * @generated
      */
     public static LEDcolorsType get(int value) {
         switch (value) {
-            case MONOCOLOR_VALUE:
-                return MONOCOLOR;
-            case BICOLOR_VALUE:
-                return BICOLOR;
+        case MONOCOLOR_VALUE:
+            return MONOCOLOR;
+        case BICOLOR_VALUE:
+            return BICOLOR;
         }
         return null;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final int value;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String name;
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     private final String literal;
@@ -161,12 +165,10 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * Only this class can construct instances. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @generated
      */
-    private LEDcolorsType(int value,
-        String name,
-        String literal) {
+    private LEDcolorsType(int value, String name, String literal) {
         this.value = value;
         this.name = name;
         this.literal = literal;
@@ -174,27 +176,30 @@ public enum LEDcolorsType implements Enumerator {
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }
@@ -202,7 +207,7 @@ public enum LEDcolorsType implements Enumerator {
     /**
      * Returns the literal value of the enumerator, which is its string
      * representation. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @generated
      */
     @Override
@@ -210,4 +215,4 @@ public enum LEDcolorsType implements Enumerator {
         return literal;
     }
 
-} //LEDcolorsType
+} // LEDcolorsType

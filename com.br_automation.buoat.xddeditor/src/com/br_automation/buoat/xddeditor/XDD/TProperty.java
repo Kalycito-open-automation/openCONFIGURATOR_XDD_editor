@@ -1,27 +1,23 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.ecore.EObject;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>TProperty</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object
+ * '<em><b>TProperty</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
- * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TProperty#getName <em>Name
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.TProperty#getValue <em>Value
- * </em>}</li>
- * </ul>
  * </p>
- * 
+ * <ul>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TProperty#getName
+ * <em>Name</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.TProperty#getValue
+ * <em>Value</em>}</li>
+ * </ul>
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTProperty()
  * @model extendedMetaData="name='t_property' kind='empty'"
  * @generated
@@ -35,7 +31,7 @@ public interface TProperty extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTProperty_Name()
@@ -46,10 +42,10 @@ public interface TProperty extends EObject {
     String getName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TProperty#getName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TProperty#getName
      * <em>Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Name</em>' attribute.
      * @see #getName()
@@ -65,7 +61,7 @@ public interface TProperty extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Value</em>' attribute.
      * @see #setValue(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getTProperty_Value()
@@ -76,10 +72,10 @@ public interface TProperty extends EObject {
     String getValue();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.TProperty#getValue
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.TProperty#getValue
      * <em>Value</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Value</em>' attribute.
      * @see #getValue()

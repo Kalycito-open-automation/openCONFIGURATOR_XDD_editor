@@ -1,87 +1,79 @@
 /**
- * <copyright>
- * </copyright>
- *
- * $Id$
  */
 package com.br_automation.buoat.xddeditor.XDD;
 
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
-
 import org.eclipse.emf.ecore.util.FeatureMap;
 
 /**
- * <!-- begin-user-doc --> A representation of the model object '
- * <em><b>Derived Type</b></em>'. <!-- end-user-doc -->
- * 
+ * <!-- begin-user-doc --> A representation of the model object '<em><b>Derived
+ * Type</b></em>'. <!-- end-user-doc -->
+ *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getGroup <em>
- * Group</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLabel <em>
- * Label</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getGroup
+ * <em>Group</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLabel
+ * <em>Label</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDescription
  * <em>Description</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLabelRef <em>
- * Label Ref</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDescriptionRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLabelRef
+ * <em>Label Ref</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDescriptionRef
  * <em>Description Ref</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCount <em>
- * Count</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBOOL <em>BOOL
- * </em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCount
+ * <em>Count</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBOOL
+ * <em>BOOL</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBITSTRING
  * <em>BITSTRING</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBYTE <em>BYTE
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCHAR <em>CHAR
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWORD <em>WORD
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDWORD <em>
- * DWORD</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLWORD <em>
- * LWORD</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSINT <em>SINT
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getINT <em>INT
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDINT <em>DINT
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLINT <em>LINT
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUSINT <em>
- * USINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUINT <em>UINT
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUDINT <em>
- * UDINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getULINT <em>
- * ULINT</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getREAL <em>REAL
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLREAL <em>
- * LREAL</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSTRING <em>
- * STRING</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWSTRING <em>
- * WSTRING</em>}</li>
- * <li>
- * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDataTypeIDRef
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBYTE
+ * <em>BYTE</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCHAR
+ * <em>CHAR</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWORD
+ * <em>WORD</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDWORD
+ * <em>DWORD</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLWORD
+ * <em>LWORD</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSINT
+ * <em>SINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getINT
+ * <em>INT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDINT
+ * <em>DINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLINT
+ * <em>LINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUSINT
+ * <em>USINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUINT
+ * <em>UINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUDINT
+ * <em>UDINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getULINT
+ * <em>ULINT</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getREAL
+ * <em>REAL</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLREAL
+ * <em>LREAL</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSTRING
+ * <em>STRING</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWSTRING
+ * <em>WSTRING</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDataTypeIDRef
  * <em>Data Type ID Ref</em>}</li>
  * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDescription1
  * <em>Description1</em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getName <em>Name
- * </em>}</li>
- * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUniqueID <em>
- * Unique ID</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getName
+ * <em>Name</em>}</li>
+ * <li>{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUniqueID
+ * <em>Unique ID</em>}</li>
  * </ul>
- * </p>
- * 
+ *
  * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType()
  * @model extendedMetaData="name='derived_._type' kind='elementOnly'"
  * @generated
@@ -96,7 +88,7 @@ public interface DerivedType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Group</em>' attribute list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_Group()
      * @model unique="false" dataType="org.eclipse.emf.ecore.EFeatureMapEntry"
@@ -110,17 +102,17 @@ public interface DerivedType extends EObject {
      * list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of the identifying name inside the XML file
      * itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_Label()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='label' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='label'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelType> getLabel();
@@ -130,18 +122,18 @@ public interface DerivedType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of descriptive information inside the XML
      * file itself.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_Description()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='description' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='description'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionType> getDescription();
@@ -151,17 +143,17 @@ public interface DerivedType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.LabelRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of identifying names inside an external text
      * resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Label Ref</em>' containment reference list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_LabelRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='labelRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='labelRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<LabelRefType> getLabelRef();
@@ -171,18 +163,18 @@ public interface DerivedType extends EObject {
      * reference list. The list contents are of type
      * {@link com.br_automation.buoat.xddeditor.XDD.DescriptionRefType}. <!--
      * begin-user-doc --> <!-- end-user-doc --> <!-- begin-model-doc -->
-     * 
+     *
      * This element allows storage of reference descriptive texts inside an
      * external text resource file.
-     * 
+     *
      * <!-- end-model-doc -->
-     * 
+     *
      * @return the value of the '<em>Description Ref</em>' containment reference
      *         list.
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_DescriptionRef()
      * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData=
-     *        "kind='element' name='descriptionRef' namespace='##targetNamespace' group='#group:0'"
+     *        extendedMetaData="kind='element' name='descriptionRef'
+     *        namespace='##targetNamespace' group='#group:0'"
      * @generated
      */
     EList<DescriptionRefType> getDescriptionRef();
@@ -195,22 +187,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Count</em>' containment reference.
      * @see #setCount(TCount)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_Count()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='count' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='count'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     TCount getCount();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCount
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCount
      * <em>Count</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Count</em>' containment reference.
      * @see #getCount()
@@ -226,22 +218,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>BOOL</em>' containment reference.
      * @see #setBOOL(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_BOOL()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='BOOL' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='BOOL'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getBOOL();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBOOL
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBOOL
      * <em>BOOL</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>BOOL</em>' containment reference.
      * @see #getBOOL()
@@ -257,22 +249,22 @@ public interface DerivedType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>BITSTRING</em>' containment reference.
      * @see #setBITSTRING(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_BITSTRING()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='BITSTRING' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='BITSTRING' namespace='##targetNamespace'"
      * @generated
      */
     EObject getBITSTRING();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBITSTRING
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBITSTRING
      * <em>BITSTRING</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>BITSTRING</em>' containment
      *            reference.
@@ -289,22 +281,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>BYTE</em>' containment reference.
      * @see #setBYTE(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_BYTE()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='BYTE' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='BYTE'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getBYTE();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBYTE
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getBYTE
      * <em>BYTE</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>BYTE</em>' containment reference.
      * @see #getBYTE()
@@ -320,22 +312,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>CHAR</em>' containment reference.
      * @see #setCHAR(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_CHAR()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='CHAR' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='CHAR'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getCHAR();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCHAR
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getCHAR
      * <em>CHAR</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>CHAR</em>' containment reference.
      * @see #getCHAR()
@@ -351,22 +343,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>WORD</em>' containment reference.
      * @see #setWORD(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_WORD()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='WORD' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='WORD'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getWORD();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWORD
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWORD
      * <em>WORD</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>WORD</em>' containment reference.
      * @see #getWORD()
@@ -382,22 +374,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DWORD</em>' containment reference.
      * @see #setDWORD(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_DWORD()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='DWORD' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='DWORD'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getDWORD();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDWORD
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDWORD
      * <em>DWORD</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DWORD</em>' containment reference.
      * @see #getDWORD()
@@ -413,22 +405,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LWORD</em>' containment reference.
      * @see #setLWORD(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_LWORD()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='LWORD' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='LWORD'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getLWORD();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLWORD
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLWORD
      * <em>LWORD</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>LWORD</em>' containment reference.
      * @see #getLWORD()
@@ -444,22 +436,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>SINT</em>' containment reference.
      * @see #setSINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_SINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='SINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='SINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getSINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSINT
      * <em>SINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>SINT</em>' containment reference.
      * @see #getSINT()
@@ -475,22 +467,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>INT</em>' containment reference.
      * @see #setINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_INT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='INT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='INT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getINT
      * <em>INT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>INT</em>' containment reference.
      * @see #getINT()
@@ -506,22 +498,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>DINT</em>' containment reference.
      * @see #setDINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_DINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='DINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='DINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getDINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDINT
      * <em>DINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>DINT</em>' containment reference.
      * @see #getDINT()
@@ -537,22 +529,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LINT</em>' containment reference.
      * @see #setLINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_LINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='LINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='LINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getLINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLINT
      * <em>LINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>LINT</em>' containment reference.
      * @see #getLINT()
@@ -568,22 +560,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>USINT</em>' containment reference.
      * @see #setUSINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_USINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='USINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='USINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getUSINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUSINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUSINT
      * <em>USINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>USINT</em>' containment reference.
      * @see #getUSINT()
@@ -599,22 +591,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>UINT</em>' containment reference.
      * @see #setUINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_UINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='UINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='UINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getUINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUINT
      * <em>UINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>UINT</em>' containment reference.
      * @see #getUINT()
@@ -630,22 +622,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>UDINT</em>' containment reference.
      * @see #setUDINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_UDINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='UDINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='UDINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getUDINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUDINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUDINT
      * <em>UDINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>UDINT</em>' containment reference.
      * @see #getUDINT()
@@ -661,22 +653,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>ULINT</em>' containment reference.
      * @see #setULINT(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_ULINT()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='ULINT' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='ULINT'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getULINT();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getULINT
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getULINT
      * <em>ULINT</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>ULINT</em>' containment reference.
      * @see #getULINT()
@@ -692,22 +684,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>REAL</em>' containment reference.
      * @see #setREAL(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_REAL()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='REAL' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='REAL'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getREAL();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getREAL
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getREAL
      * <em>REAL</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>REAL</em>' containment reference.
      * @see #getREAL()
@@ -723,22 +715,22 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>LREAL</em>' containment reference.
      * @see #setLREAL(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_LREAL()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='LREAL' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='LREAL'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getLREAL();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLREAL
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getLREAL
      * <em>LREAL</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>LREAL</em>' containment reference.
      * @see #getLREAL()
@@ -754,22 +746,22 @@ public interface DerivedType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>STRING</em>' containment reference.
      * @see #setSTRING(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_STRING()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='STRING' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='STRING'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getSTRING();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSTRING
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getSTRING
      * <em>STRING</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>STRING</em>' containment reference.
      * @see #getSTRING()
@@ -785,22 +777,22 @@ public interface DerivedType extends EObject {
      * clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>WSTRING</em>' containment reference.
      * @see #setWSTRING(EObject)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_WSTRING()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='WSTRING' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element' name='WSTRING'
+     *        namespace='##targetNamespace'"
      * @generated
      */
     EObject getWSTRING();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWSTRING
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getWSTRING
      * <em>WSTRING</em>}' containment reference. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>WSTRING</em>' containment reference.
      * @see #getWSTRING()
@@ -816,23 +808,23 @@ public interface DerivedType extends EObject {
      * isn't clear, there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Data Type ID Ref</em>' containment
      *         reference.
      * @see #setDataTypeIDRef(TDataTypeIDRef)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_DataTypeIDRef()
-     * @model containment="true" extendedMetaData=
-     *        "kind='element' name='dataTypeIDRef' namespace='##targetNamespace'"
+     * @model containment="true" extendedMetaData="kind='element'
+     *        name='dataTypeIDRef' namespace='##targetNamespace'"
      * @generated
      */
     TDataTypeIDRef getDataTypeIDRef();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDataTypeIDRef
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDataTypeIDRef
      * <em>Data Type ID Ref</em>}' containment reference. <!-- begin-user-doc
      * --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Data Type ID Ref</em>' containment
      *            reference.
@@ -849,7 +841,7 @@ public interface DerivedType extends EObject {
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Description1</em>' attribute.
      * @see #setDescription1(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_Description1()
@@ -860,11 +852,11 @@ public interface DerivedType extends EObject {
     String getDescription1();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDescription1
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getDescription1
      * <em>Description1</em>}' attribute. <!-- begin-user-doc --> <!--
      * end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Description1</em>' attribute.
      * @see #getDescription1()
@@ -880,7 +872,7 @@ public interface DerivedType extends EObject {
      * should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_Name()
@@ -891,10 +883,10 @@ public interface DerivedType extends EObject {
     String getName();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getName
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getName
      * <em>Name</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Name</em>' attribute.
      * @see #getName()
@@ -910,23 +902,23 @@ public interface DerivedType extends EObject {
      * really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * 
+     *
      * @return the value of the '<em>Unique ID</em>' attribute.
      * @see #setUniqueID(String)
      * @see com.br_automation.buoat.xddeditor.XDD.XDDPackage#getDerivedType_UniqueID()
      * @model id="true" dataType="org.eclipse.emf.ecore.xml.type.ID"
-     *        required="true"
-     *        extendedMetaData="kind='attribute' name='uniqueID'"
+     *        required="true" extendedMetaData="kind='attribute'
+     *        name='uniqueID'"
      * @generated
      */
     String getUniqueID();
 
     /**
-     * Sets the value of the '
-     * {@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUniqueID
+     * Sets the value of the
+     * '{@link com.br_automation.buoat.xddeditor.XDD.DerivedType#getUniqueID
      * <em>Unique ID</em>}' attribute. <!-- begin-user-doc --> <!-- end-user-doc
      * -->
-     * 
+     *
      * @param value
      *            the new value of the '<em>Unique ID</em>' attribute.
      * @see #getUniqueID()

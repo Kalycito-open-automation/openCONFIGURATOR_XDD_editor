@@ -14,7 +14,7 @@ import com.br_automation.buoat.xddeditor.XDD.custom.EPLGeneralConstants;
 
 /**
  * @brief Filters for TObjects with Index set to 0x1F80.
- * 
+ *
  * @author Joris Lückenga
  */
 public class Index1F80Filter implements IFilter {
@@ -26,4 +26,4 @@ public class Index1F80Filter implements IFilter {
         return false;
     }
 
-} //Index1F80Filter
+} // Index1F80Filter
